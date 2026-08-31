@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>巴门尼德篇·八组推论整理（德文原文＋中文翻译）</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --sub:#555; --line:#c9c2b3; --bg:#faf7f0;
+    --de:#8a1f1f; --zh:#243a5e; --note:#4a4a4a;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family:"Source Han Serif SC","Noto Serif SC","Songti SC","SimSun",serif;
+    color:var(--ink); background:var(--bg); margin:0;
+    line-height:1.75; font-size:15px;
+  }
+  .page{max-width:820px; margin:0 auto; padding:40px 48px 80px;}
+  /* ---------- 头部 ---------- */
+  header{border-bottom:3px double var(--ink); padding-bottom:18px; margin-bottom:26px;}
+  h1{font-size:24px; margin:0 0 6px; letter-spacing:1px;}
+  .subtitle{color:var(--sub); font-size:14px; margin:0;}
+  .meta{margin-top:14px; font-size:12.5px; color:var(--sub); border-top:1px solid var(--line); padding-top:10px;}
+  .meta b{color:var(--ink);}
+  /* ---------- 章节 ---------- */
+  h2{
+    font-size:19px; margin:34px 0 10px; padding:10px 14px;
+    background:#efe9db; border-left:5px solid var(--ink);
+    page-break-after:avoid;
+  }
+  h2 .no{color:#8a1f1f; margin-right:6px;}
+  h3{font-size:14.5px; margin:14px 0 6px; color:var(--sub); letter-spacing:2px; page-break-after:avoid;}
+  h3 .zhh{color:var(--sub); font-weight:normal; letter-spacing:0; margin-left:8px;}
+  p{margin:6px 0;}
+  .rahmen{border:1px solid var(--line); border-radius:4px; padding:12px 16px; margin:10px 0; page-break-inside:avoid;}
+  .hyp{background:#f4efe3;}
+  .erg{background:#eef1f6;}
+  .urteil{background:#f5f2ea;}
+  /* ---------- 德文/中文对照 ---------- */
+  .de{
+    color:var(--de); font-style:italic;
+    font-family:"Source Serif 4","Noto Serif","Times New Roman",serif;
+    font-size:14.5px; margin:4px 0 2px;
+  }
+  .zh{color:var(--zh); margin:2px 0 8px; font-size:14px;}
+  .zh .mark{color:var(--sub); font-size:12px; font-style:normal;}
+  ol.erglist{margin:6px 0 6px 0; padding-left:0; list-style:none; counter-reset:e;}
+  ol.erglist > li{counter-increment:e; margin:10px 0; padding-left:26px; position:relative;}
+  ol.erglist > li::before{
+    content:counter(e);
+    position:absolute; left:0; top:4px;
+    width:20px; height:20px; line-height:20px; text-align:center;
+    border:1px solid var(--zh); border-radius:50%;
+    font-size:12px; color:var(--zh);
+  }
+  .src{font-size:12px; color:var(--sub); font-style:normal;}
+  .urteil p{margin:4px 0;}
+  .urteil .tag{font-weight:bold; color:var(--ink);}
+  .urteil .tag.plato{color:#8a1f1f;}
+  .urteil .tag.engine{color:#243a5e;}
+  /* ---------- 总览 ---------- */
+  .overview{background:#fff; border:1px solid var(--line); border-radius:6px; padding:16px 20px; margin:16px 0;}
+  .overview h2{margin:0 0 10px; background:none; border:none; padding:0;}
+  table.sum{margin:10px 0; border-collapse:collapse; width:100%; font-size:13.5px;}
+  table.sum th, table.sum td{border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top;}
+  table.sum th{background:#efe9db;}
+  table.sum td.c1{white-space:nowrap; font-weight:bold;}
+  .ok{color:#1f5f2e; font-weight:bold;}
+  .bad{color:#8a1f1f; font-weight:bold;}
+  .note{font-size:12.5px; color:var(--note); border-left:3px solid var(--line); padding-left:10px; margin:10px 0;}
+  /* ---------- 打印 ---------- */
+  @media print{
+    body{background:#fff; font-size:11pt;}
+    .page{padding:0; max-width:none;}
+    h2{page-break-after:avoid;}
+    .rahmen{page-break-inside:avoid; border-color:#999;}
+    .gruppe{page-break-before:always;}
+    .gruppe.first{page-break-before:auto;}
+    .overview{page-break-inside:avoid;}
+    a{color:inherit; text-decoration:none;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>巴门尼德篇 · 八组推论整理</h1>
+  <p class="subtitle">假设（Hypothese）→ 推演结果（Ergebnis）——德文原文逐字 ＋ 中文翻译对照 · 柏拉图判定 · 引擎判读</p>
+  <div class="meta">
+    <b>体例</b>：德文引文逐字取自 Parmenides 德译本（分段编号「段N」与提取文本对应，附斯蒂芬奴斯页码）；中文翻译为<b>编者译（学习对照用）</b>，不采用陈康译本文字；判定依据陈康《巴曼尼得斯篇》译注（注465、6254–6256 等）。<br>
+    <b>读法</b>：八组推论＝「如果一是／如果一不是」两个假设，因<b>抓紧点</b>不同（抓紧「一」→孤立路线；抓紧「是」→结合路线；「不是」分相对／绝对）推出相反结论。四对二律背反：Ⅰ↔Ⅱ、Ⅲ↔Ⅳ、Ⅴ↔Ⅵ、Ⅶ↔Ⅷ。
+  </div>
+</header>
+
+<!-- ================= 总览 ================= -->
+<section class="overview">
+  <h2>总览：八组推论的机制与判定</h2>
+  <table class="sum">
+    <tr><th>组</th><th>假设</th><th>抓紧点</th><th>对象</th><th>结果</th><th>柏拉图判定</th></tr>
+    <tr><td class="c1">Ⅰ</td><td>如果一是</td><td>抓紧「一」＝一一（孤立）</td><td>一</td><td>一无一切规定 → 一不存在、不可知</td><td class="bad">仅思想可能</td></tr>
+    <tr><td class="c1">Ⅱ</td><td>如果一是</td><td>抓紧「是」＝一是（结合）</td><td>一</td><td>一与一切相反者结合 → 可知又可感</td><td class="ok">符合实际</td></tr>
+    <tr><td class="c1">Ⅲ</td><td>如果一是</td><td>抓紧「是」（结合）</td><td>其它的</td><td>其它分有一＝事物＝相的集合体，一切相反性质结合</td><td class="ok">符合实际</td></tr>
+    <tr><td class="c1">Ⅳ</td><td>如果一是</td><td>抓紧「一」（孤立）</td><td>其它的</td><td>其它与一分离，无一切相反性质 → 不以任何方式是</td><td class="bad">仅思想可能</td></tr>
+    <tr><td class="c1">Ⅴ</td><td>如果一不是</td><td>相对的不是（＝是其它的）</td><td>一</td><td>不是的一与是结合：可知、可分有、变化 —— 与Ⅱ同结果</td><td class="ok">符合实际</td></tr>
+    <tr><td class="c1">Ⅵ</td><td>如果一不是</td><td>绝对的不是（根本不是）</td><td>一</td><td>一无一切规定 —— 与Ⅰ同结果</td><td class="bad">仅思想可能</td></tr>
+    <tr><td class="c1">Ⅶ</td><td>如果一不是</td><td>相对的不是（＝是其它的）</td><td>其它的</td><td>其它的表现为一切（现象＝相对不是的产物）—— 与Ⅲ同结果</td><td class="ok">符合实际</td></tr>
+    <tr><td class="c1">Ⅷ</td><td>如果一不是</td><td>绝对的不是（根本不是）</td><td>其它的</td><td>其它既不是也不表现为任何 → 一不是则根本无</td><td class="bad">仅思想可能</td></tr>
+  </table>
+  <p class="note">判定总纲：<b>结合／相对路线（Ⅱ Ⅲ Ⅴ Ⅶ）符合实际</b>——相的结合才是真实的；<b>分离／绝对路线（Ⅰ Ⅳ Ⅵ Ⅷ）仅思想可能</b>——「相」的孤立只是思想上的可能，不符合存在。八组推论＝相反者在什么条件下结合／不结合的完备考察；分有问题由此变成「相」的联结（κοινωνία）问题，通向智者篇通种论。</p>
+</section>
+
+<!-- ================= 推论Ⅰ ================= -->
+<section class="gruppe first" id="g1">
+  <h2><span class="no">推论Ⅰ</span>如果一是（抓紧「一」＝一一）——隔离的孤立</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Wohlan, habe jetzt Parmenides begonnen, wenn Eins ist, so kann doch wohl das Eins nicht Vieles sein?" <span class="src">（段146 · 137）</span></p>
+    <p class="zh"><span class="mark">〔编者译〕</span>那好，让巴门尼德现在这样开始：如果一是，那么一大约总不会是多吧？</p>
+    <p class="de">——但抓紧「一」：实际假设＝„wenn das Eins Eins ist"〔如果一一〕：一隔离孤立，与「是」无关。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>——注意这里抓紧的是「一」这一面：实际假设是「如果一一」——一孤立自守，与「是」毫不相干。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）——一无一切规定，逐对推演 <span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„Es darf also weder ein Ganzes sein noch Teile haben" <span class="src">（段159）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此它既不可以是整体，也不可以有部分。—— 一不是多 → 无部分、非整体。</p>
+      </li>
+      <li>
+        <p class="de">„Unbegrenzt ist also das Eins, wenn es weder Anfang noch Ende hat" <span class="src">（段165）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，如果一既无开端也无终结，它就是无界限的。—— 无界限。</p>
+      </li>
+      <li>
+        <p class="de">„es ist weder gerade noch rund" <span class="src">（段175）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>它既不是直的，也不是圆的。—— 无形状。</p>
+      </li>
+      <li>
+        <p class="de">„Es ist also das Eins nirgends, indem es sich weder in sich selbst befindet noch in etwas anderem" <span class="src">（段185）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此一不在任何地方——它既不在自身之中，也不在他物之中。—— 无处。</p>
+      </li>
+      <li>
+        <p class="de">„Folglich ist das Eins weder ruhend noch bewegt" <span class="src">（段229）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>所以一既非静止，也非运动。—— 不动不静。</p>
+      </li>
+      <li>
+        <p class="de">„das Eins weder verschieden von sich wie von etwas anderem noch auch einerlei mit sich wie mit etwas anderem" <span class="src">（段259）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>一既不像异于自身那样异于他物，也不像与自身同一那样与他物同一。—— 不同不异（段271–277 不似不异；段281–297 不等不异；段307 无年龄）。</p>
+      </li>
+      <li>
+        <p class="de">„Wenn also das Eins in keinem Betracht an irgend einer Zeit teilhat…" <span class="src">（段335）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，如果一在任何方面都不分有时间……—— 不在时间之中。</p>
+      </li>
+      <li>
+        <p class="de">„das Eins weder noch ist es Eins" <span class="src">（段343）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>一既不是（是者），也不是一。—— 一不「是」→ 一不是一：自我取消。</p>
+      </li>
+      <li>
+        <p class="de">„Man kann es also weder benennen noch von ihm reden…noch es erkennen" <span class="src">（段349）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此人们既不能命名它，也不能谈论它……也不能认识它。—— 不可知。</p>
+      </li>
+    </ol>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>仅思想可能，不符实际。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>第一组不是「否定神学」（Wundt 之偏见）——否定神学不否定神是神，这里却否定「一」是「一」。这是分离／孤立路线的穷尽：一与一切范畴分离 → 一无一切规定 → 一不存在。柏拉图判定：仅思想可能、不符实际。</p>
+  </div>
+</section>
+
+<!-- ================= 推论Ⅱ ================= -->
+<section class="gruppe" id="g2">
+  <h2><span class="no">推论Ⅱ</span>如果一是（抓紧「是」＝一是）——是的一</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Wenn nun aber das Sein und das Eins zwei verschiedene Dinge sind, so ist weder das Eins durch das Einssein verschieden vom Sein, noch das Sein dadurch, daß es Sein ist, etwas anderes als das Eins, sondern durch die Verschiedenheit und das Anderssein sind beide verschieden von einander" <span class="src">（142B）</span></p>
+    <p class="zh"><span class="mark">〔编者译〕</span>然而，如果是与一乃是两件不同的事物，那么一并不因「是一」而异于是，是也不因它是是而不同于一；相反，二者是因差异与异在而彼此不同。</p>
+    <p class="de">——实际假设＝„wenn das Eins Sein hat"〔一分有是〕：一是与是结合的「是的一」（das seiende Eins）；一与是不同。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>——这里抓紧的是「是」这一面：实际假设是「一分有是」——一是与是相结合的「是的一」；一与是彼此不同（若同一，则「一是」＝「一一」，无意义）。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）——一是整个、有部分，逐对推演 <span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„muß da nicht notwendig das Ganze dies seiende Eins selber sein und das Eins und das Sein seine Teile werden?" <span class="src">（段367）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>那时岂不是必然地：这个「是的一」本身就是整体，而一与是成为它的部分？—— 一是整体、有部分。</p>
+      </li>
+      <li>
+        <p class="de">„Wenn also Eins <em>ist</em>, so muß notwendig auch <em>Zahl</em> sein" <span class="src">（段425）</span>；„Und wenn Zahl, dann auch Vieles und eine unendliche Menge des Seienden" <span class="src">（段427）</span>；„Jedem einzelnen Teile des Seins haftet also notwendig das Eins an" <span class="src">（段441）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，如果一是，数也必然存在；如果有数，也就有多、有是者的无限多的量；因此一必然附着于是的每一个别的部分。—— 数的引绎：一→二→三→一切数。</p>
+      </li>
+      <li>
+        <p class="de">„Das Eins, wenn es ist, ist also Eines und Vieles, Ganzes und Teile, begrenzt und von unbegrenzter Menge" <span class="src">（段459）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，如果一是，它就是一体又是多、既是整体又是部分、既是有界限的又具有无限的量。—— 一是多。</p>
+      </li>
+      <li>
+        <p class="de">„da es in sich selber nicht ist, in einem anderen sein" <span class="src">（段489）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>由于它不在自身之中，它就在他物之中。—— 一在自身中又在他者中。</p>
+      </li>
+      <li>
+        <p class="de">„jünger und älter als es selbst und als das Andere, und zugleich weder jünger noch älter" <span class="src">（段715）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>比自身和他者都更年轻也更年老，同时又既不更年轻也不更年老。—— 分有时间（继之以：既动又静、既同又异、既相似又不相似、既等又不等——大／小／相等）。</p>
+      </li>
+    </ol>
+    <p class="note">结语：一分有是 → 一可知又可感。</p>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>符合实际——相的结合才是真实的。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>第一／二组假设表面相同实则相反（一一＝孤立 vs 一是＝结合）；第二组是范畴结合路线：一与是结合 → 与一切相反者结合。同一假设（如果一是）因抓紧点不同推出相反结论（一无规定 vs 一一切规定）＝知性范畴的二律背反初期形态（同／异、动／静、一／多同时成立）。</p>
+  </div>
+</section>
+
+<!-- ================= 附录 ================= -->
+<section class="gruppe" id="anhang">
+  <h2><span class="no">附 录</span>从静态到动态（相到事物的过渡）</h2>
+  <div class="rahmen hyp">
+    <h3>位置与内容 <span class="zhh">〔第二组与第三组之间 · 155E–157B〕</span></h3>
+    <p class="de">„Der Augenblick. Denn das Augenblickliche scheint etwas Derartiges zu bezeichnen, daß von ihm aus etwas in den einen oder anderen von zwei entgegengesetzten Zuständen übergeht. Denn nicht aus der Ruhe…" <span class="src">（段863 附近 · 155）</span></p>
+    <p class="zh"><span class="mark">〔编者译〕</span>「瞬间」。因为瞬间之物看来意指这样一种东西：从它出发，某物过渡到两个相反状态中的这一个或那一个。因为不是从静止……</p>
+    <p class="de">„insofern es wirklich Eins ist, zu irgend einer Zeit am Sein teil haben, insofern es aber dies nicht ist, zu irgend einer Zeit wiederum nicht teil haben" <span class="src">（段829）</span>；„wenn es ihn durchmacht, so ist es in keiner Zeit und bewegt sich dann weder, noch ruht es" <span class="src">（段865）</span></p>
+    <p class="zh"><span class="mark">〔编者译〕</span>就它真正是一而言，它在某一时间分有是；就它并非如此而言，它又在某一时间不分有是。—— 是的一有时分有是、有时不分有是 → 产生与消灭；当它经历（这一过渡）时，它不在任何时间之中，于是既不动也不静。—— 一切过渡在「瞬间」发生。</p>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>此节不是「第一二组的中介」（Wundt 说）——它讲的是「是的一」（第二组对象）从静态推动态；真正意义＝相到事物的过渡：是的一＝最简单的「相的集合体」（一＋是两相构成）＝相与事物的结合点。引擎判读：结合路线的动态化——范畴的结合是产生／消灭／变化的源泉（„das Sein ist die vollendete Veränderung"〔是＝完成的变〕＝黑格尔「是即变」的先声）。</p>
+  </div>
+</section>
+
+<!-- ================= 推论Ⅲ ================= -->
+<section class="gruppe" id="g3">
+  <h2><span class="no">推论Ⅲ</span>如果一是——「其它的」分有一（事物＝相的集合体）</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Wenn Eins ist"（抓紧「是」）——推论「其它的」（τὰ ἄλλα＝事物）：其它异于一，却分有一。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>如果一是（抓紧「是」这一面）——现在推论「其它的」：其它异于一，却分有一（其它有部分，部分是整体的部分，整体和每个部分都是一 → 其它分有一）。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）<span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„dasjenige, was am Eins im Sinne des Teils, und was am Eins im Sinne des Ganzen Anteil hat…unbegrenzt an Vielheit ist" <span class="src">（段905）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>那在部分的意义上分有一、以及那在整体的意义上分有一的东西……在多方面是无界限的。—— 其它是无限多。</p>
+      </li>
+      <li>
+        <p class="de">„alles Andere als das Eins sowohl als Ganzes wie auch seinen Teilen nach sowohl unbegrenzt als auch der Grenze teilhaftig" <span class="src">（段919）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，除一以外的一切，无论作为整体还是就其各部分而言，都既无界限又分有界限。—— 其它既无限又有限：一与其它结合 → 相互限制。</p>
+      </li>
+      <li>
+        <p class="de">„Insofern dies alles seiner eigenen Natur nach unbegrenzt ist…einerlei Beschaffenheit zu"；„insofern es aber sowohl begrenzt als auch unbegrenzt ist…einander entgegengesetzte Beschaffenheiten" <span class="src">（段923–927）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>就这一切按其自身本性是无界限的而言……具有相同的性质；就它既有界限又无界限而言……具有相互对立的性质。—— 由无限／限制 → 既相似又不相似。</p>
+      </li>
+    </ol>
+    <p class="note">继之：既等又不等、既动又静——一切相反性质在其它上结合。</p>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>符合实际。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>其它＝「异于相的性质」＝事物；结论＝事物无非是一个「相的集合体」（范畴集体）——相反性质在事物上结合，正因为其它分有一（一与是结合 → 分有可能）。这解决上部问题②（相反性质如何在事物中结合／拯救现象）。</p>
+  </div>
+</section>
+
+<!-- ================= 推论Ⅳ ================= -->
+<section class="gruppe" id="g4">
+  <h2><span class="no">推论Ⅳ</span>如果一是——「其它的」与一分离（无一切相反性质）</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Wenn Eins ist"（抓紧「一」，孤立）——一与其它完全分离（一加其它＝全部是者，无第三者连接）。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>如果一是（但抓紧「一」这一面）——一与其它完全分离：一加上其它就是全部是者，二者之间没有任何第三者相连接。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）<span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„Es kann das Eins also weder als Ganzes sich in dem Anderen befinden noch als Teile desselben, wenn es doch gesondert ist von allem Anderen" <span class="src">（段953）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，一既不能作为整体存在于他者之中，也不能作为他者的部分而存在，既然它与一切他者分离。—— 一与其它分离。</p>
+      </li>
+      <li>
+        <p class="de">„Auf keine Weise also kann das Andere am Eins Anteil haben" <span class="src">（段955）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，他者绝不可能分有一。—— 其它不分有一。</p>
+      </li>
+      <li>
+        <p class="de">„alles Andere außer dem Eins weder Eins noch Vieles und weder Ganzes noch Teile, da es eben mit dem Eins in keinem Betracht Gemeinschaft hat" <span class="src">（段959）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>但除一以外的一切，既不是一也不是多，既不是整体也没有部分，因为它与一毫无共同之处。—— 其它无一切相反性质（也不是二／三，不似不异，不同不异，不动不静，不产生不消灭，不大不小）——其它不以任何方式是。</p>
+      </li>
+    </ol>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>仅思想可能。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>第四组＝第一组的对应（对象是其它）；「一」的孤立 → 一与其它分离 → 其它无一切规定。这正显示上部「少年苏格拉底」的错误：他所假定的分离（相与事物分离）排除了事物具有相反性质的可能性——拯救现象靠分离是原则性错误。</p>
+  </div>
+</section>
+
+<!-- ================= 推论Ⅴ ================= -->
+<section class="gruppe" id="g5">
+  <h2><span class="no">推论Ⅴ</span>如果一不是（相对的不是＝是其它的）——一与相反者结合</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Hiernach müssen wir denn so anheben: Wenn Eins nicht ist, was muß dann eintreten?" <span class="src">（段985 附近 · 160）</span></p>
+    <p class="zh"><span class="mark">〔编者译〕</span>因此，我们必须这样开始：如果一不是，那么必定发生什么？</p>
+    <p class="de">——「不是」是相对的（＝是其它的；„Nicht sein" hier ＝ „ein Anderes sein"）。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>——注意「不是」是相对的：一不是＝一是其它的。不是的一既与「不是」结合，又与「是」结合（是其它的＝不是，但其它的又是是）。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）<span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„muß ihm dann das zukommen, daß es eine Erkenntnis von ihm gibt; denn sonst würde man ja auch nicht verstehen können, was denn gemeint ist, wenn jemand sagt: »Wenn Eins nicht ist«" <span class="src">（段985）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>那么它必定具有这样的属性：对它有一种认识；因为否则人们也不会理解，当某人说「如果一不是」时，究竟意指什么。—— 说「一不是」本身预设了对它的知识。</p>
+      </li>
+      <li>
+        <p class="de">das nichtseiende Eins 分有 Jenes／Etwas 等 <span class="src">（段991）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>不是的一分有「这个」「某个」「属于」等。—— 不是的一分有规定。</p>
+      </li>
+      <li>
+        <p class="de">„Es ist also wirklich, wie es scheint, das Eins ein Nichtseiendes. Denn wenn es nicht ein Nichtseiendes sein, sondern von diesem Sein etwas ablassen soll zum Nichtsein, so wird es sofort ein Seiendes werden" <span class="src">（段1043）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，看起来，一确实是一个非是者。因为如果它不是非是者……那么它立刻就成为一个是者。—— 不是者也有是：「不是」的「是」作纽带（δεσμός）；是者既有是的「是」又有是的「不是」，不是者既有不是的「不是」又有不是的「是」——是者完全地是，不是者完全地不是。</p>
+      </li>
+      <li>
+        <p class="de">„entsteht und vergeht…weder entsteht noch vergeht" <span class="src">（段1093）</span>；„weder je stille stehe noch auch sich bewege" <span class="src">（段1119）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>产生又消灭……既不产生也不消灭；既从不静止，也不运动。—— 不是的一也变化、产生、消灭、不动不静、不似不异——与第二组同结果。</p>
+      </li>
+    </ol>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>符合实际。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>第五组从「一」的相对不是环节出发，与第二组（从一是环节）对象相同（都是一），故必得同结果——第五组补充第二组（另一观点陈述同一对象）。引擎判读：相对的不是＝结合的一种形态——「不是」不是绝对否定，而是某种「是」：这正是黑格尔「否定＝规定」的先声，也预告智者篇「不是＝异」。</p>
+  </div>
+</section>
+
+<!-- ================= 推论Ⅵ ================= -->
+<section class="gruppe" id="g6">
+  <h2><span class="no">推论Ⅵ</span>如果一不是（绝对的不是）——一与一切范畴无结合</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Wenn Eins nicht ist"且「不是」是绝对的（根本不是的一）。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>如果一不是——但这里「不是」是绝对的：一根本不存在（陈康注161：οὐδαμῶς οὐδαμῇ ἔστιν）。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）<span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„Es würde ja nicht mehr die Rede sein von dem Eins, wenn es ein anderes würde als es selbst" <span class="src">（段1073）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>如果一变成异于自身的东西，那就再也不谈论一了。—— 不变形（无处、不变动，段1065–1075）。</p>
+      </li>
+      <li>
+        <p class="de">„Das nichtseiende Eins vergeht mithin weder noch entsteht es, sofern es eben in keiner Weise Gemeinschaft mit dem Sein hat" <span class="src">（段1111）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，非是的一既不消灭也不产生，因为它恰恰在任何方面都不与是者相通。—— 不是的一不分有是。</p>
+      </li>
+      <li>
+        <p class="de">„weder je stille stehe noch auch sich bewege" <span class="src">（段1119）</span>；不似不异（段1125）；其它与它不是不似不异、不同不异（段1129）</p>
+        <p class="zh"><span class="mark">〔编者译〕</span>既从不静止，也不运动；不似不异；其它与它既不相似也不相异、既不相同也不相异。—— 一无一切规定——与第一组同结果。</p>
+      </li>
+    </ol>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>仅思想可能。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>第六组＝第一组的对应（从绝对不是出发）；「一」的孤立与绝对「不是」互相蕴涵，构成一个蕴涵系统的两极——从任一极出发都到另一极、经过同一中间环节；第六组补充第一组。引擎判读：绝对的「不是」＝绝对否定＝无一切规定＝孤立——绝对否定与孤立等同（这正是黑格尔批判的「抽象否定＝空无」：坏的无限／片面的否定性）；相对否定（Ⅴ组）才有结合。</p>
+  </div>
+</section>
+
+<!-- ================= 推论Ⅶ ================= -->
+<section class="gruppe" id="g7">
+  <h2><span class="no">推论Ⅶ</span>如果一不是（相对的不是）——「其它的」表现为一切</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Wenn Eins nicht ist"（相对的不是，同Ⅴ组）——推论其它：其它表现为（erscheint）一切相反性质。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>如果一不是（相对的不是，与Ⅴ组相同）——现在推论「其它的」：其它表现为一切相反性质。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）<span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„weil man eben kein einziges einzeln fassen kann, da überhaupt das Eins nicht ist" <span class="src">（段1165）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因为人们恰恰不能单独抓住任何一个，既然一根本不存在。—— 其它表现为无限多（每次抓取必又出现新的首／中／尾）。</p>
+      </li>
+      <li>
+        <p class="de">„Und von fern und oberflächlich angesehen wird demnach eine solche als Eins erscheinen müssen, aber nahebei und genauer betrachtet jenes Einzelne als eine unbegrenzte und unendliche Vielheit, sofern es ja eben des Eins beraubt ist, da es ein solches nicht gibt" <span class="src">（段1169）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，从远处粗略地看，这样一个东西必然显现为一；但就近仔细地看，那个别的东西（显现为）一个无界限的、无限的多，因为它恰恰被剥夺了一——既然这样的东西并不存在。—— 现象的表现（舞台画比喻）：远处看是统一，近处看是无限多。</p>
+      </li>
+      <li>
+        <p class="de">„Als unbegrenzt sonach und begrenzt, und als Eines und Vieles muß jegliches Andere erscheinen, wenn das Eins nicht ist, wohl aber Anderes als das Eins" <span class="src">（段1171）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，每一个他者必然显现为无界限又有界限、既是一又是多，如果一不是、而（它）是异于一的东西的话。—— 其它表现为一切相反性质：既相似又不相似、既等又不等、既动又静、既同又异（段1182）——现象（Erscheinung）的引绎。</p>
+      </li>
+    </ol>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>符合实际。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>第七组与第三组同结果，区别：第三组讲「是」（事物作为是者），第七组讲「表现」（事物作为现象者／可感觉者）；个别事物作为现象，基础于相或范畴的相对的「不是」方面——相对的「不是」产生出处于「有」与「无」之间的「现象」。引擎判读：现象＝相对不是的产物（介于有与无之间）——这正是黑格尔 Erscheinung（本质论）的前身：现象不是假象，而是相对否定的显现。</p>
+  </div>
+</section>
+
+<!-- ================= 推论Ⅷ ================= -->
+<section class="gruppe" id="g8">
+  <h2><span class="no">推论Ⅷ</span>如果一不是（绝对的不是）——「其它的」不表现为任何</h2>
+  <div class="rahmen hyp">
+    <h3>假设（Hypothese）<span class="zhh">〔德文原文＋编者译〕</span></h3>
+    <p class="de">„Wenn Eins nicht ist"（绝对的不是，同Ⅵ组）——推论其它：其它既不是也不表现为任何相反性质。</p>
+    <p class="zh"><span class="mark">〔编者译〕</span>如果一不是（绝对的不是，与Ⅵ组相同）——现在推论「其它的」：其它既不是、也不表现为任何相反性质。</p>
+  </div>
+  <div class="rahmen erg">
+    <h3>推演结果（Ergebnis）<span class="zhh">〔德文关键句＋编者译〕</span></h3>
+    <ol class="erglist">
+      <li>
+        <p class="de">„Wenn also in allem Anderen kein Eins enthalten ist, so ist dies Andere weder Vieles noch auch Eins" <span class="src">（段1189）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，如果一切他者中不包含任何一，那么这他者既不是多，也不是一。—— 其它不是一也不是多。</p>
+      </li>
+      <li>
+        <p class="de">„Wenn also Eins nicht ist, so kann sich auch nicht die Vorstellung bilden, daß etwas von allem Anderen Eins noch auch Vieles sei: denn Vieles ohne Eins sich vorzustellen ist eine Unmöglichkeit" <span class="src">（段1197）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，如果一不是，那么甚至也不能形成这样的表象：一切他者中的某个东西是一或是多；因为想象没有一的多是不可能的。—— 其它不表现为任何。</p>
+      </li>
+      <li>
+        <p class="de">„Wenn also Eins nicht ist, so <em>ist</em> alles Andere weder, noch <em>erscheint</em> es weder als Eins noch als Vieles" <span class="src">（段1199）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>因此，如果一不是，那么一切他者都不存在，也不显现为一或为多。—— 总括：也不表现为似／不似、同／异、接触／分离、动／静（段1200）。</p>
+      </li>
+      <li>
+        <p class="de">„Wenn Eins nicht ist so ist überhaupt gar nichts" <span class="src">（段1202）</span></p>
+        <p class="zh"><span class="mark">〔编者译〕</span>如果一不是，那么就根本什么都没有。—— 若一不是 → 根本无。</p>
+      </li>
+    </ol>
+  </div>
+  <div class="rahmen urteil">
+    <h3>判定与判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>仅思想可能。</p>
+    <p><span class="tag engine">〔判读：陈康＋引擎〕</span>第八组＝第四组的对应（对象是其它＋补充「不表现」）；绝对的不是 → 一根本不存在 → 其它不能表现为与一结合。个别事物作为事物（是者）基础于相的狭义的「是」方面（推论Ⅲ），作为现象基础于相对的「不是」方面（推论Ⅶ），绝对的不是 → 既无事物也无现象。引擎判读：绝对否定＝无现象＝虚无——与第六组（一）对应，分离／绝对否定路线在事物层面同样取消一切。</p>
+  </div>
+</section>
+
+<!-- ================= 结语 ================= -->
+<section class="gruppe" id="schluss">
+  <h2><span class="no">结 语</span>八组推论的总括（柏拉图判定）</h2>
+  <div class="rahmen hyp">
+    <h3>结语 <span class="zhh">〔德文原文＋编者译 · 165E〕</span></h3>
+    <p class="de">„So wollen wir denn auch einerseits dies aussprechen und andererseits unser Gesamtergebnis dahin zusammenfassen, daß, wie es scheint, das Eins mag nun sein oder nicht sein, sowohl es selbst als alles Andere, jedes für sich und alles in bezug auf einander, alles auf alle Weise ist und nicht ist und zu sein scheint und nicht scheint" <span class="src">（段1204）</span></p>
+    <p class="zh"><span class="mark">〔编者译〕</span>因此，我们要一方面说出这一点，另一方面把我们的总结果归结为：看起来，一无论是还是不，无论它自身还是一切他者，每一个就其自身而言、一切彼此相关而言，都以一切方式是与不是、显现为是与显现为不是。—— 一无论是或不是，自身与一切他者，一切方式地是与不是、显现与不显现。</p>
+  </div>
+  <div class="rahmen urteil">
+    <h3>柏拉图判定与引擎判读</h3>
+    <p><span class="tag plato">〔柏拉图判定〕</span>这并非矛盾平列——八组推论的判定：Ⅰ／Ⅳ／Ⅵ／Ⅷ（分离／孤立／绝对不是路线）仅思想可能、不符实际；Ⅱ／Ⅲ／Ⅴ／Ⅶ（结合／相对不是路线）既思想可能又符合实际。柏拉图借巴门尼德之口明确怀疑第一组结论能否符合实况（交谈者也表示不信）；「相」的孤立（分离）只是思想可能，不符合存在；第二组（一与是结合）才符合实际。八组推论＝相反者在什么条件下结合／不结合的完备考察；分有问题变成「相」的联结（κοινωνία）问题——通向智者篇通种论（是／不是、同／异、动／静六种最普遍的种相互结合）。</p>
+    <p><span class="tag engine">〔引擎判读〕</span>八组推论＝知性范畴的推演矩阵（现象学 ch3 知性、康德范畴表／二律背反的初期形态）——但没有重建：柏拉图判定「结合符合实际」却未说明为何结合（无绝对否定性作推动者）；这正是引擎的「尚待消解环节」：范畴的矛盾被推演到极致并被判定，但没有被扬弃为概念——黑格尔在《逻辑学》里用绝对否定性完成这一步（矛盾不是被判定为「结合」，而是被收进统一）。</p>
+  </div>
+</section>
+
+<footer style="margin-top:40px; border-top:1px solid var(--line); padding-top:10px; font-size:12px; color:var(--sub);">
+  巴门尼德篇 · 八组推论整理 — 德文原文逐字（Parmenides 德译本）＋ 中文翻译（编者译，学习对照用）· 判定依据陈康《巴曼尼得斯篇》译注 · 引擎判读依黑格尔哲学引擎框架
+</footer>
+
+</div>
+</body>
+</html>

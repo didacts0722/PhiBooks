@@ -1,0 +1,115 @@
+{
+  "c6-p158": {
+    "first": [
+      {"de": "Der Geist wäre aus diesem Tumulte zu seinem Ausgangspunkte", "zh": "精神〔将〕会〔被〕从这种〔骚〕乱〔之〕中〔抛〕回〔到〕它〔的〕出〔发〕点〔那〕里〔去〕"},
+      {"de": "der sittlichen und realen Welt der Bildung", "zh": "〔即〕教养〔的〕伦理性〔的〕和现实〔的〕世界〔那〕里"},
+      {"de": "zurückgeschleudert", "zh": "〔被〕抛〔回〕〔去〕"},
+      {"de": "welche durch die Furcht des Herrn", "zh": "〔这个世界〕〔曾〕通过〔主〕人〔的〕恐惧"},
+      {"de": "die wieder in die Gemüter gekommen", "zh": "〔这恐惧〕〔已〕再次〔回〕到诸心灵〔之〕中〔来〕〔者〕"},
+      {"de": "nur erfrischt und verjüngt worden", "zh": "只〔被〕〔加〕以〔重〕新〔振〕作〔并〕且〔被〕〔加〕以〔重〕新〔年〕轻〔化〕〔了〕"}
+    ],
+    "last": [
+      {"de": "Es ferner als einzelnes Selbst ist nur die Form des Subjekts oder wirklichen Tuns", "zh": "它〔作〕为单个〔的〕自身〔则〕只〔是〕主体〔的〕或现实〔的〕行动〔的〕形式"},
+      {"de": "die von ihm als Form gewußt wird", "zh": "〔这种形式〕〔被〕它〔作〕为形式〔所〕知道〔着〕"},
+      {"de": "ebenso ist für es die gegenständliche Wirklichkeit, das Sein, schlechthin selbstlose Form", "zh": "同样〔地〕对〔于〕它〔来〕说，〔那〕对象性〔的〕现实性、〔那〕存在〔就〕〔是〕绝对〔地〕无〔自身〕〔的〕形式"},
+      {"de": "denn sie wäre das nicht Gewußte", "zh": "因〔为〕它〔将〕会〔是〕那〔个〕未〔被〕知〔道〕〔的东〕西"},
+      {"de": "dies Wissen aber weiß das Wissen als das Wesen", "zh": "但〔是〕这种知识〔却〕知道〔那〕知识〔就〕是〔那〕本质"}
+    ],
+    "words": [
+      {"de": "Tumulte", "zh": "骚乱〔喧嚣〕"},
+      {"de": "zurückgeschleudert", "zh": "被抛回〔弹回〕"},
+      {"de": "Gemüter", "zh": "诸心灵〔心绪〕"},
+      {"de": "verjüngt", "zh": "被〔重〕新〔年〕轻化"},
+      {"de": "atome", "zh": "原子〔点〕的〔古写〕"}
+    ]
+  },
+  "c6-p160": {
+    "first": [
+      {"de": "Die sittliche Welt zeigte den in ihr nur abgeschiedenen Geist", "zh": "伦理性〔的〕世界〔曾〕〔把〕那〔在〕它〔之〕中只〔是〕〔被〕离〔开〕〔了〕〔的〕精神〔加〕以〔显〕示〔出〕来"},
+      {"de": "das einzelne Selbst", "zh": "〔即〕那单个〔的〕自身〔自〕"},
+      {"de": "als ihr Schicksal und ihre Wahrheit", "zh": "作〔为〕它〔的〕命运〔Schicksal〕和它〔的〕真理"}
+    ],
+    "last": [
+      {"de": "Dieses beruht auf dem Gegensatze der Gewißheit seiner selbst und des Gegenstandes", "zh": "这〔个意识〕〔建〕基〔于〕它自身〔的〕确定性〔与〕对象〔的〕〔对〕立〔之〕上"},
+      {"de": "nun aber ist der Gegenstand ihm selbst die Gewißheit seiner", "zh": "但〔是〕〔现〕在对象对〔于〕它〔自〕己〔来〕说〔就〕是〔对〕它〔自〕己〔的〕确定性"},
+      {"de": "das Wissen – so wie die Gewißheit seiner selbst als solche nicht mehr eigene Zwecke hat", "zh": "〔即〕那知识——正如〔对〕它自身〔的〕确定性作〔为〕这〔样〕〔的东〕西〔已〕不〔再〕〔具〕有自〔己〕〔的〕目〔的〕"},
+      {"de": "also nicht mehr in der Bestimmtheit", "zh": "〔所〕以〔也〕不〔再〕〔处〕于〔被〕规〔定〕性〔之〕中"},
+      {"de": "sondern reines Wissen ist", "zh": "而〔是〕纯〔粹〕〔的〕知识〔所〕是〔者〕"}
+    ],
+    "middle": [
+      {"de": "Hier also scheint das Wissen endlich seiner Wahrheit vollkommen gleich geworden zu sein", "zh": "此处因此〔看〕来〔似〕乎〔那〕知识终〔于〕〔已〕对〔于〕它〔的〕真理〔变〕得完〔全〕相〔等〕〔了〕"},
+      {"de": "denn seine Wahrheit ist dies Wissen selbst", "zh": "因〔为〕它〔的〕真理〔就〕是这种知识本身"},
+      {"de": "und aller Gegensatz beider Seiten verschwunden", "zh": "并〔且〕两〔个〕方〔面〕〔的〕一〔切〕对〔立〕〔已〕消〔失〕"},
+      {"de": "und zwar nicht für uns oder an sich", "zh": "并〔且〕确〔实〕不〔是〕为〔了〕我〔们〕或〔者〕自〔在〕地〔消〔失〕〕"},
+      {"de": "sondern für das Selbstbewußtsein selbst", "zh": "而〔是〕为〔了〕自我意识本身〔而〕消〔失〕"}
+    ],
+    "words": [
+      {"de": "abgeschiedenen", "zh": "被分离〔离世〕的"},
+      {"de": "Gegensatze", "zh": "对立〔旧式与格〕"},
+      {"de": "beruht", "zh": "基于〔建基〕"},
+      {"de": "Erfüllung", "zh": "充实〔实现〕"},
+      {"de": "Meister", "zh": "主人〔主宰〕"}
+    ]
+  },
+  "c6-p162": {
+    "first": [
+      {"de": "Das absolute Wesen ist daher nicht in der Bestimmung erschöpft", "zh": "绝对〔的〕本质因此〔并〕不〔被〕〔穷〕尽〔于〕〔那〕规〔定〕〔之〕中"},
+      {"de": "das einfache Wesen des Denkens zu sein", "zh": "〔即〕〔作〕为思维〔的〕简单〔的〕本质〔去〕是〔这〕样〔的规〔定〕〕"},
+      {"de": "sondern es ist alle Wirklichkeit", "zh": "而〔是〕它〔就〕是〔一〕切现〔实〕性"},
+      {"de": "und diese Wirklichkeit ist nur als Wissen", "zh": "并〔且〕这种现实性只〔作〕为知〔识〕〔而〕〔存〕在"},
+      {"de": "was das Bewußtsein nicht wüßte", "zh": "〔凡〕意识〔所〕不〔会〕知〔道〕〔的东〕西"},
+      {"de": "hätte keinen Sinn und kann keine Macht für es sein", "zh": "〔就〕会〔没〕有〔任〕何〔意〕义，并〔且〕不〔能〕对〔于〕它〔来〕说〔成〕为〔任〕何〔力〕量"},
+      {"de": "in seinen wissenden Willen hat sich alle Gegenständlichkeit und Welt zurückgezogen", "zh": "〔在〕它〔的〕知〔道〕着〔的〕意〔志〕〔之〕中〔已〕〔把〕一〔切〕对〔象〕性〔和〕世〔界〕〔收〕回〔到〕自〔身〕〔之〕中〔去〕了"}
+    ],
+    "last": [
+      {"de": "Es ist absolut frei darin", "zh": "它〔在〕此〔中〕〔是〕绝〔对〕地自〔由〕的"},
+      {"de": "daß es seine Freiheit weiß", "zh": "即〔说〕它知〔道〕它〔的〕自〔由〕"},
+      {"de": "und eben dies Wissen seiner Freiheit ist seine Substanz und Zweck und einziger Inhalt", "zh": "并〔且〕恰〔恰〕这〔种〕对〔于〕它〔的〕自〔由〕〔的〕知〔识〕〔就〕是它〔的〕实〔体〕、〔它〕的目〔的〕和唯〔一〕〔的〕内〔容〕"}
+    ],
+    "words": [
+      {"de": "erschöpft", "zh": "被穷尽〔耗尽〕"},
+      {"de": "wüßte", "zh": "会知道〔虚拟式〕"},
+      {"de": "zurückgezogen", "zh": "已收回〔隐退〕"},
+      {"de": "Gegenständlichkeit", "zh": "对象性"},
+      {"de": "Bestimmung", "zh": "规定〔性〕"}
+    ]
+  },
+  "c6-p164": {
+    "first": [
+      {"de": "Von dieser Bestimmung an bildet sich eine moralische Weltanschauung aus", "zh": "从这种规〔定〕〔开〕始，〔有〕一种道德〔的〕世〔界〕观〔形〕成〔出〕来"},
+      {"de": "die in der Beziehung des moralischen Anundfürsichseins und des natürlichen Anundfürsichseins besteht", "zh": "〔这种世界观〕〔在〕道德〔的〕自在〔且〕自〔为〕存〔在〕与自然〔的〕自在〔且〕自〔为〕存〔在〕〔的〕关〔系〕〔之〕中〔存〕在〔着〕"}
+    ],
+    "last": [
+      {"de": "Die moralische Weltanschauung enthält die Entwicklung der Momente", "zh": "道德〔的〕世〔界〕观〔包〕含〔着〕诸〔环〕节〔的〕发〔展〕"},
+      {"de": "die in dieser Beziehung so ganz widerstreitender Voraussetzungen vorhanden sind", "zh": "〔这〔些环节〕〔是〕在〔这〕种关〔系〕〔中〕如〔此〕完〔全〕〔互〕相〔抵〕抗〔的〕前〔提〕〔之〕中〔所〕现〔存〕〔者〕"}
+    ],
+    "words": [
+      {"de": "Unselbständigkeit", "zh": "非独立性"},
+      {"de": "Unwesenheit", "zh": "非本质性"},
+      {"de": "widerstreitender", "zh": "互相〔抵〕抗〔冲〕突的"},
+      {"de": "Gleichgültigkeit", "zh": "漠不关心〔无差别〕"},
+      {"de": "ändern", "zh": "另一个的〔原文错拼，当作 andern〕"}
+    ]
+  },
+  "c6-p165": {
+    "first": [
+      {"de": "Zuerst also ist das moralische Bewußtsein überhaupt vorausgesetzt", "zh": "首〔先〕因〔此〕〔那〕道德〔的〕意〔识〕一〔般〕〔地〕〔被〕预〔先〕设〔定〕〔着〕"},
+      {"de": "die Pflicht gilt ihm als das Wesen", "zh": "〔那〕义〔务〕对〔于〕它〔来〕说〔作〕为〔那〕本〔质〕〔而〕〔有〕效"},
+      {"de": "ihm", "zh": "〔即对〕它〔来〕说"},
+      {"de": "das wirklich und tätig ist und in seiner Wirklichkeit und Tat die Pflicht erfüllt", "zh": "〔这个意识〕〔是〕现〔实〕的〔并〕且〔是〕能〔动〕的，并〔且〕〔在〕它〔的〕现〔实〕性〔和〕行〔动〕〔中〕〔把〕义〔务〕〔加〕以〔履〕行〔者〕"}
+    ],
+    "last": [
+      {"de": "Es findet daher vielmehr Grund zu Klagen über solchen Zustand der Unangemessenheit seiner und des Daseins [den] und der Ungerechtigkeit", "zh": "它因此〔反〕而〔找〕到〔理〕由〔去〕〔抱〕怨〔于〕这〔样〕〔一〕种〔即〕它〔自〕己〔与〕存〔在〕〔的〕不〔相〕适〔合〕〔原文 [den]〕〔以〕及〔那〕不〔公〕正〔之〕处〔的〕状〔态〕"},
+      {"de": "die es darauf einschränkt", "zh": "〔这〔不公正〕〕把〔它〕限〔制〕在〔此〕上〔面〕"},
+      {"de": "seinen Gegenstand nur als reine Pflicht zu haben", "zh": "〔即〕只〔把〕它〔的〕对〔象〕作〔为〕纯〔粹〕〔的〕义〔务〕〔来〕〔具〕有"},
+      {"de": "aber ihm denselben und sich verwirklicht zu sehen versagt", "zh": "但〔是〕〔却〕〔对〕它〔来〕说〔把〕同〔一〔个对〕象〕〔以〕及〔把〕它〔自〕己〔看〕作〔被〕实〔现〕〔者〕〔来〕看〔见〕〔加〕以〔拒〕绝〔了〕"}
+    ],
+    "words": [
+      {"de": "unbekümmert", "zh": "满不在乎〔毫不关心〕的"},
+      {"de": "zufälligerweise", "zh": "偶然地"},
+      {"de": "Veranlassung", "zh": "起因〔诱因〕"},
+      {"de": "Unangemessenheit", "zh": "不相适合〔不相称〕"},
+      {"de": "versagt", "zh": "拒绝〔不给〕"}
+    ]
+  }
+}

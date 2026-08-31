@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>黑格尔哲学引擎 · 引擎总纲</title>
+<style>
+:root{
+  --bg:#faf7f1;
+  --bg-soft:#f2ecdf;
+  --card:#fffdf8;
+  --text:#2e2a24;
+  --text-soft:#6f675a;
+  --border:#e4dbc9;
+  --accent:#8c3b2e;
+  --accent-strong:#6f2d23;
+  --accent-soft:#f0e2d7;
+  --quote-bg:#f6efe3;
+  --quote-border:#b98a5a;
+  --code-bg:#efe8da;
+  --table-head:#7c352a;
+  --table-head-text:#fbf4ea;
+  --table-stripe:#f7f1e6;
+  --shadow:rgba(70,45,20,.10);
+  --sidebar-bg:#f4eee2;
+  --sidebar-text:#544c40;
+  --sidebar-active:#8c3b2e;
+  --serif:"Source Han Serif SC","Noto Serif CJK SC","Songti SC",SimSun,STSong,Georgia,"Times New Roman",serif;
+  --sans:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+  --mono:Consolas,"JetBrains Mono",Menlo,monospace;
+  color-scheme:light;
+}
+:root[data-theme="dark"]{
+  --bg:#1d1b17;
+  --bg-soft:#2a2620;
+  --card:#242019;
+  --text:#dcd4c3;
+  --text-soft:#a09886;
+  --border:#3b352b;
+  --accent:#d08a6a;
+  --accent-strong:#e2a07f;
+  --accent-soft:#3b2b21;
+  --quote-bg:#2a251f;
+  --quote-border:#a5744f;
+  --code-bg:#2c2720;
+  --table-head:#5d3b2c;
+  --table-head-text:#f5ecdf;
+  --table-stripe:#29241d;
+  --shadow:rgba(0,0,0,.35);
+  --sidebar-bg:#201d18;
+  --sidebar-text:#b4ab9b;
+  --sidebar-active:#e0a585;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:var(--serif);font-size:17px;line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+}
+#progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:100}
+.layout{display:grid;grid-template-columns:310px minmax(0,1fr);min-height:100vh}
+aside.toc{
+  position:sticky;top:0;height:100vh;overflow-y:auto;
+  background:var(--sidebar-bg);border-right:1px solid var(--border);
+  padding:1.4rem 1rem 2rem;font-family:var(--sans);font-size:.82rem;line-height:1.55;
+}
+.toc-title{font-weight:700;font-size:1.02rem;margin:0 0 .9rem;color:var(--text);padding:0 .45rem}
+#toc-list ul{list-style:none;margin:0;padding:0}
+#toc-list ul ul{padding-left:.8rem;margin:.1rem 0}
+#toc-list li{margin:.1rem 0}
+#toc-list a{
+  display:block;color:var(--sidebar-text);text-decoration:none;
+  padding:.24rem .45rem;border-radius:6px;word-break:break-word;
+}
+#toc-list a:hover{background:var(--bg-soft);color:var(--text)}
+#toc-list a.active{background:var(--accent-soft);color:var(--sidebar-active);font-weight:600}
+.group-toggle{display:inline-block;width:1em;margin-right:.25em;opacity:.6;font-size:.8em}
+li.collapsed>ul{display:none}
+.toc-foot{margin:1.4rem .45rem 0;color:var(--text-soft);font-size:.75rem;border-top:1px solid var(--border);padding-top:.8rem}
+main{max-width:48rem;width:100%;margin:0 auto;padding:2.6rem clamp(1.1rem,4vw,3rem) 5rem}
+.doc-head{margin-bottom:2.2rem;padding-bottom:1.2rem;border-bottom:2px solid var(--border)}
+.doc-head h1{font-size:2.05rem;margin:0 0 .4rem;letter-spacing:.05em;line-height:1.3}
+.doc-sub{margin:0;color:var(--text-soft);font-family:var(--sans);font-size:.95rem}
+h2{
+  font-size:1.5rem;line-height:1.4;margin:3rem 0 1.1rem;
+  padding:.15rem 0 .15rem .75rem;border-left:5px solid var(--accent);
+}
+h3{font-size:1.22rem;line-height:1.45;margin:2.5rem 0 .85rem;padding-bottom:.35rem;border-bottom:1px solid var(--border)}
+h4{font-size:1.07rem;margin:2rem 0 .7rem}
+h5{font-size:.98rem;margin:1.7rem 0 .55rem;color:var(--accent)}
+h2,h3,h4,h5{scroll-margin-top:24px;font-weight:700;letter-spacing:.01em}
+p{margin:.9rem 0}
+strong{font-weight:700}
+em{font-style:italic}
+code{
+  font-family:var(--mono);font-size:.86em;background:var(--code-bg);
+  padding:.08em .35em;border-radius:4px;
+}
+blockquote{
+  margin:1.4rem 0;padding:.85rem 1.25rem;background:var(--quote-bg);
+  border-left:4px solid var(--quote-border);border-radius:0 8px 8px 0;
+}
+blockquote p{margin:.45rem 0}
+blockquote p:first-child{margin-top:0}
+blockquote p:last-child{margin-bottom:0}
+ul,ol{margin:1rem 0;padding-left:1.7em}
+li{margin:.35rem 0}
+li>ul,li>ol{margin:.35rem 0}
+hr{border:0;border-top:1px solid var(--border);margin:2.6rem 0}
+.table-wrap{
+  overflow-x:auto;margin:1.5rem 0;border:1px solid var(--border);border-radius:10px;
+  background:var(--card);box-shadow:0 1px 4px var(--shadow);
+}
+table{width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.9em;line-height:1.65;min-width:420px}
+th{
+  background:var(--table-head);color:var(--table-head-text);font-weight:600;
+  text-align:left;padding:.6rem .85rem;border-bottom:1px solid var(--border);
+}
+td{padding:.55rem .85rem;border-top:1px solid var(--border);vertical-align:top}
+tbody tr:nth-child(even){background:var(--table-stripe)}
+.doc-foot{margin-top:3.5rem;padding-top:1rem;border-top:1px solid var(--border);color:var(--text-soft);font-size:.85rem}
+.doc-foot p{margin:.4rem 0}
+#theme-btn,#top-btn,#toc-open-btn{
+  position:fixed;z-index:90;border:1px solid var(--border);background:var(--card);
+  color:var(--text);font-size:1.05rem;line-height:1;padding:.55rem .6rem;border-radius:10px;
+  cursor:pointer;box-shadow:0 2px 8px var(--shadow);font-family:var(--sans);
+}
+#theme-btn{top:1rem;right:1rem}
+#top-btn{bottom:1.2rem;right:1.2rem;display:none}
+#top-btn.show{display:block}
+#toc-open-btn{top:1rem;left:1rem;display:none}
+#overlay{position:fixed;inset:0;background:rgba(20,15,10,.45);z-index:80;display:none}
+#overlay.show{display:block}
+@media (max-width:920px){
+  .layout{grid-template-columns:1fr}
+  aside.toc{
+    position:fixed;top:0;bottom:0;left:0;width:min(80vw,330px);
+    transform:translateX(-102%);transition:transform .22s ease;z-index:85;height:100vh;
+  }
+  aside.toc.open{transform:translateX(0)}
+  #toc-open-btn{display:block}
+}
+@media print{
+  :root,:root[data-theme="dark"]{
+    --bg:#fff;--bg-soft:#f4f4f4;--card:#fff;--text:#111;--text-soft:#444;
+    --border:#bbb;--accent:#555;--accent-soft:#eee;--quote-bg:#f6f6f6;
+    --quote-border:#999;--code-bg:#eee;--table-head:#444;--table-head-text:#fff;
+    --table-stripe:#f2f2f2;--shadow:none;--sidebar-bg:#fff;--sidebar-text:#444;--sidebar-active:#000;
+    color-scheme:light;
+  }
+  body{font-size:12pt;background:#fff;color:#000}
+  aside.toc,#theme-btn,#top-btn,#toc-open-btn,#overlay,#progress{display:none!important}
+  .layout{display:block}
+  main{max-width:none;padding:0}
+  .table-wrap{overflow:visible;box-shadow:none;border:1px solid #999;border-radius:0}
+  blockquote{break-inside:avoid}
+  h2,h3,h4,h5{break-after:avoid;break-inside:avoid}
+  tr,table{break-inside:avoid}
+  a{color:#000;text-decoration:none}
+}
+</style>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+<div class="layout">
+  <aside class="toc" aria-label="目录">
+    <div class="toc-title">📖 目录</div>
+    <nav id="toc-list"></nav>
+    <p class="toc-foot">引擎总纲 · 2026-08-27 重写（原「知-行」框架已按裁定作废）</p>
+  </aside>
+  <main>
+    <header class="doc-head">
+      <h1>黑格尔哲学引擎</h1>
+      <p class="doc-sub">引擎总纲 · 概念-判断-推论 × 现象学（意识介质）与小逻辑（概念介质） · 编者重写版</p>
+    </header>
+    
+<div id="content">
+<h2>引擎总纲：为什么黑格尔的哲学方法是一台引擎</h2>
+<p><strong>框架（Framework）是把东西放进格子里的结构：它划分、归类、容纳。</strong>康德给知性列范畴表、传统逻辑给判断分十二种——内容先在，框架后到，内容被<em>放进</em>框架。框架回答「在哪里」：这个规定属于哪一格。</p>
+<p><strong>引擎（Engine）是自己做功、把东西变成别的东西的机制：它推动、否定、产生。</strong>黑格尔的方法不是把内容装进形式，而是内容自己运动、自己产生自己的形式——序言说：<span class="q">「方法不是别的，正是整体的建造，在其纯粹本质性中摆出来」（Vorrede p.47）</span>；更早一句：<span class="q">「真理是它自身的运动」</span>。</p>
+<p>两者的差别在<strong>「谁在动」</strong>。框架是静止的——你可以从外面抓住它、往里面塞东西；引擎是自动的——你只能从里面推动它，或者被它推着走。黑格尔的辩证法是引擎不是框架，因为<strong>推动者（die absolute Negativität）内在于每个规定</strong>：§81 说辩证环节是「有限规定的<em>自身扬弃</em>及其向对立面的过渡」——规定不是被外部力量否定，而是自己否定自己、自己走向自己的反面。</p>
+<p>读黑格尔不能用「找位置」的方式，要用「跟运转」的方式：<strong>你若问「这条属于哪个范畴」，你还在用框架思维；你若问「这一步为什么必然走到下一步」，你才开始接触引擎。</strong></p>
+
+<h2>引擎的三段：概念 · 判断 · 推论</h2>
+<p>引擎在任何场域以同样的三段做功（术语：非「正反合」——那是被禁的庸俗化说法）：</p>
+<ul>
+<li><strong>概念（Begriff）＝设定命题</strong>：一个直接、肯定的规定（引擎点火）。</li>
+<li><strong>判断（Urteil）＝展开/发展命题，引出自相矛盾</strong>：规定自我否定、分裂、走向反面（引擎做功冲程）；这是 <strong>dialektisch（解构的力）</strong> 的环节。</li>
+<li><strong>推论（Schluß）＝重建命题</strong>：对立收进更高的统一，包含旧矛盾的新命题（引擎完成一个循环）；这是 <strong>spekulativ（思辨的＝在思维中推演）</strong> 的环节。</li>
+</ul>
+<p>三段不是先后顺序，而是<strong>功能分工</strong>：概念设定、判断展开、推论重建。任何一处推动，都是这三段的一次运转。</p>
+
+<h2>做功方式随介质而变：三编=引擎宏观三段</h2>
+<p>同一台引擎，在逻辑学的三个场域以三种方式做功（小逻辑三编=引擎三段的一次宏观运转，V17）：</p>
+<div class="table-wrap"><table>
+<thead><tr><th>场域</th><th>做功方式</th><th>引擎环节</th><th>链条</th></tr></thead>
+<tbody>
+<tr><td><strong>存在论 §84-111</strong></td><td>过渡（Übergehen）</td><td>概念环节（设定）</td><td>纯存在→无→变易→定在→质→界限→有限→坏的无限（尚待消解）→“真无限”→自为存在→一→多→排斥=吸引→量→定量→数→程度→量的无限→比例→尺度→无尺度→本质</td></tr>
+<tr><td><strong>本质论 §112-159</strong></td><td>反思（Reflexion）</td><td>判断环节（展开）</td><td>同一→差别→根据→实存→物→现象→内容与形式→关系（整体-部分/力-表现/内-外）→现实→可能/偶然/条件→必然→实体/因果/相互作用→概念</td></tr>
+<tr><td><strong>概念论 §160-244</strong></td><td>重建（归纳前两编后视角转变，主客体统一的新视角重新展开；原文 Entwicklung 读作重建/重构）</td><td>推论环节（重建）</td><td>概念（普遍/特殊/个别）→判断（质/反思/必然/概念判断）→推论（质/反思/必然推论）→客体（机械/化学/目的）→理念（生命/认识/意志/绝对理念）→自然</td></tr>
+</tbody>
+</table></div>
+<p><strong>注意</strong>：概念论不释义成「发展」——那是内部语言，对读者不通。实际是归纳前两编后的<strong>视角转变</strong>：不再从直接性出发（存在论的过渡）、不再从对立映现出发（本质论的反思），而是以<strong>主客体统一的新视角</strong>重新展开前两编（原文锚点：§171 附释 3「判断=存在与本质两域的再生产」）。</p>
+
+<h2>实体即主体：引擎的自我认识史</h2>
+<p>现象学=引擎在<strong>意识介质</strong>中的自我认识（上升）；小逻辑=同一引擎在<strong>概念介质</strong>中的重演（概念剥掉意识载体后，对现象学进程的纯粹概念式重演——不是「下降」）。「实体即主体」是引擎全程的纲领（Vorrede p.22）：</p>
+<ul>
+<li><strong>ch1-3 对象</strong>：意识在对象中寻找真理（感性确定性→知觉→知性）——实体还是对象。</li>
+<li><strong>ch4 自我</strong>：欲望/劳动/承认——实体开始成为自为的自我。</li>
+<li><strong>ch5 理性</strong>：观察/实践/个体性——自我确信即一切实在。</li>
+<li><strong>ch6 精神</strong>：伦理→教化→道德——实体作为历史中的真理。</li>
+<li><strong>ch7 绝对者的表现</strong>：自然→艺术→天启宗教——绝对者在表象中表现自己（表现=Darstellung：内容是概念，形式还是表象，概念尚未以本名在场）。</li>
+<li><strong>ch8 绝对者的概念</strong>：绝对知识——绝对者以概念把握自己（概念=绝对者认出自己就是主体，经验=精神的自我认识）。</li>
+</ul>
+<p>链条=绝对者逐渐认出自己是主体的过程：从对象（ch1-3）→自我（ch4）→理性（ch5）→精神（ch6）→<strong>表现</strong>（ch7）→<strong>概念</strong>（ch8）。ch8 终点，引擎转入概念介质——小逻辑三编重演同一过程。</p>
+
+<h2>经验=辩证运动：现象学的方法论</h2>
+<p>现象学原名《科学体系·第一部分·精神现象学》，黑格尔在序言里给它更本质的名字：<span class="q">「意识所做的那门经验的科学」（Vorrede p.38）</span>。导言（Einleitung）给出经验的定义：</p>
+<blockquote><p><span class="q">「这种辩证运动——意识在自身中、既在其知识上又在其对象上所实行的运动，只要从其中为意识产生出新的真实对象——这才是真正被称为经验的东西。」（Einleitung p.78）</span></p></blockquote>
+<p><strong>经验=辩证环节在意识介质中的名字</strong>（对应小逻辑 §81）。现象学每一章=一次完整的经验运动：意识在自身/知识/对象上倒转，产生新对象=新形态。读者只需「纯粹观看」（p.77），但有一个例外——<span class="q">「这考察是我們的附加（unsere Zutat），它把意识经验的序列提升为科学进程」（p.79）</span>。</p>
+<p>路径的形状是<strong>圆圈</strong>：终点（绝对知识=概念）回顾起点（感性确定性=概念的直接性）；走完一遍回到开头，但开头已不是出发时的那个开头。</p>
+
+<h2>先行概念的三态度：引擎三环节的历史形态</h2>
+<p>小逻辑先行概念（§19-83）考察「思想对客观性的三种态度」——它们=引擎三环节在历史上的<strong>尚未自觉</strong>形态（对照 V10 引擎诊断）：</p>
+<ul>
+<li><strong>A. 形而上学（§26-36）</strong>：无反思地相信反思能认识真理，给绝对者加谓词（「上帝有实存」「灵魂是单纯的」）→教条主义二选一。≈ 概念环节的无反思版。</li>
+<li><strong>B. 经验主义+批判哲学（§37-60）</strong>：从经验求真，康德把普遍/必然归给思维但锁死在主观性——物自体=空洞残渣（§44：没有比知道物自体是什么更容易的了）。≈ 判断环节的未完成版。</li>
+<li><strong>C. 直接知识（§61-78）</strong>：信仰/直接性排斥中介——但直接性其实是中介的产物（数学家/我在柏林=经旅行中介）。≈ 推论的自我否定版。</li>
+</ul>
+<p><strong>与现象学的对应</strong>：形而上学≈ch1-3（意识篇）；批判哲学≈ch3 知性+ch4 苦恼意识（彼岸的知 vs 此岸的行=现象/物自体对立的生存化）；直接知识≈ch6 信仰王国+ch7 宗教（信仰=逃离现实世界的出走）。三态度共同的错误=把思维/存在、直接/中介当固定对立——这正是引擎要消解的。§79-82 是引擎第一次以本名自我规定：<strong>知性（固定规定）→辩证（解构）→思辨（重建）</strong>。</p>
+
+<h2>逻辑三环节（§79-82）：引擎的元描述</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>环节</th><th>原文定义（§）</th><th>引擎对应</th></tr></thead>
+<tbody>
+<tr><td><strong>α 抽象知性</strong></td><td>思维作为知性停留在固定规定性及其与他者的区别（§80）</td><td>概念环节（设定）</td></tr>
+<tr><td><strong>β 辩证（解构）</strong></td><td>有限规定的自身扬弃及其向对立面的过渡（§81）——「辩证=科学前进的推动灵魂」</td><td>判断环节（展开矛盾）＝<strong>引擎定义原文</strong></td></tr>
+<tr><td><strong>γ 思辨（重建）</strong></td><td>在规定的对立中把握其统一，把握溶解与过渡中包含的肯定者（§82）</td><td>推论环节（重建）＝<strong>重建定义原文</strong></td></tr>
+</tbody>
+</table></div>
+<p>三者不是逻辑的三个部分，而是<strong>每个逻辑-现实者（每个概念/每个真者）的环节</strong>（§79 附释）。§83 三编划分：存在（直接性）/本质（反思）/概念（返回自身）。</p>
+
+<h2>关键概念速查（与术语主表 502 条对齐）</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>德文</th><th>规范译法</th><th>说明</th></tr></thead>
+<tbody>
+<tr><td>die absolute Negativität</td><td>绝对否定性</td><td>引擎的正式名称；推动者内在于每个规定</td></tr>
+<tr><td>dialektisch</td><td>解构的力</td><td>不是「辩证法的」的形容词——是拆穿固定的力（§81）</td></tr>
+<tr><td>spekulativ</td><td>思辨的（在思维中推演）</td><td>不是「重建的力」——对立中的统一、肯定者（§82）</td></tr>
+<tr><td>Erfahrung</td><td>经验</td><td>意识在自身/知识/对象上的辩证运动（Einleitung p.78）</td></tr>
+<tr><td>Wissenschaft der Erfahrung</td><td>意识经验的科学</td><td>现象学序言 p.38 给全书的定位</td></tr>
+<tr><td>Übergehen / Reflexion / Entwicklung</td><td>过渡 / 反思 / 发展（概念论读作重建）</td><td>三编做功方式</td></tr>
+<tr><td>Beziehung / Verhältnis</td><td>关联 / 关系</td><td>关联=连线式端到端联系；关系=相互定义的面</td></tr>
+<tr><td>Größe</td><td>大小</td><td>数学量；与 Quantität=量（范畴）区分</td></tr>
+<tr><td>Maßstab</td><td>标准</td><td>评判的标准；与 Maß=尺度 区分</td></tr>
+</tbody>
+</table></div>
+
+<h2>阅读入口</h2>
+<ul>
+<li><strong>精神现象学_注释版.html</strong>：编者 Brief（引擎vs框架/阅读路径/知识面/方法创新）+ 序言 + 导言 + 八章，181/181 引文对拍</li>
+<li><strong>小逻辑_注释版.html</strong>：先行概念→存在论→本质论→概念论，83/83 引文对拍</li>
+<li>术语主表：viewpoints/glossary/黑格尔.json（502 条，validate 全过）</li>
+</ul>
+</div>
+
+    <footer class="doc-foot">
+      <p>引擎总纲：整理自项目全部成果（现象学注释版 181/181、小逻辑注释版 83/83、术语主表 502 条）。正文论断以两部注释版与原文为准；德文引文逐字可对拍。</p>
+    </footer>
+  </main>
+</div>
+<button id="theme-btn" type="button" title="切换明暗主题" aria-label="切换明暗主题">🌓</button>
+<button id="top-btn" type="button" title="回到顶部" aria-label="回到顶部">↑</button>
+<button id="toc-open-btn" type="button" title="打开目录" aria-label="打开目录">☰</button>
+<div id="overlay" aria-hidden="true"></div>
+<script>
+/* 目录生成 + 滚动高亮 + 明暗主题 + 进度条（运行时由页面标题动态构建，无外部依赖） */
+(function () {
+  'use strict';
+  var $ = function (s, c) { return (c || document).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+
+  /* ---------- 目录构建 ---------- */
+  var headings = $$('main h2, main h3, main h4, main h5');
+  var used = {};
+  function slugify(t) {
+    var s = String(t).trim().toLowerCase();
+    s = s.replace(/\s+/g, '-');
+    s = s.replace(/[^\w\u4e00-\u9fff\u3400-\u4dbf-]/g, '');
+    s = s.replace(/-+/g, '-').replace(/^-|-$/g, '');
+    return s || 'sec';
+  }
+  headings.forEach(function (h) {
+    var base = slugify(h.textContent);
+    var id = base, n = 2;
+    while (used[id]) { id = base + '-' + n; n += 1; }
+    used[id] = true;
+    h.id = id;
+  });
+
+  var root = { level: 1, children: [] };
+  var stack = [root];
+  headings.forEach(function (h) {
+    var node = { el: h, level: parseInt(h.tagName.charAt(1), 10), children: [] };
+    while (stack.length && stack[stack.length - 1].level >= node.level) { stack.pop(); }
+    stack[stack.length - 1].children.push(node);
+    stack.push(node);
+  });
+
+  var toc = $('#toc-list');
+  function render(nodes, container) {
+    if (!nodes.length) { return; }
+    var ul = document.createElement('ul');
+    nodes.forEach(function (n) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + n.el.id;
+      a.textContent = n.el.textContent;
+      a.setAttribute('data-target', n.el.id);
+      li.appendChild(a);
+      if (n.children.length) {
+        li.className = 'has-children';
+        render(n.children, li);
+      }
+      ul.appendChild(li);
+    });
+    container.appendChild(ul);
+  }
+  render(root.children, toc);
+
+  $$('#toc-list li.has-children > a').forEach(function (a) {
+    var mark = document.createElement('span');
+    mark.className = 'group-toggle';
+    mark.textContent = '▾';
+    a.insertBefore(mark, a.firstChild);
+    a.addEventListener('click', function (e) {
+      if (e.target === mark) {
+        e.preventDefault();
+        a.parentNode.classList.toggle('collapsed');
+      }
+    });
+  });
+
+  /* ---------- 滚动高亮 ---------- */
+  var links = $$('#toc-list a[data-target]');
+  var map = {};
+  links.forEach(function (a) { map[a.getAttribute('data-target')] = a; });
+  var tocAside = $('aside.toc');
+  function offsetTopWithin(el, container) {
+    var top = 0, node = el;
+    while (node && node !== container) { top += node.offsetTop; node = node.offsetParent; }
+    return top;
+  }
+  function currentHeading() {
+    var y = window.scrollY + 90;
+    var cur = null;
+    for (var k = 0; k < headings.length; k += 1) {
+      var top = headings[k].getBoundingClientRect().top + window.scrollY;
+      if (top <= y) { cur = headings[k]; } else { break; }
+    }
+    return cur;
+  }
+  var ticking = false;
+  function updateSpy() {
+    ticking = false;
+    links.forEach(function (a) { a.classList.remove('active'); });
+    var cur = currentHeading();
+    if (!cur) { return; }
+    var a = map[cur.id];
+    if (!a) { return; }
+    a.classList.add('active');
+    var node = a.parentNode;
+    while (node && node !== toc) {
+      if (node.classList && node.classList.contains('collapsed')) { node.classList.remove('collapsed'); }
+      node = node.parentNode;
+    }
+    var t = offsetTopWithin(a, tocAside);
+    if (t < tocAside.scrollTop || t > tocAside.scrollTop + tocAside.clientHeight - 80) {
+      tocAside.scrollTo({ top: Math.max(0, t - tocAside.clientHeight / 2), behavior: 'smooth' });
+    }
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(updateSpy); }
+  }, { passive: true });
+  window.addEventListener('resize', updateSpy);
+  updateSpy();
+
+  /* ---------- 明暗主题 ---------- */
+  var rootEl = document.documentElement;
+  var themeBtn = $('#theme-btn');
+  function applyTheme(t) { if (t) { rootEl.setAttribute('data-theme', t); } }
+  var saved = null;
+  try { saved = localStorage.getItem('hegel-theme'); } catch (e) { saved = null; }
+  if (saved) {
+    applyTheme(saved);
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    applyTheme('dark');
+  }
+  themeBtn.addEventListener('click', function () {
+    var next = rootEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    try { localStorage.setItem('hegel-theme', next); } catch (e) { /* ignore */ }
+  });
+
+  /* ---------- 阅读进度条 / 回到顶部 ---------- */
+  var bar = $('#progress');
+  var topBtn = $('#top-btn');
+  function onScroll() {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+    if (h.scrollTop > 600) { topBtn.classList.add('show'); } else { topBtn.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  topBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+  /* ---------- 移动端目录抽屉 ---------- */
+  var openBtn = $('#toc-open-btn');
+  var overlay = $('#overlay');
+  function openToc() { tocAside.classList.add('open'); overlay.classList.add('show'); }
+  function closeToc() { tocAside.classList.remove('open'); overlay.classList.remove('show'); }
+  openBtn.addEventListener('click', openToc);
+  overlay.addEventListener('click', closeToc);
+  $$('#toc-list a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      if (window.innerWidth <= 920) { closeToc(); }
+    });
+  });
+})();
+
+</script>
+</body>
+</html>

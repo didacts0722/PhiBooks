@@ -1,0 +1,45 @@
+{
+ "philosopher": "谢林",
+ "updated": "2026-08-27",
+ "note": "谢林知识库：按哲学家独立登记（与 base/lit 分开——谢林是独立哲学家，观点不混入黑格尔库）。编号 S#。原文已就绪：System_des_transzendenten_Idealismus 等 11 部（原文/谢林/）。注意：谢林哲学跨度极大（早期同一哲学→中期自由论→后期神话/启示哲学），任何观点必须标注所属阶段，不得以早期代表全部。",
+ "items": [
+  {
+   "id": "S1",
+   "text": "谢林《先验唯心论体系》（1800，25 岁）是引擎的原型模板：谢林自己使用 Thesis→Antithesis→Synthesis 的三一式（=引擎的设定→展开→重建）——«der Progressus von einer absoluten Antithesis zur absoluten Synthesis»、«das objektive Ich (die Thesis)»；Ich=Ich 被规定为「综合命题」而非同一命题（«keineswegs ein identischer, sondern ein synthetischer»）；理智直观（intellektuelle Anschauung）=「一切先验思维的组织（Organ）」——引擎的点火方式；绝对者=超越对立的绝对综合。但谢林停在直观：理智直观/艺术直观=引擎的「直接点火」，黑格尔把它改造为概念的运动（概念的劳动）——同一台引擎，谢林用直观启动，黑格尔用概念重演。",
+   "stage": "早期·同一哲学（1797-1804）",
+   "work": "System des transzendenten Idealismus",
+   "source": "2026-08-27（引擎跨哲学家讨论；原文已核验）",
+   "note": "对应基础观点 V20；黑格尔对早期同一哲学的批判见 Vorrede p.21 附（一切牛皆黑）",
+   "refs": [
+    "V20",
+    "V1",
+    "V17"
+   ]
+  },
+  {
+   "id": "S2",
+   "text": "《先验唯心论体系》不能代表谢林全部观点：写作时谢林仅 25 岁（1800），属早期同一哲学阶段。谢林哲学至少五阶段：①费希特追随（1794-1797《论作为哲学原理的自我》）②同一哲学/先验唯心论（1797-1804《自然哲学观念》《先验唯心论体系》《布鲁诺》）③自由与黑暗（1804-1815《自由论》1809——从同一哲学转向：绝对者不是无差别同一，而是有根据（Grund）与实存（Existenz）的区分，上帝自身有黑暗基础）④神话与启示哲学（1815-1854《神话哲学》《启示哲学》，1841 柏林讲席批评黑格尔）。谢林后期批评黑格尔用的正是后期哲学资源，不是早期同一哲学。",
+   "stage": "全阶段总览",
+   "work": "（谢林哲学分期）",
+   "source": "2026-08-27（用户校正：谢林写先验唯心论体系时非常年轻）",
+   "note": "S1 的边界条款：仅代表早期谢林；做谢林项目时须按阶段展开",
+   "refs": [
+    "S1"
+   ]
+  },
+  {
+   "id": "S3",
+   "stage": "早期·同一哲学",
+   "work": "System des transzendenten Idealismus §1",
+   "text": "谢林是在巴门尼德思有同一方向的指引下，提出先验哲学+自然哲学的同构/对向双轨思路来构建体系：哲学的两种可能方向——①自然哲学：从客观者（自然）出发，让主观者（理智/意识）从中产生；②先验哲学：从主观者（理智，作为第一者与绝对者）出发，让客观者（自然）从中产生（§1：«In die beiden möglichen Richtungen der Philosophie haben sich also Natur- und Transzendental-Philosophie geteilt, und wenn alle Philosophie darauf ausgehen muß, entweder aus der Natur eine Intelligenz, oder aus der Intelligenz eine Natur zu machen»）。两条路同构（同一结构/同一绝对者）、对向发展（一从上往下、一从下往上），在绝对者/艺术直观中汇合。这正是巴门尼德思有同一的两条证明的谢林形态（对照 V17：现象学自下而上/逻辑学自上而下；谢林：自然哲学+先验哲学对向）。",
+   "source": "（待补来源）",
+   "note": "补充 S1：不止三一式，还有双轨同构框架",
+   "refs": [
+    "S1",
+    "V17",
+    "V20"
+   ]
+  }
+ ],
+ "discipline": "分期纪律：谢林哲学跨度极大（早期同一哲学→中期自由论→后期神话/启示哲学），任何观点必须标注所属阶段，不得以早期代表全部（S2）"
+}

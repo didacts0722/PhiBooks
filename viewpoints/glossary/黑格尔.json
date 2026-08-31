@@ -1,0 +1,4069 @@
+{
+ "philosopher": "黑格尔",
+ "updated": "2026-08-27",
+ "works": [
+  "精神现象学",
+  "小逻辑"
+ ],
+ "note": "哲学家术语主表（已固定版）：综合两个笔记（精神现象学 ch1-8 + 小逻辑 四编）行内德文注释与结构性核心词，2026-08-27 定稿后**不再由 build_glossary.py 自动重建**——改术语直接编辑本文件。德文词→中文规范译法（canonical=规范；works=出现作品）；同一德文词跨作品译法不一致由 validate_glossary.py 报冲突；alt=对某些语境更贴切的补充译法。",
+ "terms": [
+  {
+   "term": "Aberglaube",
+   "zh": "迷信",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Abfallen",
+   "zh": "背离",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Abstraktion",
+   "zh": "抽象",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Affirmation",
+   "zh": "肯定",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Aggregat",
+   "zh": "聚集体",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Akosmismus",
+   "zh": "无宇宙论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Allgemeine",
+   "zh": "普遍者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Allgemeinheit",
+   "zh": "普遍性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Allheit",
+   "zh": "全体性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Analogie",
+   "zh": "类比",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Andersheit",
+   "zh": "他在性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Anderssein",
+   "zh": "他在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Anerkennung",
+   "zh": "承认",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Anfang",
+   "zh": "开端",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Anschauung",
+   "zh": "直观",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Anselm",
+   "zh": "安瑟伦",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Ansichsein",
+   "zh": "自在存在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Anthropomorphismus",
+   "zh": "拟人论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Anthropopathismus",
+   "zh": "拟情论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Antigone",
+   "zh": "安提戈涅",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Antinomie",
+   "zh": "二律背反",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Anundfürsichsein",
+   "zh": "自在自为存在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Anzahl",
+   "zh": "数目",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Apperzeption",
+   "zh": "统觉",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Arbeit",
+   "zh": "劳动",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Aristoteles",
+   "zh": "亚里士多德",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Art",
+   "zh": "种",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Atheismus",
+   "zh": "无神论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Attraktion",
+   "zh": "吸引",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Aufheben",
+   "zh": "扬弃",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Aufklärung",
+   "zh": "启蒙",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Aufzeigen",
+   "zh": "指认",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ausschließen",
+   "zh": "排除",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Bacchus",
+   "zh": "巴克科斯（酒神）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Bedeutung",
+   "zh": "意义",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Bedingung",
+   "zh": "条件",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Bedürfnis",
+   "zh": "需要",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Befriedigung",
+   "zh": "满足",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Begierde",
+   "zh": "欲望",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Begreifen",
+   "zh": "把握（概念地理解）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Begrenzung",
+   "zh": "界限（过程）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Begriff",
+   "zh": "概念",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Beschaffenheit",
+   "zh": "性状",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Besondere",
+   "zh": "特殊者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Besonderheit",
+   "zh": "特殊性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Bestimmtheit",
+   "zh": "规定性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Bestimmung",
+   "zh": "规定",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Bewegung",
+   "zh": "运动",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Beweis",
+   "zh": "证明",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Beweisen",
+   "zh": "证明",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Bewußtsein",
+   "zh": "意识",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Beziehung",
+   "zh": "关联",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Bildung",
+   "zh": "教化",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Bürgerliche Gesellschaft",
+   "zh": "市民社会",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Cartesius",
+   "zh": "笛卡尔",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Ceres",
+   "zh": "刻瑞斯（谷神）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Charakter",
+   "zh": "性格",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Chemismus",
+   "zh": "化学性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Chor",
+   "zh": "歌队",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Christentum",
+   "zh": "基督教",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Cicero",
+   "zh": "西塞罗",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Dafürhalten",
+   "zh": "认定",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Dasein",
+   "zh": "定在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Definition",
+   "zh": "定义",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Denkbestimmung",
+   "zh": "思维规定",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Denken",
+   "zh": "思维",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Dialektik",
+   "zh": "解构",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ding",
+   "zh": "物",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ding-an-sich",
+   "zh": "物自体",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Dingheit",
+   "zh": "物性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Diskretion",
+   "zh": "离散性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Dogmatismus",
+   "zh": "教条主义",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Doktrin",
+   "zh": "学说",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Einbildung",
+   "zh": "臆想",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Einbildungskraft",
+   "zh": "想象力（构象力）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Eines",
+   "zh": "一（者）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Eingebung",
+   "zh": "灵感",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Einheit",
+   "zh": "统一性（算术语境=单位）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Einleitung",
+   "zh": "导论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Eins",
+   "zh": "一",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Einsicht",
+   "zh": "识见",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Einteilung",
+   "zh": "划分",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Einzelheit",
+   "zh": "个别性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Einzelne",
+   "zh": "个别者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Eleaten",
+   "zh": "爱利亚学派",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Element",
+   "zh": "元素",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Empfindung",
+   "zh": "感觉",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Empirie",
+   "zh": "经验事实",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Empirismus",
+   "zh": "经验主义",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Ende",
+   "zh": "终点",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Endlichkeit",
+   "zh": "有限性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Endursache",
+   "zh": "目的因",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Endzweck",
+   "zh": "终极目的",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Entgegensetzung",
+   "zh": "对立设定",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Entstehen",
+   "zh": "生成",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Entwicklung",
+   "zh": "发展",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Entzweiung",
+   "zh": "分裂",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Entäußerung",
+   "zh": "自我外化",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Enzyklopädie",
+   "zh": "百科全书",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Er-Innerung",
+   "zh": "回忆",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Erfahrung",
+   "zh": "经验",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Erhebung",
+   "zh": "提升",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Erinnerung",
+   "zh": "回忆",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Erinnyen",
+   "zh": "复仇女神",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Erkennen",
+   "zh": "认识",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Erkenntnis",
+   "zh": "认识",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Erklären",
+   "zh": "解释",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Erscheinung",
+   "zh": "现象",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Erziehung",
+   "zh": "教育",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Etwas",
+   "zh": "某物",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Etymologie",
+   "zh": "词源",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Ewigkeit",
+   "zh": "永恒",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Existenz",
+   "zh": "实存",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Exponent",
+   "zh": "指数",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Faktum",
+   "zh": "事实",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Faust",
+   "zh": "浮士德",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Fichte",
+   "zh": "费希特",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Figur",
+   "zh": "格",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Form",
+   "zh": "形式",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Fortgang",
+   "zh": "进展",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Freiheit",
+   "zh": "自由",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Furcht",
+   "zh": "恐惧",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Furie des Verschwindens",
+   "zh": "消失的狂怒",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Fürsichsein",
+   "zh": "自为存在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ],
+   "alt": "为自存在（Für-sich-sein：为着自己而存在；自为存在有时更宜释作「为自存在」——强调「为（für）自己」的指向性，而不是「自己作为」的自足性）"
+  },
+  {
+   "term": "Gattung",
+   "zh": "属",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gedanke",
+   "zh": "思想",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gedächtnis",
+   "zh": "记忆",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gefühl",
+   "zh": "情感",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gegensatz",
+   "zh": "对立",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Geist",
+   "zh": "精神",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gelächter",
+   "zh": "笑",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gemeinde",
+   "zh": "团契",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gemeinschaftlichkeit",
+   "zh": "共同体性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Genie",
+   "zh": "天才",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Geschichte",
+   "zh": "历史",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Geschichte der Philosophie",
+   "zh": "哲学史",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Geschlechtsdifferenz",
+   "zh": "性别差异",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Geschmacksurteil",
+   "zh": "趣味判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gesetz",
+   "zh": "规律",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gesetz des Herzens",
+   "zh": "本心的规律",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gesinnung",
+   "zh": "信念（心志）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gestalt",
+   "zh": "形态",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gewalt",
+   "zh": "强力",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gewesensein",
+   "zh": "曾在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gewissen",
+   "zh": "良心",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gewißheit",
+   "zh": "确定性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gewordensein",
+   "zh": "已成（者）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Glaube",
+   "zh": "信仰",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gleichheit",
+   "zh": "等同",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Glückseligkeit",
+   "zh": "幸福",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gnade",
+   "zh": "恩典",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Gott",
+   "zh": "上帝（神）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Grad",
+   "zh": "程度",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Grenze",
+   "zh": "界限",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Grund",
+   "zh": "根据",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Größe",
+   "zh": "大小",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Größenbestimmung",
+   "zh": "量的规定",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Gute",
+   "zh": "善",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Götzendienst",
+   "zh": "偶像崇拜",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Handlung",
+   "zh": "行动",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Heraklit",
+   "zh": "赫拉克利特",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Herodot",
+   "zh": "希罗多德",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Herr",
+   "zh": "主人",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Hervorbringen",
+   "zh": "产生",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Hier",
+   "zh": "这里",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Homer",
+   "zh": "荷马",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Hugo Grotius",
+   "zh": "胡果·格劳秀斯",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Hume",
+   "zh": "休谟",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Hymnus",
+   "zh": "赞歌",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ich",
+   "zh": "我",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ideale",
+   "zh": "理想",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Idealismus",
+   "zh": "唯心主义",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Idee",
+   "zh": "理念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Ideelle",
+   "zh": "观念者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Identität",
+   "zh": "同一性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Individualität",
+   "zh": "个体性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Induktion",
+   "zh": "归纳",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Inhalt",
+   "zh": "内容",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Insichgehen",
+   "zh": "沉入自身",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Instinkt",
+   "zh": "本能",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Jacobi",
+   "zh": "雅可比",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Jenseits",
+   "zh": "彼岸",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Jetzt",
+   "zh": "现在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Judentum",
+   "zh": "犹太民族",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Kanon",
+   "zh": "准则",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kant",
+   "zh": "康德",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kategorie",
+   "zh": "范畴",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Kausalität",
+   "zh": "因果性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Klang",
+   "zh": "声响",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Knecht",
+   "zh": "奴仆",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Konkrete",
+   "zh": "具体者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kontinuität",
+   "zh": "连续性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kopula",
+   "zh": "系词",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kosmologie",
+   "zh": "宇宙论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kraft",
+   "zh": "力",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Kreis",
+   "zh": "圆圈",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kritik",
+   "zh": "批判",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kritische Philosophie",
+   "zh": "批判哲学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kultus",
+   "zh": "崇拜",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Kunst",
+   "zh": "艺术",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Kunstreligion",
+   "zh": "艺术宗教",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Kunstschöne",
+   "zh": "艺术美",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Kunstwerk",
+   "zh": "艺术作品",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Leben",
+   "zh": "生命",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Leib",
+   "zh": "身体",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Leibniz",
+   "zh": "莱布尼茨",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Lethe",
+   "zh": "忘川",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "List der Vernunft",
+   "zh": "理性的狡计",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Logik",
+   "zh": "逻辑学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Luther",
+   "zh": "路德",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Materialismus",
+   "zh": "唯物主义",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Materie",
+   "zh": "质料",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Maß",
+   "zh": "尺度",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Maßlose",
+   "zh": "无尺度（者）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Maßlosigkeit",
+   "zh": "无尺度性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Maßstab",
+   "zh": "标准",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Mechanismus",
+   "zh": "机械性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Meinen",
+   "zh": "意谓",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Meinung",
+   "zh": "意见",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Merkmal",
+   "zh": "标志",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Metaphysik",
+   "zh": "形而上学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Methode",
+   "zh": "方法",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Misologie",
+   "zh": "厌智",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Mitleid",
+   "zh": "怜悯",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Mittel",
+   "zh": "手段",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Moment",
+   "zh": "环节",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Monade",
+   "zh": "单子",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Moralität",
+   "zh": "道德",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Mysterien von Eleusis",
+   "zh": "厄琉息斯秘仪",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Möglichkeit",
+   "zh": "可能性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Nachdenken",
+   "zh": "反思思考",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Natur",
+   "zh": "自然",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Naturalismus",
+   "zh": "自然主义",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Naturphilosophie",
+   "zh": "自然哲学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Naturreligion",
+   "zh": "自然宗教",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Negation",
+   "zh": "否定",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Negativität",
+   "zh": "否定性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Neigung",
+   "zh": "偏好",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Newton",
+   "zh": "牛顿",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Nichtigkeit",
+   "zh": "虚无性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Nichts",
+   "zh": "虚无",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Notwendigkeit",
+   "zh": "必然性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Obersatz",
+   "zh": "大前提",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Objekt",
+   "zh": "客体",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Objektivität",
+   "zh": "客观性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Offenbarung",
+   "zh": "启示",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Ontologie",
+   "zh": "本体论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Orakel",
+   "zh": "神谕",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Organon",
+   "zh": "工具",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Pantheismus",
+   "zh": "泛神论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Paralogismus",
+   "zh": "谬误推理",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Partikularität",
+   "zh": "特殊性（部分性）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Pathos",
+   "zh": "情致",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Person",
+   "zh": "人格",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Pflicht",
+   "zh": "义务",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Phantasie",
+   "zh": "想象力",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Philosophie",
+   "zh": "哲学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Philosophie des Geistes",
+   "zh": "精神哲学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Phänomenologie des Geistes",
+   "zh": "精神现象学",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Platon",
+   "zh": "柏拉图",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Pneumatologie",
+   "zh": "心灵论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Postulat",
+   "zh": "公设",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Prinzip",
+   "zh": "原则",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Progreß",
+   "zh": "进展",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Prozeß",
+   "zh": "过程（§215：理念本质上是过程——否定的统一，非静止的同一）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Prädikat",
+   "zh": "谓词",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Prämisse",
+   "zh": "前提",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Qualität",
+   "zh": "质",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Quantität",
+   "zh": "量",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Quantum",
+   "zh": "定量",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Raum",
+   "zh": "空间",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Realität",
+   "zh": "实在性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Rechnung",
+   "zh": "运算",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Recht",
+   "zh": "法权",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Reelle",
+   "zh": "实在者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Reflexion",
+   "zh": "反思",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Reflexionsschluß",
+   "zh": "反思推论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Reformation",
+   "zh": "宗教改革",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Regel",
+   "zh": "规则",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Regierung",
+   "zh": "政府",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Reich",
+   "zh": "王国",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Reinhold",
+   "zh": "莱因霍尔德",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Religion",
+   "zh": "宗教",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Repulsion",
+   "zh": "排斥",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Resultat",
+   "zh": "结果",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Richtigkeit",
+   "zh": "正确性（§172：质的判断可有正确性但无真理性——真理只在形式中）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Räsonnement",
+   "zh": "推理（论辩）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sache",
+   "zh": "事情",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Sache selbst",
+   "zh": "事情本身",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Sakrament",
+   "zh": "圣事",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Satz",
+   "zh": "命题",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Schein",
+   "zh": "假象",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Scheinen",
+   "zh": "映现",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Schicksal",
+   "zh": "命运",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Schiller",
+   "zh": "席勒",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Schließen",
+   "zh": "推论（活动）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Schluß",
+   "zh": "推论",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Schluß der Notwendigkeit",
+   "zh": "必然推论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Schlußsatz",
+   "zh": "结论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Schranke",
+   "zh": "限制",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Schuld",
+   "zh": "罪责",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Schöpfung",
+   "zh": "创造",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Seele",
+   "zh": "灵魂",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sein",
+   "zh": "存在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Sein-Sollen",
+   "zh": "应然（应当存在）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sein-für-Anderes",
+   "zh": "为他存在",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Selbst",
+   "zh": "自我",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Selbstbewußtsein",
+   "zh": "自我意识",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Selbständigkeit",
+   "zh": "独立性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Setzen",
+   "zh": "设定",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Singularität",
+   "zh": "单一性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sinnlichkeit",
+   "zh": "感性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sittlichkeit",
+   "zh": "伦理",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Skeptizismus",
+   "zh": "怀疑主义",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Sohn",
+   "zh": "圣子",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Sokrates",
+   "zh": "苏格拉底",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Sollen",
+   "zh": "应然",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sollizitieren",
+   "zh": "相互激励",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Spekulation",
+   "zh": "思辨",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Sphinx",
+   "zh": "斯芬克斯",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Spinoza",
+   "zh": "斯宾诺莎",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sprache",
+   "zh": "语言",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Staat",
+   "zh": "国家",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Stoizismus",
+   "zh": "斯多亚主义",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Subjekt",
+   "zh": "主体",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Subjekt-Objekt",
+   "zh": "主体-客体",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Subjektivität",
+   "zh": "主观性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Substanz",
+   "zh": "实体",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "System",
+   "zh": "体系",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Sänger",
+   "zh": "歌者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Tatsache",
+   "zh": "事实",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Taufe",
+   "zh": "洗礼",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Teleologie",
+   "zh": "目的论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Theorem",
+   "zh": "定理",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Tod",
+   "zh": "死亡",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Totalität",
+   "zh": "总体",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Transzendental",
+   "zh": "先验的",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Trieb",
+   "zh": "冲动",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Tugend",
+   "zh": "德行",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Tätigkeit",
+   "zh": "活动",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Unbedingt-Allgemeine",
+   "zh": "无条件共相",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Unendlichkeit",
+   "zh": "无限性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Unmittelbarkeit",
+   "zh": "直接性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Unruhe",
+   "zh": "不安",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Unsterblichkeit",
+   "zh": "不朽",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Untersatz",
+   "zh": "小前提",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Unterschied",
+   "zh": "差别",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ursache",
+   "zh": "原因",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Urteil",
+   "zh": "判断",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Urteilskraft",
+   "zh": "判断力",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Vergehen",
+   "zh": "消逝",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Verhältnis",
+   "zh": "关系",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Vermittlung",
+   "zh": "中介",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Vermögen",
+   "zh": "能力",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Vernunft",
+   "zh": "理性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Vernunftidee",
+   "zh": "理性理念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Vernunftschluß",
+   "zh": "理性推论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Vernünftige",
+   "zh": "理性者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Verschiedenheit",
+   "zh": "差异",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Versicherung",
+   "zh": "断言",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Verstand",
+   "zh": "知性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Verstandesbegriff",
+   "zh": "知性概念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Verstandesidentität",
+   "zh": "知性同一性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Verstandeslogik",
+   "zh": "知性逻辑",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Verstandesschluß",
+   "zh": "知性推论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Verstehen",
+   "zh": "理解",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Versöhnung",
+   "zh": "和解",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Verzeihung",
+   "zh": "宽恕",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Vieles",
+   "zh": "众多",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Vielheit",
+   "zh": "众多性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Volk",
+   "zh": "民族",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Voraussetzen",
+   "zh": "预设",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Voraussetzung",
+   "zh": "预设",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Vorbegriff",
+   "zh": "先行概念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Vorstellung",
+   "zh": "表象",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Vorurteil",
+   "zh": "偏见",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Wahrheit",
+   "zh": "真理",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Wahrnehmung",
+   "zh": "知觉",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Welt",
+   "zh": "世界",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Weltgeist",
+   "zh": "世界精神",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Weltlauf",
+   "zh": "世界进程",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Werden",
+   "zh": "变易",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Werkmeister",
+   "zh": "工匠",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Wesen",
+   "zh": "本质",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Widerspruch",
+   "zh": "矛盾",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Wille",
+   "zh": "意志",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Willkür",
+   "zh": "任性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Wirklichkeit",
+   "zh": "现实性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Wissen",
+   "zh": "知识",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Wissenschaft",
+   "zh": "科学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Wissenschaft der Logik",
+   "zh": "逻辑学（大逻辑）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Wolff",
+   "zh": "沃尔夫",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Wollen",
+   "zh": "意志",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Wort",
+   "zh": "言词",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Zahl",
+   "zh": "数",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Zeit",
+   "zh": "时间",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Zentralität",
+   "zh": "中心性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Zufälligkeit",
+   "zh": "偶然性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Zweck",
+   "zh": "目的",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Zweckbegriff",
+   "zh": "目的概念",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Zweckmäßigkeit",
+   "zh": "合目的性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Zweifel",
+   "zh": "怀疑",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "a posteriori",
+   "zh": "后天的",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "a priori",
+   "zh": "先天的",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "absolute Idee",
+   "zh": "绝对理念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "absolute Negativität",
+   "zh": "绝对否定性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "absolute dialektische Unruhe",
+   "zh": "绝对的辩证不安",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "absolutes Wissen",
+   "zh": "绝对知识",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "abstraktes Denken",
+   "zh": "抽象思维",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "an sich",
+   "zh": "自在",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "analytische Methode",
+   "zh": "分析方法",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "angeborene Ideen",
+   "zh": "天赋观念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "angeschaut",
+   "zh": "被直观",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "apodiktisches Urteil",
+   "zh": "必然判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "assertorisches Urteil",
+   "zh": "实然判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "aufgehen",
+   "zh": "升起",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "außer sich",
+   "zh": "在自身之外",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "bewußtlose Faselei",
+   "zh": "无意识的胡言乱语",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "bildet",
+   "zh": "塑造（陶铸）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "caput mortuum",
+   "zh": "残渣（死脑壳）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "causa sui",
+   "zh": "自因",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "cogito ergo sum",
+   "zh": "我思故我在",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "common sense",
+   "zh": "常识",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "consensus gentium",
+   "zh": "万民共识",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "das Absolute",
+   "zh": "绝对者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Abstrakte",
+   "zh": "抽象者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "das Allgemeine",
+   "zh": "普遍者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Andere",
+   "zh": "他者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Aufgehobene",
+   "zh": "被扬弃者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Einzelne",
+   "zh": "个别者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Endliche",
+   "zh": "有限者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Gleichnamige",
+   "zh": "同名者（同名的东西；力的本来面貌：力的交织显出「自身等同却自身排斥」的结构——同名者自身等同→自身不等同，一致者不一致，不一致者重归一致）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Gute",
+   "zh": "善",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "das Konkrete",
+   "zh": "具体者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "das Lebendige",
+   "zh": "有生命者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Schöne",
+   "zh": "美（美者）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Seiende",
+   "zh": "存在者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Selbst ein Ding ist",
+   "zh": "自我=物",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Sittliche",
+   "zh": "伦理者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Spekulative",
+   "zh": "思辨者（思辨的东西）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Unendliche",
+   "zh": "无限者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Unwesentliche",
+   "zh": "非本质者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Vernünftige",
+   "zh": "理性者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "das Wahre",
+   "zh": "真者",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "das Wesentliche",
+   "zh": "本质者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Wirkliche",
+   "zh": "现实者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Wort der Versöhnung",
+   "zh": "和解之词",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "das Übersinnliche",
+   "zh": "超感官者",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "denkende Betrachtung",
+   "zh": "思维的考察",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "dialektisch",
+   "zh": "解构的力",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "disjunktives Urteil",
+   "zh": "选言判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "fremder Anstoß",
+   "zh": "外在的推动",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "gesunder Menschenverstand",
+   "zh": "健全知性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "gewöhnliche Logik",
+   "zh": "普通逻辑",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "göttliches Gesetz",
+   "zh": "神的规律",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "hypothetisches Urteil",
+   "zh": "假言判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "innere Zweckmäßigkeit",
+   "zh": "内在合目的性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "intellektuelle Anschauung",
+   "zh": "理智直观",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "intuitiver Verstand",
+   "zh": "直观知性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "kategorisches Urteil",
+   "zh": "直言判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "konkret",
+   "zh": "具体的",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "kosmologischer Beweis",
+   "zh": "宇宙论证明",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "leere Worte",
+   "zh": "空话",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "leerer Idealismus",
+   "zh": "空洞的唯心主义",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "menschliches Gesetz",
+   "zh": "人的规律",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "moralisches Gesetz",
+   "zh": "道德律",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "musikalisches Denken",
+   "zh": "音乐式的思想",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "objektiver Gedanke",
+   "zh": "客观思想",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "offenbare Religion",
+   "zh": "天启宗教",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "ontologischer Beweis",
+   "zh": "本体论证明",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "physikotheologischer Beweis",
+   "zh": "物理神学证明",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "praktische Vernunft",
+   "zh": "实践理性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "problematisches Urteil",
+   "zh": "或然判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "qualitativer Schluß",
+   "zh": "质的推论",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "rationelle Psychologie",
+   "zh": "理性心理学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "rationelle Theologie",
+   "zh": "理性神学",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "reflektierende Urteilskraft",
+   "zh": "反思判断力",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "reflektierendes Denken",
+   "zh": "反思性思维",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "reine Idee",
+   "zh": "纯粹理念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "reine Vernunft",
+   "zh": "纯粹理性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "reines Sein",
+   "zh": "纯存在（小逻辑开篇：纯思维=无规定的简单直接性，开端不能是被中介的）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "schlechte Unendlichkeit",
+   "zh": "坏的无限性",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "schöne Seele",
+   "zh": "优美灵魂",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "sensum eminentiorem",
+   "zh": "拔高义（最高意义）",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "spekulativ",
+   "zh": "思辨的（思维中推演）",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "spekulative Idee",
+   "zh": "思辨理念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "spekulative Logik",
+   "zh": "思辨逻辑",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "spekulatives Denken",
+   "zh": "思辨思维",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "synthetische Methode",
+   "zh": "综合方法",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "synthetisches Urteil a priori",
+   "zh": "先天综合判断",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "terminus maior",
+   "zh": "大项",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "terminus medius",
+   "zh": "中项",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "terminus minor",
+   "zh": "小项",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "theoretische Vernunft",
+   "zh": "理论理性",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "tonlose Gestalt",
+   "zh": "无音调的形态",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "unendlicher Progreß",
+   "zh": "无限进展",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "unglückliche Bewußtsein",
+   "zh": "苦恼意识",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "unmittelbares Wissen",
+   "zh": "直接知识",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "unorganische Natur",
+   "zh": "无机自然",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "wirkende Ursache",
+   "zh": "动力因",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Äußerung",
+   "zh": "外化（力与其外化 Kraft und ihre Äußerung；对照 Entäußerung 自我外化）",
+   "canonical": true,
+   "works": [
+    "小逻辑",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ödipus",
+   "zh": "俄狄浦斯",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Übergang",
+   "zh": "过渡",
+   "canonical": true,
+   "works": [
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Übergehen",
+   "zh": "过渡",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Übermaß",
+   "zh": "过度",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Überzeugung",
+   "zh": "信念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "ästhetische Idee",
+   "zh": "审美理念",
+   "canonical": true,
+   "works": [
+    "小逻辑"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "title": "第一编 存在论（Die Lehre vom Sein）",
+ "pages": "§84–111",
+ "mode": "过渡模式全面展开（存在论式）：一切规定直接存在、直接过渡——设定一个直接规定→它过渡到他者（Übergehen in Anderes）",
+ "gestalten": [
+  {
+   "name": "存在",
+   "position": "逻辑学的第一编——从最空洞的「纯存在」出发，经过质/量/尺度，终点是存在沉入自身（本质）",
+   "bestimmung": "存在论=引擎在**直接性介质**中的第一次全面运转：概念还只是**自在的**（an sich），一切规定直接存在、直接过渡到他者。§84：存在=只自在存在的概念（der Begriff nur an sich）——规定是「存在的」、彼此「他者」，辩证形式是**过渡（Übergehen in Anderes）**；这个过渡同时是存在的**沉入自身（Insichgehen）**。§85：逻辑规定可视为「上帝的形而上学定义」——第一规定（直接性）与第三规定（从差别返回自身）是绝对者的定义，第二规定（差别中的规定）是有限者的定义。**做功方式：过渡**——存在论的每一步都是「设定一个直接规定→它展开出自身否定→否定被设定为新的直接规定」。全程：纯存在→无→变易→定在→质（实在/否定/界限/有限/无限）→自为存在（一/多/排斥/吸引）→量（纯量/定量/数/程度/比例）→尺度→无尺度→**本质**。",
+   "bewegung": [
+    [
+     "存在：自在的概念与过渡模式",
+     "181",
+     "Das Sein ist der Begriff nur an sich, die Bestimmungen desselben sind seiende, in ihrem Unterschiede Andere gegeneinander, und ihre weitere Bestimmung (die Form des Dialektischen) ist ein Übergehen in Anderes",
+     "存在论开篇：存在（Sein）=概念只**自在**地（an sich）存在——规定还是「存在的」、彼此「他者」，其辩证形式是**过渡（Übergehen in Anderes）**。注意这是引擎模式的宣告：存在论里规定不反思自身，而是**直接滑向他者**。同时这个过渡=存在的**沉入自身**（Insichgehen）——直接性在展开中被逐步深化。**设定命题：存在=最空洞的直接性，一切规定靠过渡推进。**"
+    ],
+    [
+     "纯存在：开端的空洞",
+     "182",
+     "Das reine Sein macht den Anfang, weil es sowohl reiner Gedanke als das unbestimmte, einfache Unmittelbare ist, der erste Anfang aber nichts Vermitteltes und weiter Bestimmtes sein kann",
+     "开端=**纯存在（reines Sein）**：既是纯思维，又是无规定的简单直接性——开端不能是被中介的、进一步规定的。§86 附释：无论从「我=我」「绝对同一」还是「理智直观」开始，这些形式已含中介，不真是最初；它们若作为纯直接性，就只是**存在**。Eleaten 的「绝对=存在」是第一个、最抽象最贫乏的形而上学定义。"
+    ],
+    [
+     "无：纯抽象的翻转",
+     "186",
+     "Dieses reine Sein ist nun die reine Abstraktion, damit das Absolut-Negative, welches, gleichfalls unmittelbar genommen, das Nichts ist",
+     "纯存在=纯粹抽象=**绝对否定**，直接取之即**无（Nichts）**。§87 附释：第二个定义「绝对=无」——物自体作为无形式无内容的空洞、佛教的「空」皆此抽象；若为存在寻找固定规定（物质、单一实存），就不再有**纯**存在——存在与无的差别只是**意谓（Meinung）**。**展开：设定「存在」直接翻转为「无」——第一个矛盾出现，但两者同样空洞，谁也没赢。**"
+    ],
+    [
+     "变易：存在与无的统一",
+     "187",
+     "Das Nichts ist als dieses unmittelbare, sich selbst gleiche, ebenso umgekehrt dasselbe, was das Sein ist. Die Wahrheit des Seins sowie des Nichts ist daher die Einheit beider; diese Einheit ist das Werden",
+     "无=直接自身等同者，同样就是存在；两者的**真理是二者的统一——变易（Werden）**。§88 附释 4：说「存在与无是同一的」若只突出统一而不同时说差别，是片面的；**变易=统一中同时保持着差别的不安（Unruhe）**——它不是静止的自身关系，而是通过内在差别对自身运动。**重建：存在与无的矛盾收进变易。**"
+    ],
+    [
+     "定在：变易坍塌的结果",
+     "193",
+     "Das Sein im Werden als eins mit dem Nichts, so das Nichts [als] eins mit dem Sein sind nur Verschwindende; das Werden fällt durch seinen Widerspruch in sich in die Einheit, in der beide aufgehoben sind, zusammen; sein Resultat ist somit das Dasein",
+     "变易中的存在与无只是**消逝者**；变易因自身矛盾坍塌进统一——两者被扬弃——其**结果是定在（Dasein）**。§89 附释：矛盾的真理不是「对象=无」（芝诺式的负面结论），而是**确定的结果**：无中含着存在、存在中含着无——定在=存在与无的统一，其中直接性消失、两者只是**环节**。**重建命题：定在=带规定性的存在。**"
+    ],
+    [
+     "质：实在与否定",
+     "193",
+     "Das Dasein ist Sein mit einer Bestimmtheit, die als unmittelbare oder seiende Bestimmtheit ist, die Qualität. Das Dasein als in dieser seiner Bestimmtheit in sich reflektiert ist Daseiendes, Etwas",
+     "定在=带规定性的存在，其规定是**存在的**规定性——**质（Qualität）**；在自身中反思的定在=**某物（Etwas）**。§91：质相对于其中所含的否定=**实在（Realität）**；否定不再是无，而是**他在/他物（Anderssein）**；质作为对他物的关系=**为他存在（Sein-für-Anderes）**，作为单纯自身=**自在存在（Ansichsein）**。"
+    ],
+    [
+     "界限与有限",
+     "197",
+     "Im Dasein ist die Bestimmtheit eins mit dem Sein, welche zugleich als Negation gesetzt, Grenze, Schranke ist. Daher ist das Anderssein nicht ein Gleichgültiges außer ihm, sondern sein eigenes Moment. Etwas ist durch seine Qualität erstlich endlich und zweitens veränderlich",
+     "定在中规定性=否定被设定为**界限/限制（Grenze, Schranke）**——他物不是外在的漠不相关者，而是某物**自身的环节**；某物因质而**有限**且**可变**。§93：某物→他物→他物的他物→**无限进展**。**展开：有限者的矛盾——它既是某物又是其否定，两者交替无尽。**"
+    ],
+    [
+     "坏的无限：只否定不重建",
+     "199",
+     "Diese Unendlichkeit ist die schlechte oder negative Unendlichkeit, indem sie nichts ist als die Negation des Endlichen, welches aber ebenso wieder entsteht, somit ebensosehr nicht aufgehoben ist, – oder diese Unendlichkeit drückt nur das Sollen des Aufhebens des Endlichen aus",
+     "无限进展=**坏的/否定的无限（schlechte Unendlichkeit）**：只否定有限，有限却又不断再生——它只表达有限者扬弃的**应然（Sollen）**，是矛盾的无尽重述。⚙️ **引擎标注**：坏的无限=「尚待消解环节」——引擎在此空转：否定发生了，但没有重建；真正的无限必须把有限**收进自身**，而不是在它旁边没完没了地跑。"
+    ],
+    [
+     "“真无限”：否定之否定",
+     "199",
+     "so geht hiermit Etwas in seinem Übergehen in Anderes nur mit sich selbst zusammen, und diese Beziehung im Übergehen und im Anderen auf sich selbst ist die wahrhafte Unendlichkeit",
+     "某物过渡到他物时，他物同样是某物——过渡之物与被过渡之物只有同一规定（都是他物）——某物过渡时**只与自身相合**：这是**“真无限”（wahrhafte Unendlichkeit）**。⚠️ **打引号的原因**：这里还只是**客观逻辑的直接性层面**——存在仍是直接性的存在，尚未开展到自身发展、概念的瓦解、与思维同构的阶段；“真”只是相对于坏的无限（在有限旁边空转）的**初步重建**（否定之否定把无限收进自身），还不是概念意义上真正的无限——真正的无限要等概念论（§160 起，无限=概念=与自身同一的否定性）才兑现。§95 附释：有限/无限二元论（有限这边、无限那边）让无限只成为「两者之一」，反而有限——「无限的真理是有限/无限的统一」。§96：“真无限”作为否定之否定=**自为存在（Fürsichsein）**——恢复的存在。**重建：否定之否定=自为存在。**"
+    ],
+    [
+     "一：自为存在的直接形态",
+     "203",
+     "Das Fürsichsein als Beziehung auf sich selbst ist Unmittelbarkeit, und als Beziehung des Negativen auf sich selbst ist es Fürsichseiendes, das Eins, – das in sich selbst Unterschiedslose, damit das Andere aus sich Ausschließende",
+     "自为存在作为自身关系=直接性，作为否定者对自身的关系=**自为存在者：一（Eins）**——自身内无差别、**排除他者**。§97：一对自身的否定关系=**排斥（Repulsion）**，设定**多个一**；多个一相互排斥。§98 附释：原子论（德谟克利特、近代物理学、政治原子主义——个人意志=国家原则）就站在「一」这个立场上：排斥有了，吸引却交给偶然。"
+    ],
+    [
+     "排斥与吸引：质→量",
+     "205",
+     "Die Repulsion ist daher ebenso wesentlich Attraktion; und das ausschließende Eins oder das Fürsichsein hebt sich auf. Die qualitative Bestimmtheit, welche im Eins ihr An-und-für-sich-Bestimmtsein erreicht hat, ist hiermit in die Bestimmtheit als aufgehobene übergegangen, d. i. in das Sein als Quantität",
+     "多中的每一方都是同一个一——排斥在自身考察中同时是**吸引（Attraktion）**；排斥性的一（自为存在）**扬弃自身**；质的规定性在「一」中达到自在自为的确定性，转入**作为被扬弃的规定性——量（Quantität）**。⚙️ **引擎标注**：质的环节在此换挡——质的规定在「一」中耗尽（排斥=吸引），引擎从质过渡到量；存在论内部第一次「否定之否定→新介质」。"
+    ],
+    [
+     "纯量：连续与离散",
+     "209",
+     "Die Quantität ist das reine Sein, an dem die Bestimmtheit nicht mehr als eins mit dem Sein selbst, sondern als aufgehoben oder gleichgültig gesetzt ist",
+     "**量（Quantität）=纯粹的存在**，其规定性不再是存在本身的一环，而是**被扬弃/漠不相关**地设定（§99 附释：量可增减而不改变事情——大小是「可变的、漠不相关的」规定；绝对=纯量即物质立场）。§100：量在其直接自身关系中=**连续量（kontinuierliche）**，在其「一」的规定中=**离散量（diskrete）**——两者不是两类，而是同一整体两种设定；空间/时间的可分性二律背反=量的连续/离散之争。"
+    ],
+    [
+     "定量与数",
+     "214",
+     "Die Quantität wesentlich gesetzt mit der ausschließenden Bestimmtheit, die in ihr enthalten ist, ist Quantum, begrenzte Quantität",
+     "量被设定为含排斥性规定=**定量（Quantum）**=有界限的量。§102：定量的完成规定性在**数（Zahl）**——其环节：离散的**数目（Anzahl）**、连续的**单位（Einheit）**；算术三种正运算（加/乘/幂）=数目与单位三种结合方式（附释：算术原理就在数的概念中，不是偶然规则）。**展开：定量自身包含界限→界限又超出界限（量的无限）。**"
+    ],
+    [
+     "程度与量的无限进展",
+     "216",
+     "Die Grenze ist mit dem Ganzen des Quantums selbst identisch; als in sich vielfach ist sie die extensive, aber als in sich einfache Bestimmtheit die intensive Größe oder der Grad",
+     "界限与定量整体同一：内在多重的界限=**外延量**，内在简单的规定=**内涵量/程度（Grad）**；两者同样不是两类（§103 附释）。§104：程度中**定量的概念被设定**——量对自身漠不关心，其规定却在别处（其他量）——这个矛盾（自为的漠不关心的界限=绝对外在性）=**量的无限进展（unendlicher quantitativer Progreß）**：直接性立刻翻转成中介性。§104 附释：进展是同一矛盾的**无思想的重复**——「说一次与说永远相同」（芝诺）。"
+    ],
+    [
+     "量的比例→尺度",
+     "222",
+     "Das Quantum, an ihm selbst so gesetzt, ist das quantitative Verhältnis, – Bestimmtheit, welche ebensosehr ein unmittelbares Quantum, der Exponent, als Vermittlung ist, nämlich die Beziehung irgendeines Quantums auf ein anderes",
+     "定量的自身外在性（量在别处才成其为量）构成其**质**——定量自身被如此设定=**量的比例（quantitatives Verhältnis）**：既是直接定量（指数 Exponent）又是中介（一量对另一量的关系）。§106：比例双方仍是直接定量、质与量仍外在；但按其真理（量在外在性中即自身关系）=**尺度（Maß）**。**重建：量回到质——C. 尺度的设定命题。**"
+    ],
+    [
+     "尺度：质的定量",
+     "224",
+     "Das Maß ist das qualitative Quantum, zunächst als unmittelbares, ein Quantum, an welches ein Dasein oder eine Qualität gebunden ist",
+     "**尺度（Maß）=质的定量（qualitatives Quantum）**——一个定量，某定在/质系于其上（§107）。§108：尺度中质与量只是**直接统一**，其差别直接显现——定量可增减而尺度（作为**规则 Regel**）不破，但量的变化也转成质的变化（量变→质变：温度升到某点水变汽）。**设定命题：尺度=质与量的统一；展开：量变/质变的相互转化。**"
+    ],
+    [
+     "无尺度：尺度的自我扬弃",
+     "227",
+     "Das Maßlose ist zunächst dies Hinausgehen eines Maßes durch seine quantitative Natur über seine Qualitätsbestimmtheit. Da aber das andere quantitative Verhältnis, das Maßlose des ersten, ebensosehr qualitativ ist, so ist das Maßlose gleichfalls ein Maß",
+     "**无尺度（Maßlose）**=尺度因量的本性超出其质的定性；但无尺度的另一定量关系同样有质——无尺度本身又是尺度：**尺度的自我扬弃与自我重建**（两个方向：质→量、量→质，可视为无限进展）。§110：尺度作为直接统一，其直接性被扬弃——质与量彼此只是**相对同一**；尺度在无尺度中只与自身相合。⚙️ **引擎标注**：无尺度不是尺度的毁灭，而是尺度在更高层重建——「尚待消解」在此消解为「沉入自身」。"
+    ]
+   ],
+   "diagnose": "**引擎诊断：过渡模式的完整循环（概念环节）**。概念＝纯存在（最空洞的设定命题）；判断＝展开——纯存在翻转为无（第一个矛盾）→变易（第一次重建）→定在→质（实在/否定）→界限/有限（某物与他物交替）→坏的无限（只否定不重建，尚待消解）→“真无限”（否定之否定，但只是直接性层面的初步重建，打引号——概念未登场）→自为存在→一→多→排斥=吸引（质的终点）；量：纯量→定量→数→程度→量的无限进展（又一次坏的无限）→比例（量的质化）→尺度（质的定量）→无尺度（尺度的自我扬弃）；推论＝重建——**本质=存在沉入自身**：存在论全程的过渡把直接性一步步收进自身关系，终点不是外来的，而是存在自己沉入自身的结果（§111）。**全编逻辑：直接性的自我深化**——每一步过渡都否定前一步的直接性，把规定收进更深的自身关系；终点的「本质」就是存在论自己生成的。这与现象学 ch1-3（感性确定性→知觉→知性）的「过渡-反思」上升同构，但小逻辑存在论没有意识载体：是纯粹概念介质中的过渡。",
+   "uebergang": "存在论的终点：**本质=通过否定自身而成为自身中介的存在**（§111）——存在/直接性沉入自身，变成被中介的直接性。过渡模式至此耗尽：直接性不能再直接过渡，必须**通过对立面映现自身**（反思）——本质论开篇（§112 本质=作为被设定的概念）正是从这沉入自身的存在出发。**三编宏观链条在此对齐：存在论=概念环节（设定命题）、本质论=判断环节（展开矛盾）、概念论=推论环节（重建）——小逻辑三编=引擎三段的一次宏观运转（V17）。**",
+   "chain": {
+    "set": "设定命题「存在=最空洞的直接性（纯存在）」——规定直接存在、直接过渡（Übergehen in Anderes）；辩证形式=过渡模式。",
+    "expand": "纯存在→无（第一个翻转）；变易=存在与无的统一（第一次重建，但变易又坍塌为定在）；定在→质（实在/否定/为他/自在）→界限→有限→坏的无限（只否定不重建，尚待消解）；“真无限”=否定之否定（直接性层面的初步重建，打引号）→自为存在→一→多→排斥=吸引（质的终点）；量：纯量→定量→数→程度→量的无限进展（又一次坏的无限）→比例→尺度。",
+    "rebuild": "尺度=质的定量（质在量中回归）；无尺度=尺度的自我重建；**存在沉入自身=本质**——直接性变成被中介的直接性（§111）。",
+    "next": "过渡本质论：反思模式——规定不再直接过渡，而是通过对立面映现自身（同一/差别/根据…）；存在论的终点正是本质论的设定命题（§112 本质=作为被设定的概念）。"
+   }
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "title": "第二编 本质论（Die Lehre vom Wesen）",
+ "pages": "§112–159",
+ "mode": "反思模式全面展开（本质论式）：一切规定通过对立面映现自身——同一通过差别、根据通过有条件者、内通过外、因通过果",
+ "gestalten": [
+  {
+   "name": "本质",
+   "position": "存在论的终点——存在经由否定性进入自身，直接性贬为假象",
+   "bestimmung": "本质论=引擎在**反思介质**中的全面展开：一切规定不再直接存在，而是**通过对立面映现自身**（同一通过差别、根据通过有条件者、内通过外、因通过果）。§112：本质=作为被设定的概念（der Begriff als gesetzter Begriff）——存在经由否定性进入自身（in sich gegangene Sein），直接性被贬为假象（Schein）。**做功方式：反思（Reflexion）**——本质论的每一步都是「设定一个自身关系→它展开出对立→对立在更高的自身关系中重建」。全程：同一→差别→根据→实存→物→现象→内容与形式→关系（整体-部分/力-表现/内-外）→现实→必然→实体/因果/相互作用→概念。",
+   "bewegung": [
+    [
+     "本质：作为被设定的概念",
+     "231",
+     "Das Wesen ist der Begriff als gesetzter Begriff, die Bestimmungen sind im Wesen nur relative, noch nicht als schlechthin in sich reflektiert",
+     "本质论开篇：本质（Wesen）=**作为被设定的概念**——存在经由否定性进入自身，直接性被贬为假象（Schein），本质的规定只是「相对的」、尚未绝对地反思返回自身。**引擎的介质换挡**：从存在论的「过渡」进入本质论的「反思」——规定不再直接存在，而总是被设定、被中介、通过他者映现自身。设定命题：**本质=反思中的自身关系**。"
+    ],
+    [
+     "同一：形式同一的自我矛盾",
+     "236",
+     "Das Wesen scheint in sich oder ist reine Reflexion, so ist es nur Beziehung auf sich, nicht als unmittelbare, sondern als reflektierte, – Identität mit sich",
+     "本质的自身关系=**同一（Identität）**——反思返回自身的直接形式。但这是**形式的知性同一**（A=A）：§115 指出这个命题「根本不是真正的思维规律，而只是抽象知性的规律」——命题形式许诺主谓的差别，它却什么都没说。同一把差别抽象掉，正是反思的第一个动作：**设定「本质=同一」，就已经埋下了差别的否定**——同一若不同时是差别的扬弃，就是空的。"
+    ],
+    [
+     "差别：同一展开出对立",
+     "239",
+     "Das Wesen ist nur reine Identität und Schein in sich selbst, als es die sich auf sich beziehende Negativität, somit Abstoßen seiner von sich selbst ist; es enthält also wesentlich die Bestimmung des Unterschieds",
+     "同一展开为**差别（Unterschied）**：本质的自身关系是「自身排斥」——同一自身就包含差别。差别的三级：①外在差别（Verschiedenheit，同一/不同由外在比较，§117）；②**本质差别**（Positiv/Negativ——每方只在对方中存在，即对立 Entgegensetzung，§119）；③差别到达自己的根据。命题「一切物是有差别的」与「一切物是同一的」互相矛盾——**同一与差别的对立暴露：二者必须统一于根据**。"
+    ],
+    [
+     "根据：同一与差别的统一",
+     "247",
+     "Der Grund ist die Einheit der Identität und des Unterschiedes; die Wahrheit dessen, als was sich der Unterschied und die Identität ergeben hat, – die Reflexion-in-sich, die ebensosehr Reflexion-in-Anderes und umgekehrt ist. Er ist das Wiesen als Totalität gesetzt",
+     "根据（Grund）=**同一与差别的统一**——反思返回自身同时就是反思到对方。设定命题：「一切物都有其充分根据」——物的本质不在自身同一，而在它于一个他者中拥有其存在。但根据还不是能动的（§122：根据「不活动、不产生」，存在只是从根据中「涌现」）——根据自身又要求进一步的规定。重建命题：**实存（Existenz）**——根据的否定即恢复直接性。"
+    ],
+    [
+     "实存：被中介的直接性",
+     "253",
+     "Die Existenz ist die unmittelbare Einheit der Reflexion-in-sich und der Reflexion-in-Anderes",
+     "实存（Existenz）=根据的扬弃所恢复的直接性——但这是**被中介的直接性**：实存物既在自身中反思（in sich），又在他者中反思（in Anderes），构成「相互依赖、根据-被根据的无限关联之世界」（§123）。康德的自在之物（Ding-an-sich）在此显形：它是抽掉一切他者关系的空洞反思返回自身（§124）。重建命题：**物（Ding）**——实存作为反思返回自身的统一体。"
+    ],
+    [
+     "物：属性、质料与矛盾",
+     "256",
+     "Das Ding ist die Totalität als die in Einem gesetzte Entwicklung der Bestimmungen des Grundes und der Existenz",
+     "物=根据与实存规定的统一（在「一」中）——物有**属性**（Haben 取代存在的直接性，§125），属性自立为**质料**（Materien，§126-127），物由质料组成（§128-129）。但物的两面互相矛盾：§130 **物作为总体就是矛盾**——「物是把自己在自身中扬弃的本质性实存」（porosité 附录：知性用「孔隙」掩盖质料的矛盾）。重建命题：**现象（Erscheinung）**——物作为自我扬弃的实存必然显现。"
+    ],
+    [
+     "现象：本质必然显现",
+     "261",
+     "Das Wesen muß erscheinen. Sein Scheinen in ihm ist das Aufheben seiner zur Unmittelbarkeit, welche als Reflexion-in-sich so Bestehen (Materie) ist, als sie Form, Reflexion-in-Anderes, sich aufhebendes Bestehen ist",
+     "**本质必然显现**（Das Wesen muß erscheinen）——本质不在现象背后或彼岸：**本质存在=现象**（§131）。现象界的「持存」本身只是形式的一个环节：每个现象物的根据又是另一个现象（§132）——无限的现象中介。展开：现象互相中介、无限后退；重建：现象界作为总体被把握为**内容与形式**。"
+    ],
+    [
+     "内容与形式：规律",
+     "264",
+     "So ist die Form Inhalt und nach ihrer entwickelten Bestimmtheit das Gesetz der Erscheinung",
+     "现象界的自身关系=形式成为**内容**，内容的发达规定=**现象的规律（Gesetz der Erscheinung）**（§133）。内容与形式的对置是双重的：内容在自身中有形式（本质的），也有外在的、漠不相关的形式——**「内容是形式之转变为内容，形式是内容之转变为形式」**（§133 的重要规定）。重建：内容与形式的相互转化被设定为**关系（Verhältnis）**本身（§134）。"
+    ],
+    [
+     "关系·整体与部分",
+     "267",
+     "Das unmittelbare Verhältnis ist das des Ganzen und der Teile: der Inhalt ist das Ganze und besteht aus den Teilen (der Form), dem Gegenteile seiner",
+     "关系的第一个形态：**整体与部分**——内容=整体，由部分（形式）组成，而部分是整体的对立面（§135）。整体→部分→整体的无尽摆荡是「无思想的机械关系」（§136 附录：物质可分性的无穷递推）。重建：这种自身否定关系的本质是**力（Kraft）**——整体作为内在的自身同一。"
+    ],
+    [
+     "关系·力与表现",
+     "267",
+     "Das Eine und Dasselbe dieses Verhältnisses, die in ihm vorhandene Beziehung auf sich, ist somit unmittelbar negative Beziehung auf sich, und zwar als die Vermittlung, daß ein und dasselbe gleichgültig gegen den Unterschied, und daß es die negative Beziehung auf sich ist, welche sich selbst als Reflexion-in-sich zum Unterschiede abstößt und sich als Reflexion-in-Anderes existierend setzt und umgekehrt diese Reflexion-in-Anderes zur Beziehung auf sich und zur Gleichgültigkeit zurückführt, – die Kraft und ihre Äußerung",
+     "力的结构=同一物既排斥自身为差别（表现）又收回自身——**力及其表现（Kraft und ihre Äußerung）**。但力仍是**有限关系**（§136：力需要外来激励、盲目作用）；「力的本性不可知」只是同语反复（§136 附录：从力解释现象=空洞的同语反复）。重建：力的两边最终只是同一内容的两种形式——**内与外**（§137）。"
+    ],
+    [
+     "关系·内与外",
+     "139",
+     "Das Äußere ist daher fürs erste derselbe Inhalt als das Innere. Was innerlich ist, ist auch äußerlich vorhanden und umgekehrt",
+     "内与外是**同一内容**（§139：内在的也外在呈现，反之亦然）——「现象不显示本质中不存在的东西」。若只把本质当作纯粹内在，那种考察本身是外在的（§140 附录：歌德「自然无核也无壳」）。内-外关系扬弃自己为**现实（Wirklichkeit）**——§141 内在与外在自在自为地同一。"
+    ],
+    [
+     "现实：内外的同一",
+     "279",
+     "Die Wirklichkeit ist die unmittelbar gewordene Einheit des Wesens und der Existenz oder des Inneren und des Äußeren",
+     "现实=本质与实存（内与外）的**已生成的统一**——现实的显现就是现实本身（不是另一个东西的显现，§142）。现实展开为：**可能性**（抽象的反思返回自身）——但「一切都是可能的，也一切都是不可能的」（§143 附录：空洞的可能/不可能之谈）；现实对可能的关系使现实成为**偶然**（§144）。设定命题：**现实=内外统一**；展开：现实分裂为可能/偶然。"
+    ],
+    [
+     "可能·偶然·条件",
+     "284",
+     "Möglichkeit und Zufälligkeit sind die Momente der Wirklichkeit, Inneres und Äußeres, als bloße Formen gesetzt, welche die Äußerlichkeit des Wirklichen ausmachen",
+     "可能/偶然是现实的环节（§145）——偶然的直接现实是**条件（Bedingung）**（§146）；条件、事情（Sache）与活动（Tätigkeit）三环节的圆圈=**现实的必然**——「当一切条件俱备，事情必然成为现实」（§147）。必然=可能与现实、内与外的统一。"
+    ],
+    [
+     "必然：条件的圆圈",
+     "293",
+     "Die Notwendigkeit ist an sich daher das eine mit sich identische, aber inhaltsvolle Wesen, das so in sich scheint, daß seine Unterschiede die Form selbständiger Wirklicher haben, und dies Identische ist zugleich als absolute Form die Tätigkeit des Aufhebens [der Unmittelbarkeit] in Vermitteltsein und der Vermittlung in Unmittelbarkeit",
+     "必然=有内容的、与自身同一的本质，其差别具有独立现实的形式（§149）——必然物通过他者而存在（有条件的），但这种中介同时扬弃自身（无条件的）：「必然物是：被一系列情况中介——它是这样，因为情况是这样；同时又是：无中介的——它是这样，因为它就是这样」。必然作为关系展开为：**实体、因果、相互作用**。"
+    ],
+    [
+     "实体关系",
+     "294",
+     "Das Notwendige ist in sich absolutes Verhältnis, d. i. der (in den vorhergehenden §§) entwickelte Prozeß, in welchem das Verhältnis sich ebenso zur absoluten Identität aufhebt",
+     "必然=绝对关系——直接形态是**实体性与偶性（Substantialität und Akzidentalität）**：实体=偶性的**总体与绝对力量**（§151，一切内容只是实体的显现环节）。实体作为绝对力量把自身规定为偶性→过渡到**因果**。设定命题：**实体=偶性的绝对力量**（斯宾诺莎式实体在此只是自在的解放，§159 附录）。"
+    ],
+    [
+     "因果关系",
+     "297",
+     "Die Substanz ist Ursache, insofern sie gegen ihr Übergehen in die Akzidentalität in sich reflektiert und so die ursprüngliche Sache ist, aber ebensosehr die Reflexion-in-sich oder ihre bloße Möglichkeit aufhebt, sich als das Negative ihrer selbst setzt und so eine Wirkung hervorbringt",
+     "原因（Ursache）=在过渡到偶性时反思自身的实体（§153）——原因设定结果，但结果中无内容不是原因中的（同一内容）；原因的原始性在结果中被扬弃（结果是被设定的），同时**原因在结果中才成为现实**（causa sui）。有限因果（因→果→因……的线性无穷递推）被**相互作用折回自身**（§154）。"
+    ],
+    [
+     "相互作用",
+     "300",
+     "Die in der Wechselwirkung als unterschieden festgehaltenen Bestimmungen sind α) an sich dasselbe; die eine Seite ist Ursache, ursprünglich, aktiv, passiv usf. wie die andere",
+     "相互作用=因果的相互设定——两方各自既是原因又是结果（§155）；这个「纯粹与自身的交替」是**被揭示的必然（enthüllte Notwendigkeit）**（§157）。必然的真理是**自由**，实体的真理是**概念**（§158）——设定命题「实体/因果/相互作用」展开到终点，重建出**概念**。"
+    ],
+    [
+     "本质论→概念论",
+     "303",
+     "Der Begriff ist hiermit die Wahrheit des Seins und des Wesens, indem das Scheinen der Reflexion in sich selber zugleich selbständige Unmittelbarkeit und dieses Sein verschiedener Wirklichkeit unmittelbar nur ein Scheinen in sich selbst ist",
+     "概念=存在与本质的**真理**（§159）——反思的假象同时是独立的直接性，而多样的现实之存在只是反思在自身中的假象。从必然到自由、从现实到概念是**最困难的过渡**（§159 附录：思考必然性=在他人中与自身相会=解放）。**本质论的命题链在此重建出概念论的设定命题**：概念从存在与本质中发展出来（垂直：存在→本质→概念）。"
+    ]
+   ],
+   "diagnose": "**引擎诊断：反思模式的完整循环**。概念=本质（作为被设定的概念、反思中的自身关系）；判断=展开——同一展开出差别/对立（互相矛盾）→根据（同一与差别的统一）→实存/物（根据的直接性重建，但物作为总体是矛盾）→现象（本质必然显现，现象互相中介）；推论=重建——内容与形式（形式=内容）、关系（整体-部分→力-表现→内-外）、现实（内外的同一）、必然（可能/偶然/条件的圆圈）、实体/因果/相互作用（必然的展开）、概念（必然的真理=自由，实体的真理=概念）。**全编逻辑：反思的自我深化**——每一步重建都把前一步的矛盾收进更高的自身关系；终点（概念）不是外来的，而是从存在与本质中发展出来的——这是概念论（发展模式）的直接入口。",
+   "uebergang": "本质论的终点：概念=存在与本质的真理。反思的「假象-中介-对立」结构被概念收编——概念不再需要通过他者映现自身（反思），而是自我发展（发展）。下一编（概念论）将从主观概念（概念/判断/推论）展开：引擎在概念论中第一次以自己的三段本名登场。",
+   "chain": {
+    "set": "设定命题「本质=作为被设定的概念（反思中的同一）」——直接性贬为假象，规定通过对立面映现自身。",
+    "expand": "同一展开出差别/对立→根据（同一与差别的统一）；实存/物→物=矛盾→现象；内-外→现实→可能/偶然→必然（条件/事情/活动的圆圈）。",
+    "rebuild": "概念=存在与本质的真理——必然→自由，实体→概念；反思的自身关系被概念收编。",
+    "next": "过渡概念论：发展（Entwicklung）模式——概念不再通过他者映现自身，而是自我展开（a.概念/b.判断/c.推论）。"
+   }
+  }
+ ]
+}

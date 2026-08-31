@@ -1,0 +1,160 @@
+{
+ "title": "第三编 概念论（Die Lehre vom Begriff）",
+ "pages": "§160–244",
+ "mode": "重建模式（概念论式）：归纳前两编后视角转变——不再从直接性出发（存在论的过渡），也不再从对立映现出发（本质论的反思），而是以主客体统一的新视角重新展开前两编的全部内容（原文 Entwicklung，此处按新视角读作重建/重构，非生长式发展）",
+ "gestalten": [
+  {
+   "name": "概念",
+   "position": "逻辑学的第三编——引擎经过存在论（直接性/设定）、本质论（对立映现/展开）的归纳，视角转变：以主客体统一的新视角重新展开（重建/重构）前两编；概念=存在与本质的真理",
+   "bestimmung": "概念论=引擎**以自己的本名登场**：存在论=过渡（概念环节）、本质论=反思（判断环节）、概念论=**重建（重构）**——注意：这里不是把概念论释义成「发展」；§161 原文确实用了 Entwicklung 一词，但它的意思是**归纳前两编后的视角转变**：不再从直接性出发（存在论的过渡：规定滑向他者），也不再从对立映现出发（本质论的反思：规定通过对立面显形），而是以**主客体统一的新视角**重新展开前两编的全部内容——概念是主体也是客体，从这个新视角把存在/本质的一切规定**重新展开、重新走一遍**（重建/重构）。§161：概念的进程「不再是过渡，也不再是在他者中映现，而是发展」——此处「发展」=概念作为主客统一的新视角的自我展开，即重建。§160：概念=**自由的**（das Freie）、作为自为存在的实体性力量、**总体（Totalität）**——每个环节都是整体。**做功方式：重建**——概念（主客体统一的新视角）重新设定前两编的内容：概念本身→判断（把存在/本质的旧矛盾在概念视角下重新展开）→推论（重建统一）；这是引擎三段（概念-判断-推论）的**宏观一次运转**（三编）与**微观一次运转**（概念论内部 a.b.c）的双重复现。全程：概念本身（普遍/特殊/个别）→判断（质/反思/必然/概念判断）→推论（质/反思/必然推论）→客体（机械/化学/目的）→理念（生命/认识/意志/绝对理念）。**终点：绝对理念=方法，概念自由地外化为自然（§244）——小逻辑全书在「概念→自然」处收束，与现象学 ch8 概念从自身释放时间/自然呼应。**",
+   "bewegung": [
+    [
+     "概念：自由与总体",
+     "307",
+     "Der Begriff ist das Freie, als die für sie seiende substantielle Macht, und ist Totalität, indem jedes der Momente das Ganze ist, das er ist",
+     "概念论开篇：**概念（Begriff）=自由的（das Freie）**、作为自为存在的实体性力量（substantielle Macht）、**总体（Totalität）**——每个环节都是整体，且与整体不可分离地统一（§160）。**引擎的介质换挡完成**：存在论的过渡、本质论的映现都收进概念——概念不再需要通过他者，它自己就是自由的整体。**设定命题：概念=自由的总体。**"
+    ],
+    [
+     "重建：视角转变与新展开",
+     "307",
+     "Das Fortgehen des Begriffs ist nicht mehr Übergehen noch Scheinen in Anderes, sondern Entwicklung, indem das Unterschiedene unmittelbar zugleich als das Identische miteinander und mit dem Ganzen gesetzt, die Bestimmtheit als ein freies Sein des ganzen Begriffes ist",
+     "§161 是**三编做功方式的宣言**：概念的进程「不再是过渡（存在论），也不再是在他者中映现（本质论），而是 Entwicklung」——**注意**：这里不能把 Entwicklung 简单译作「发展」然后当成概念论的做功方式标签。它说的是**归纳前两编之后的视角转变**：存在论在直接性里设定规定（过渡=规定滑向他者，被动），本质论在反思里展开对立（映现=通过对立面显形，被动中介）；到了概念论，前两编的一切规定都被**归纳收进概念**——概念既是被展开的东西（客体/存在），又是展开者（主体/思维）——**主客体统一的新视角**。从这个新视角重新走前两编：概念本身（普遍/特殊/个别）→判断→推论→客体→理念，每一步都是把存在/本质的旧规定**重新展开、重新生产**出来——这就是**重建（重构）**：不是从零生长，而是同一个内容换了视角（主体出场）重演一遍。**原文锚点**：§171 附释 3「存在与本质两域的确定概念，作为判断，是这两域的再生产（Reproduktionen dieser Sphären）」——判断=以概念视角再生产存在/本质，正是「重建」读法的直接文本支撑。**换挡逻辑**：过渡（存在论）→映现（本质论）→重建（概念论，主体登场后的重新展开）。**引擎在概念论终于以自身为主体。**"
+    ],
+    [
+     "概念的三环节：普遍·特殊·个别",
+     "311",
+     "Der Begriff als solcher enthält die Momente der Allgemeinheit, als freier Gleichheit mit sich selbst in ihrer Bestimmtheit, – der Besonderheit, der Bestimmtheit, in welcher das Allgemeine ungetrübt sich selbst gleich bleibt, und der Einzelheit",
+     "概念本身含三环节：**普遍性（Allgemeinheit）**=规定性中的自由自身等同；**特殊性（Besonderheit）**=规定性，但普遍者在其间毫发无损地保持自身；**个别性（Einzelheit）**=普遍与特殊之规定性的反思返回自身（§163）。§164：概念=**彻底具体者**（das schlechthin Konkrete）——「概念是抽象的」是庸见：概念是绝对形式自身，是主体本身；「人、房子、动物」之类所谓概念只是抽象表象（只取了普遍性环节）。§165：**个别性设定概念的环节为差别**→这是概念的第一否定→被设定的特殊性=**判断（Urteil）**。"
+    ],
+    [
+     "判断：概念的特殊化",
+     "316",
+     "Das Urteil ist der Begriff in seiner Besonderheit, als unterscheidende Beziehung seiner Momente, die als fürsichseiende und zugleich mit sich, nicht miteinander identische gesetzt sind",
+     "**判断（Urteil）=概念在特殊性中**——概念环节作为自为存在又彼此同一地被设定（§166）。系词「ist」来自概念的本性：概念在外化中与自身同一（§166 附释 4）；「**一切物都是一个判断**」（§167）——万物是「个别者，其内是普遍性或内在本性」：普遍与个别在物中既区别又同一。判断=概念的内在区分与规定（§165 附释）。**展开：概念进入判断——展开自身的规定（普遍/特殊/个别）为对立的主词/谓词。**"
+    ],
+    [
+     "质的判断：直接性的判断",
+     "323",
+     "Das unmittelbare Urteil ist das Urteil des Daseins, das Subjekt in einer Allgemeinheit, als seinem Prädikate, gesetzt, welches eine unmittelbare (somit sinnliche) Qualität ist",
+     "质的判断=**定在的判断（Urteil des Daseins）**：主词被设定在一种直接（感性）的质中——「玫瑰是红的」。§172 附释：「玫瑰是红的/不是红的」可以有**正确性（Richtigkeit）**，但没有**真理性（Wahrheit）**——真理只在形式（被设定的概念+相应实在）中；质的判断是存在论式的判断（§171 附释 3：存在与本质两域的确定概念，作为判断，是这两域的**再生产**）。肯定判断→否定判断→（§173）同一判断/无限判断（「精神不是大象」——正确但荒谬）。"
+    ],
+    [
+     "反思判断：关系性的判断",
+     "325",
+     "Das Einzelne, als Einzelnes (reflektiert in sich) ins Urteil gesetzt, hat ein Prädikat, gegen welches das Subjekt als sich auf sich beziehendes zugleich ein Anderes bleibt",
+     "反思判断：个别者**作为个别者**（在自身中反思）被设定进判断——主词相对于谓词保持为一个**他者**（§174）：主词不再直接是质，而是在**关系/联系**中（有用、危险；重力、酸性；欲望）。§175：单称判断（这个个别是普遍的）→特称判断（部分性，既正又负）→**全称判断（Allheit）**——「一些」扩展为普遍性，但这是**外在反思的普遍性**（共同体性），不是概念自身的普遍性。§176：主词也被规定为普遍的→判断规定本身作为漠不相关的被设定→内容统一→**必然判断**。"
+    ],
+    [
+     "必然判断：属与种",
+     "328",
+     "Das Urteil der Notwendigkeit als der Identität des Inhalts in seinem Unterschiede 1. enthält im Prädikate teils die Substanz oder Natur des Subjekts, das konkrete Allgemeine, – die Gattung, teils, indem dies Allgemeine ebenso die Bestimmtheit als negative in sich enthält, die ausschließende wesentliche Bestimmtheit – die Art, – kategorisches Urteil",
+     "必然判断=内容在其差别中的同一（§176）：①**直言判断（kategorisches）**——谓词含主词的**实体/本性**：具体普遍者=**属（Gattung）**，以及排除性的本质规定=**种（Art）**（§177.1）；②**假言判断（hypothetisches）**——两方获得独立现实形态，其同一只是内在的：一方的现实同时是他方的存在（§177.2）；③**选言判断（disjunktives）**——属在其排除性的特殊化圆圈中与自身同一：**或此或彼=既此又彼**（§177.3）。普遍性作为属+种的圆周被设定为**总体**。"
+    ],
+    [
+     "概念判断：善·真·正确",
+     "330",
+     "Das Urteil des Begriffs hat den Begriff, die Totalität in einfacher Form, zu seinem Inhalte, das Allgemeine mit seiner vollständigen Bestimmtheit",
+     "**概念判断（Urteil des Begriffs）**：以概念（简单形式中的总体）为内容——普遍性带着其全部规定性。§178：①**实然判断（assertorisches）**——主词=个别者，谓词=特殊定在对普遍的反思：**一致/不一致（好、真、正确）**——日常说的「判断力」正是这个（会判「玫瑰是红的」不算有判断力）；②**或然判断（problematisches）**——实然判断只是主观特殊性，对面可站相反断言（§179.2）；③**必然判断（apodiktisches）**——主词的客观特殊性被设定（这个-个别者-如此这般-是好的/坏的）：**一切物都是属（规定与目的）在个别现实中的特殊性状；其有限性=特殊者可以符合或不符合普遍者**（§179.3）。"
+    ],
+    [
+     "推论：概念与判断的统一",
+     "331",
+     "Subjekt und Prädikat sind auf diese Weise selbst jedes das ganze Urteil. Die unmittelbare Beschaffenheit des Subjekts zeigt sich zunächst als der vermittelnde Grund zwischen der Einzelheit des Wirklichen und seiner Allgemeinheit, als der Grund des Urteils",
+     "判断走完：主词与谓词各自成为**整个判断**——主词的直接性状成为个别性与普遍性之间的**中介根据**（§180）→被设定的是主词与谓词的统一=概念自身：它充实空的「ist」（系词），作为中介关系=**推论（Schluß）**。§181：推论=**概念与判断的统一**——概念回到简单同一，判断的形式差别在其中被扬弃；**推论是理性者（das Vernünftige），一切理性者**；「**一切物都是一个推论**」：普遍本性通过特殊性给予自身外在现实，并作为否定性的反思返回自身而成为个别者。"
+    ],
+    [
+     "知性推论与理性推论",
+     "331",
+     "Der Schluß ist die Einheit des Begriffes und des Urteils; – er ist der Begriff als die einfache Identität, in welche die Formunterschiede des Urteils zurückgegangen sind",
+     "§181 正文：推论=概念与判断的统一（概念回到简单同一，判断的形式差别返回其中）；§181 附释：「一切物都是一个推论」——普遍本性通过特殊性给予自身外在现实，作为否定性反思返回自身成为个别者。§182：**直接推论**——概念规定作为抽象者彼此外在地关联：两端=个别性与普遍性，中项=抽象特殊性；这是**无概念的理性=形式知性推论（Verstandesschluß）**——主词通过中介与**他者**相合；**理性推论**则是主词通过中介**与自身**相合（§182 附释：只有如此才是主体）。"
+    ],
+    [
+     "质的推论：E-B-A 三格",
+     "334",
+     "Der erste Schluß ist Schluß des Daseins oder der qualitative, wie er im vorigen § angegeben worden, 1. E-B-A2, daß ein Subjekt als Einzelnes durch eine Qualität mit einer allgemeinen Bestimmtheit zusammengeschlossen ist",
+     "**质的推论=定在的推论（Schluß des Daseins）**——第 1 格 E-B-A：个别者（小项）通过一种质（中项）与普遍规定（大项）相合（§183）。§184：此推论**完全偶然**——中项只是主词的随便一种规定性，可换成无数其他中项，「证明」出相反结论（§184 附释：媒介越具体，可作中项的面越多——修辞术的温床）；§185：两前提（大前提/小前提）是**直接**关系——推论需要证明前提，前提又要证明，**无限进展**；§186-187：三格循环（E-B-A→A-E-B→B-A-E），每一环节轮流作中项；§187 附释：亚里士多德只认三格，第四格是近代画蛇添足；§188：环节差别被扬弃→**量的/数学推论**（a=c, b=c, ∴a=b）——「如果两物等于第三者，则彼此相等」。"
+    ],
+    [
+     "反思推论：全体性·归纳·类比",
+     "341",
+     "Die Mitte so zunächst 1. nicht allein als abstrakte, besondere Bestimmtheit des Subjekts, sondern zugleich als alle einzelnen konkreten Subjekte, denen nur unter anderen auch jene Bestimmtheit zukommt, gibt den Schluß der Allheit",
+     "**反思推论（Reflexionsschluß）**：中项不再只是抽象特殊性，而是**一切个别具体主体**（§189-190.1）——**全体性推论（Schluß der Allheit）**：「一切人都有死，所以该尤斯有死」——但大前提「一切人」已预设了结论（§190 附释：这形式主义可笑的要命）；②**归纳（Induktion）**——中项=完备的个别者 a,b,c,d（§190.2），但经验个别性永远给不出完备性；③**类比（Analogie）**——中项=个别者，但在其本质普遍性（属）意义上（§190.3）。"
+    ],
+    [
+     "必然推论：直言·假言·选言",
+     "343",
+     "Dieser Schluß hat, nach den bloß abstrakten Bestimmungen genommen, das Allgemeine, wie der Reflexionsschluß die Einzelheit – dieser nach der zweiten, jener nach der dritten Figur (§ 187) –, zur Mitte; das Allgemeine gesetzt als in sich wesentlich bestimmt",
+     "**必然推论（Schluß der Notwendigkeit）**：以**普遍者**为中项（如反思推论以个别者为中项）——普遍者被设定为本质上自身规定（§191）：①**直言推论（kategorischer）**——特殊者（确定的属/种）作中介；②**假言推论（hypothetischer）**——个别者作为直接存在，既中介又中介（§191.2）；③**选言推论（disjunktiver）**——中介的普遍者=其特殊化的总体+一个排除性的个别者：**同一个普遍者在这些规定中只是差别形式**（§191.3）。§192：各环节自身都成为整个推论（总体），其差别被否定、中介被扬弃——**推论=通过扬弃中介而把主词与自身（而非他者）联结起来**。"
+    ],
+    [
+     "客体：推论的现实化",
+     "345",
+     "Diese Realisierung des Begriffs, in welcher das Allgemeine diese eine in sich zurückgegangene Totalität ist, deren Unterschiede ebenso diese Totalität sind und die durch Aufheben der Vermittlung als unmittelbare Einheit sich bestimmt hat, ist das Objekt",
+     "推论的终点：中介被扬弃、概念回到直接统一——**客体（Objekt）**（§193）：概念的现实化。§193 附释：日常「客体」=具体、完备、独立的整体=**概念的总体**；客体=客观世界=上帝=绝对客体；「概念与客体自在同一」与「它们不同」都正确也都不正确——**思辨的同一不是「二者同一」这种廉价说法**（§193 附释 5：对本体论证明的批判——安瑟伦「可设想的最伟大者」、笛卡尔、斯宾诺莎都把「统一」只当作预设/自在，没有让它在否定中展开）。§194：客体=绝对**矛盾**（杂多的完全独立与差别的完全不独立）——莱布尼茨单子=这一立场的顶点（§194 附释：单子=全体世界表象，是发展了的矛盾）。"
+    ],
+    [
+     "机械性：外在的客体",
+     "352",
+     "Das Objekt 1. in seiner Unmittelbarkeit ist der Begriff nur an sich, hat denselben als subjektiven zunächst außer ihm, und alle Bestimmtheit ist als eine äußerlich gesetzte. Als Einheit Unterschiedener ist es daher ein Zusammengesetztes, ein Aggregat, und die Wirksamkeit auf anderes bleibt eine äußerliche Beziehung, – formeller Mechanismus",
+     "**机械性（Mechanismus）**三阶段：①**形式机械性（formeller）**——客体在直接性中只有**自在的**概念，概念作为主观者在其外：一切规定是外在设定的——**聚集体（Aggregat）**，作用=外在关联（§195；附释：死记硬背、仪式化虔诚=机械的——语词无意义、行动中无自己的精神与意志）；②**差异机械性（differenter）**——客体通过否定自身（其不独立）与自身联结，才独立：**中心性（Zentralität）、主观性**（§196：落体、欲望、社交冲动）；③**绝对机械性（absoluter）**——中心推论：抽象中心（绝对）—相对中心—不独立客体，三推论系统（§197-198；§198 附释以**太阳系、国家为例**（例子而已，用来例证三推论结构：同一三项轮流作中项的三个推论，每环节经中介与另一端相合，同时与自身相合=自我保存，呼应 §186-187 三格循环））。"
+    ],
+    [
+     "化学性：差异客体的相互作用",
+     "357",
+     "Das differente Objekt hat eine immanente Bestimmtheit, welche seine Natur ausmacht und in der es Existenz hat. Aber als gesetzte Totalität des Begriffs ist es der Widerspruch dieser seiner Totalität und der Bestimmtheit seiner Existenz; es ist daher das Streben, ihn aufzuheben und sein Dasein dem Begriffe gleich zu machen",
+     "**化学性（Chemismus）**：差异客体有**内在规定性**（构成其本性与实存）——作为被设定的概念总体，它是「总体 vs 实存规定」的**矛盾**，因而是**扬弃此矛盾、使定在符合概念**的冲动（§200）。化学过程：紧张两端→**中性产物**（§201）；但化学性仍是**反思关系**（§202 附释：中性产物可分解、对象仍自在地独立）——两过程（还原为中性/分裂中性）外在地相互独立；§203：这种外在性在产物中显出其有限性→通过否定外在性与直接性，概念作为**自由者、自为地对立于外在性**被设定——**作为目的（Zweck）**。"
+    ],
+    [
+     "目的论：自由的概念",
+     "358",
+     "Durch diese Negation der Äußerlichkeit und Unmittelbarkeit, worein der Begriff als Objekt versenkt war, ist er frei und für sich gegen jene Äußerlichkeit und Unmittelbarkeit gesetzt, – als Zweck",
+     "**目的（Zweck）=进入自由实存的自为存在概念**，通过否定直接客观性（§204）：目的是主观的（否定还抽象）——但主体性对概念总体是片面的，**目的本身是扬弃、是活动（Tätigkeit）**：否定对立，使对立与自身同一=**目的的实现（Realisieren des Zwecks）**。§204 附释：目的因 vs 动力因——原因属于未展开的盲目必然，在结果中失其原始性；**目的在作用中不过渡，而保存自身：它只实现自己，终点=起点=真正原始者**（causa sui 的真正含义）；内在合目的性=亚里士多德生命定义（远超近代外在天意论）；**需要/冲动=目的的最贴近例子**——「断言有限者坚不可摧者，请看每个冲动：冲动是『主观者只有片面性无真理、客观者亦然』的确定性，并执行这确定性」。§205：目的论的直接形态=**外在合目的性**（目的有限，对象=材料）。"
+    ],
+    [
+     "目的=推论：理性的狡计",
+     "364",
+     "Die teleologische Beziehung ist der Schluß, in welchem sich der subjektive Zweck mit der ihm äußerlichen Objektivität durch eine Mitte zusammenschließt, welche die Einheit beider, als die zweckmäßige Tätigkeit und als die unter den Zweck unmittelbar gesetzte Objektivität, das Mittel, ist",
+     "**目的论关系=推论**：主观目的通过**中项**与外在客观性相合——中项=合目的的活动+直接置于目的下的客观性=**手段（Mittel）**（§206）。§207-208：主观目的—手段（直接权力，概念是自身同一的否定性，对象的存在只是观念性的）—对象；§209：**理性的狡计（List der Vernunft）**——主观目的作为这些过程（机械/化学）的**权力**：对象在过程中相互摩擦、相互扬弃，而目的**置身其外**，是在其中自我保存者；§210：实现的目的=主客统一（按各自片面性被中和），目的在客观中保存自身；§211：有限合目的性的产物只是外在形式，又成为新目的的材料——**无限进展**（§211 附释：这种目的论会无尽循环）；§212：实现的真正意义——片面主体性与客观独立性的假象被扬弃：**概念作为对象的自在本质、目的作为形式活动只以自身为内容：自为存在的主客统一=理念（Idee）**。"
+    ],
+    [
+     "理念：概念与客观性的绝对统一",
+     "367",
+     "Die Idee ist das Wahre an und für sich, die absolute Einheit des Begriffs und der Objektivität",
+     "**理念（Idee）=自在自为的真理，概念与客观性的绝对统一**（§213）。§213 附释：绝对者的定义「绝对者是理念」是绝对的定义，此前一切定义都回到它；真理=客观性符合概念（不是外在物符合我的表象——那只是正确性）；**一切现实者，凡真者，都是理念**——个别存在只是理念的一面，其有限性=定在不符合其概念；理念不是「关于某物的理念」（像知性概念那样），绝对者是普遍而**一**的理念，它作为判断（urteilend）特殊化为确定理念的系统，而它们只是回到一之中；「理念从判断看首先是普遍实体，但其发达的真实现实是**作为主体、作为精神**」。§214：理念可称为理性、主体-客体、观念者与实在者的统一、有限与无限的统一、灵魂与身体的统一；知性轻巧地指出理念自相矛盾——**但理念自身就是解构（Dialektik）**：永恒地区分又永恒地使区分回到统一（§214 附释 3：理念=永恒的创造、永恒的生命、永恒的精神；它不是时间的运动而是**永恒地在他者中直观自身**）；§215：**理念本质上是过程（Prozeß）**——「有限与无限的统一」这种说法是错的（统一=静止的同一；理念是**否定的统一**：无限者超越有限者、思维超越存在、主体性超越客观性）。"
+    ],
+    [
+     "生命：直接的理念",
+     "373",
+     "Die unmittelbare Idee ist das Leben. Der Begriff ist als Seele in einem Leibe realisiert, von dessen Äußerlichkeit jene die unmittelbare sich auf sich beziehende Allgemeinheit, ebenso dessen Besonderung",
+     "**生命（Leben）=直接的理念**：概念作为灵魂在身体中实现（§216）——身体的外在性上，灵魂=直接自身关联的普遍性+特殊化；肢体是彼此瞬间的手段与瞬间的目的；生命=辩证地只与自身相合的**否定的自为统一**；生命本质上是**有生命者**（das Lebendige），按其直接性是**这个个别的有生命者**。§217-221：生命是推论（其环节自身是系统与推论）——①**内在过程**（§218）：生命在自己内部区分自己，把身体性作为对象=**无机的自然**，肢体相互同化、再生产主体自身；②**外在过程**（§219）：概念作为自由者把客观者释放为独立总体，生命面对**无机的自然**——它的否定性=生命自身的概念环节（作为**缺陷/Mangel**）：辩证地扬弃自在地虚无的对象=自我保存、自我发展、自我客观化；③**属过程（Gattungsprozeß）**（§220-221）：个体=自在的属，特殊化=与同属的另一主体的关系=**性别差异**；属达到自为存在，但生命还是直接理念，产物分裂：个体作为被产生者（中介者）与作为**在属的权力中消逝者**。§222：**个别有生命者的死亡=精神的诞生（Hervorgehen des Geistes）**——生命从直接性解放出来，自由属进入实存。"
+    ],
+    [
+     "认识：理论理念",
+     "378",
+     "Dieser Prozeß ist im allgemeinen das Erkennen. An sich wird in ihm in einer Tätigkeit der Gegensatz, die Einseitigkeit der Subjektivität mit der Einseitigkeit der Objektivität, aufgehoben",
+     "**认识（Erkennen）=理论理念**：理念自由地自为存在，以普遍性为其实存元素，以自身为对象（§223）；认识=扬弃主体性与客观性的各自片面性的**双重冲动**（§225）：①理论冲动——把现存世界收入主观表象与思维（认识真理的冲动）；②实践冲动——通过主观内在（被视为真实客观者）规定客观世界（善的实现冲动）。认识过程分裂为**分析/综合**：§226：认识的一般有限性——材料作为被给予者被收入**外在地保持着的概念规定**（作为知性活动的理性），真理只是有限的，无限者=**彼岸（Jenseits）**；§227：**分析方法（analytische Methode）**——分解给定具体者、孤立差别、给予抽象普遍性形式（属/力/规律）；§228-231：**综合方法（synthetische Methode）**——确定概念上推进：**定义（Definition）→划分（Einteilung）→定理（Theorem）+证明（Beweis）**（§229-231）；几何=综合方法的完美形态，但遇到不可公度/无理数就撞上知性边界（§231 附释 3：所谓「有理」其实是知性，「无理」反而是理性的开端与痕迹）；§231 附释：斯宾诺莎用几何方法讲思辨概念=形式主义；康德式「构造概念」=对概念的误解（数学不构造概念，只构造感性直观的抽象规定）。§232：证明中的**必然性**让认识离开其预设（发现/被给予）→**主观理念到达自在自为确定者、非被给予者=意志理念（Idee des Wollens）**。"
+    ],
+    [
+     "意志：实践理念",
+     "386",
+     "Die subjektive Idee als das an und für sich Bestimmte und sich selbst gleicher, einfacher Inhalt ist das Gute. Ihr Trieb, sich zu realisieren, hat das umgekehrte Verhältnis gegen die Idee des Wahren und geht darauf, vielmehr die vorgefundene Welt nach seinem Zwecke zu bestimmen",
+     "**意志（Wollen）=实践理念**：主观理念作为自在自为确定者、自身等同的简单内容=**善（Gute）**（§233）——其实现冲动与真理念相反：**按目的规定现成世界**；意志一方面确信预设对象的虚无，另一方面作为有限者又预设对象独立、把善的目的只当作主观理念。§234：这种活动的有限性=**矛盾**：善的目的在自相矛盾的客观规定中既实现又未实现（既本质又非本质、既现实又仅可能）——善的实现=**无限进展**，善被固定为**应然（Sollen）**；形式上矛盾的消解=活动扬弃目的的主体性（从而扬弃客观性与对立），而这种返回自身=**内容的回忆（Erinnerung）**——回忆理论态度的预设（对象是自在实体与真理）。§235：**善的真理=理论理念与实践理念的统一**——善自在自为地达到；从认识的差别与有限性返回自身、经概念活动与自身同一的生命=**思辨的/绝对的理念（spekulative oder absolute Idee）**。"
+    ],
+    [
+     "绝对理念：方法",
+     "388",
+     "Die Idee als Einheit der subjektiven und der objektiven Idee ist der Begriff der Idee, dem die Idee als solche der Gegenstand, dem das Objekt sie ist; – ein Objekt, in welches alle Bestimmungen zusammengegangen sind. Diese Einheit ist hiermit die absolute und alle Wahrheit, die sich selbstdenkende Idee, und zwar hier als denkende, als logische Idee",
+     "**绝对理念（absolute Idee）=主观理念与客观理念的统一**：概念的理念，以理念本身为对象——一切规定都汇入其中的客体=**绝对而全部的真理、自身思维的思维**，作为**逻辑理念**（§236）。§237：绝对理念中既无过渡也无预设——它是概念的**纯形式**，直观自身=内容；作为形式，留给理念的只是**方法（Methode）=内容的规定知识**（§237：内容=逻辑的系统；绝对理念的自我规定=方法）。§238-242：思辨方法的环节——α) **开端（Anfang）**：存在/直接者（§238：开端只是开端；但从思辨理念看，开端是自我规定：绝对否定性判断自身、设定自身为否定——被设定的存在=概念的自在）；β) **进展（Fortgang）**：被设定的判断（§239：直接普遍者=自在的概念=解构，把直接性与普遍性降为环节——**反思环节**；进展既分析又综合）；γ) **终点（Ende）**：矛盾消解为差别者被设定为它在概念中之所是（§242：否定之否定=自身否定性=统一；概念从自在经差别及其扬弃与自身相合=**实现了的概念**；终点只是「开端是直接者、理念是结果」这一假象的消失——**理念是一个总体**）。§241：三编的返程结构——第二域（本质论）是第一域的**回归**，第一域（存在论）是第二域的**过渡**；§243：方法不是外在形式，而是**内容的灵魂与概念**；§244：**理念自由地决断把自身作为自然释放出去**——概念→自然：绝对理念的外化（对应现象学 ch8：概念从自身释放时间/自然；这里是小逻辑的收束，自然哲学的开端）。"
+    ]
+   ],
+   "diagnose": "**引擎诊断：重建模式的完整循环（推论环节）——引擎三段以本名登场**。概念＝设定命题「概念=自由的总体」；判断＝展开——概念特殊化为判断（质/反思/必然/概念判断：从直接定在到属与种、到善真正确），判断的四种形态=判断主体逐步显形（质的判断还没有主体，概念判断的主体=判断力本身）；推论＝重建——推论=概念与判断的统一（质/反思/必然推论），**推论通过扬弃中介把主词与自身联结**：这就是引擎的完整形态（设定-展开-重建在推论中自我返回）；客体=推论的现实化（机械/化学/目的：概念沉入外在性再作为目的浮出）；理念=主客的绝对统一（生命=直接理念、认识/意志=理论/实践理念、绝对理念=方法）。**全编逻辑：以主客体统一的新视角重建**——不是「发展」式的生长，而是归纳前两编后视角转变：概念（主体）重新展开存在与本质的一切规定，自己设定、自己判断、自己推论、自己实现为理念。**终点：绝对理念=方法；概念自由地外化为自然（§244）**——小逻辑在「概念→自然」处收束，与现象学 ch8（概念从自身释放时间/自然）完全呼应：**同一架引擎，在意识介质（现象学）中上升，在概念介质（逻辑学）中下降，在自然（自然哲学）中重新开始**。",
+   "uebergang": "概念论的终点：**绝对理念自由地把自己释放为自然**（§244）——理念不以生命的方式过渡（那还是直接性），也不让有限认识映现它，而是在绝对真理中决断：把特殊化/第一规定/他在的环节（直接理念=自然）作为自己的反映自由地放出去。**三编宏观链条在此闭环：存在论（概念环节/设定）→本质论（判断环节/展开）→概念论（推论环节/重建——以主客体统一的新视角重构前两编）——小逻辑三编=引擎三段的一次宏观运转（V17）**；而概念论内部 a.概念→b.判断→c.推论 又是同一运转的微观复现（V17：判断论=本质论的概念化）。**跨作品衔接：现象学 ch8 的「概念在纯粹元素中自我展开」在此兑现；§244 概念→自然=自然哲学的开端（也是现象学 ch8 结尾「概念从自身释放时间/自然」的逻辑学版）。实体即主体（V17）在概念论完成：理念从普遍实体（§213 附释）发展为作为主体、作为精神的理念。**",
+   "chain": {
+    "set": "设定命题「概念=自由的总体（重建模式）」——归纳前两编后视角转变：以主客体统一的新视角重新展开前两编（§161 的 Entwicklung 读作重建/重构）；引擎三段以本名登场（a.概念→b.判断→c.推论）。",
+    "expand": "概念（普遍/特殊/个别）→判断：质（直接定在）→反思（关系）→必然（属/种）→概念判断（善/真/正确）——判断展开出主词与谓词的对立；推论：质（E-B-A 偶然）→反思（全体性/归纳/类比）→必然（直言/假言/选言）——推论的无限进展（前提需证明）；客体：机械（外在聚合）→化学（差异相互作用）→目的（自由的概念/理性的狡计）——目的的实现又落入无限进展（产物=新材料）；理念：生命（直接）→认识/意志（理论/实践）——认识陷入有限性（彼岸）。",
+    "rebuild": "理念=概念与客观性的绝对统一（§213）；绝对理念=方法（开端-进展-终点三环节）；**概念自由地外化为自然（§244）**——不是回到存在论的直接性，而是理念在自己释放自己的他者（自然）中仍与自身同一。",
+    "next": "自然哲学：绝对理念作为自然自由地外化——理念的直接性形态；与现象学 ch8「概念从自身释放时间/自然」双向呼应（逻辑学下降 / 现象学上升 / 自然重新开始）。"
+   }
+  }
+ ]
+}
