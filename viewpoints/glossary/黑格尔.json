@@ -1,6 +1,6 @@
 {
  "philosopher": "黑格尔",
- "updated": "2026-08-27",
+ "updated": "2026-08-29",
  "works": [
   "精神现象学",
   "小逻辑"
@@ -28,7 +28,8 @@
    "zh": "抽象",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -60,7 +61,8 @@
    "zh": "普遍者",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -68,7 +70,8 @@
    "zh": "普遍性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -108,7 +111,8 @@
    "zh": "承认",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -116,7 +120,8 @@
    "zh": "开端",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -204,7 +209,8 @@
    "zh": "劳动",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -244,7 +250,8 @@
    "zh": "扬弃",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -292,7 +299,8 @@
    "zh": "条件",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -308,7 +316,8 @@
    "zh": "满足",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -316,7 +325,8 @@
    "zh": "欲望",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -340,7 +350,8 @@
    "zh": "概念",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -356,7 +367,8 @@
    "zh": "特殊者",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -364,7 +376,8 @@
    "zh": "特殊性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -372,7 +385,8 @@
    "zh": "规定性",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -380,7 +394,8 @@
    "zh": "规定",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -412,7 +427,8 @@
    "zh": "意识",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -420,7 +436,8 @@
    "zh": "关联",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -428,7 +445,8 @@
    "zh": "教化",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -460,7 +478,8 @@
    "zh": "性格",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -508,7 +527,8 @@
    "zh": "定在",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -612,7 +632,8 @@
    "zh": "一（者）",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -628,7 +649,8 @@
    "zh": "统一性（算术语境=单位）",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -636,7 +658,8 @@
    "zh": "导论",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -668,7 +691,8 @@
    "zh": "个别性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -676,7 +700,8 @@
    "zh": "个别者",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -692,7 +717,8 @@
    "zh": "元素",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -748,7 +774,8 @@
    "zh": "终极目的",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -772,7 +799,8 @@
    "zh": "发展",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -780,7 +808,8 @@
    "zh": "分裂",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -868,7 +897,8 @@
    "zh": "现象",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -908,7 +938,8 @@
    "zh": "实存",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -956,7 +987,8 @@
    "zh": "形式",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -972,7 +1004,8 @@
    "zh": "自由",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1029,7 +1062,8 @@
    "zh": "情感",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1045,7 +1079,8 @@
    "zh": "精神",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1117,7 +1152,8 @@
    "zh": "规律",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1133,7 +1169,8 @@
    "zh": "信念（心志）",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1141,7 +1178,8 @@
    "zh": "形态",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1149,7 +1187,8 @@
    "zh": "强力",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1165,7 +1204,8 @@
    "zh": "良心",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1269,7 +1309,8 @@
    "zh": "善",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1285,7 +1326,8 @@
    "zh": "行动",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1365,7 +1407,8 @@
    "zh": "我",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1389,7 +1432,8 @@
    "zh": "理念",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1413,7 +1457,8 @@
    "zh": "个体性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1429,7 +1474,8 @@
    "zh": "内容",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1533,7 +1579,8 @@
    "zh": "具体者",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1573,7 +1620,8 @@
    "zh": "圆圈",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1637,7 +1685,8 @@
    "zh": "生命",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1709,7 +1758,8 @@
    "zh": "尺度",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1749,7 +1799,8 @@
    "zh": "意谓",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1757,7 +1808,8 @@
    "zh": "意见",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1813,7 +1865,8 @@
    "zh": "环节",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1829,7 +1882,8 @@
    "zh": "道德",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1845,7 +1899,8 @@
    "zh": "可能性",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -1861,7 +1916,8 @@
    "zh": "自然",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -1941,7 +1997,8 @@
    "zh": "必然性",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2037,7 +2094,8 @@
    "zh": "人格",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2045,7 +2103,8 @@
    "zh": "义务",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2109,7 +2168,8 @@
    "zh": "原则",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2133,7 +2193,8 @@
    "zh": "谓词",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2181,7 +2242,8 @@
    "zh": "实在性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2197,7 +2259,8 @@
    "zh": "法权",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2205,7 +2268,8 @@
    "zh": "实在者",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2213,7 +2277,8 @@
    "zh": "反思",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2245,7 +2310,8 @@
    "zh": "政府",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2253,7 +2319,8 @@
    "zh": "王国",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2309,7 +2376,8 @@
    "zh": "事情",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2341,7 +2409,8 @@
    "zh": "假象",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2357,7 +2426,8 @@
    "zh": "命运",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2405,7 +2475,8 @@
    "zh": "限制",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2437,7 +2508,8 @@
    "zh": "存在",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2461,7 +2533,8 @@
    "zh": "自我",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2469,7 +2542,8 @@
    "zh": "自我意识",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2477,7 +2551,8 @@
    "zh": "独立性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2509,7 +2584,8 @@
    "zh": "伦理",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2589,7 +2665,8 @@
    "zh": "国家",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2605,7 +2682,8 @@
    "zh": "主体",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2621,7 +2699,8 @@
    "zh": "主观性",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2629,7 +2708,8 @@
    "zh": "实体",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2637,7 +2717,8 @@
    "zh": "体系",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2685,7 +2766,8 @@
    "zh": "死亡",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2693,7 +2775,8 @@
    "zh": "总体",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2709,7 +2792,8 @@
    "zh": "冲动",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2717,7 +2801,8 @@
    "zh": "德行",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2725,7 +2810,8 @@
    "zh": "活动",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2797,7 +2883,8 @@
    "zh": "判断",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2821,7 +2908,8 @@
    "zh": "关系",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2829,7 +2917,8 @@
    "zh": "中介",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2837,7 +2926,8 @@
    "zh": "能力",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -2845,7 +2935,8 @@
    "zh": "理性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -2973,7 +3064,8 @@
    "zh": "民族",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3005,7 +3097,8 @@
    "zh": "表象",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3021,7 +3114,8 @@
    "zh": "真理",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3045,7 +3139,8 @@
    "zh": "世界精神",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3061,7 +3156,8 @@
    "zh": "变易",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3077,7 +3173,8 @@
    "zh": "本质",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3093,7 +3190,8 @@
    "zh": "意志",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3101,7 +3199,8 @@
    "zh": "任性",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -3109,7 +3208,8 @@
    "zh": "现实性",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3117,7 +3217,8 @@
    "zh": "知识",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3149,7 +3250,8 @@
    "zh": "意志",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -3189,7 +3291,8 @@
    "zh": "偶然性",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -3197,7 +3300,8 @@
    "zh": "目的",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3285,7 +3389,8 @@
    "zh": "自在",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3421,7 +3526,8 @@
    "zh": "普遍者",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3453,7 +3559,8 @@
    "zh": "有限者",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -3469,7 +3576,8 @@
    "zh": "善",
    "canonical": true,
    "works": [
-    "小逻辑"
+    "小逻辑",
+    "法哲学"
    ]
   },
   {
@@ -3517,7 +3625,8 @@
    "zh": "伦理者",
    "canonical": true,
    "works": [
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -4014,7 +4123,8 @@
    "canonical": true,
    "works": [
     "小逻辑",
-    "精神现象学"
+    "精神现象学",
+    "法哲学"
    ]
   },
   {
@@ -4062,6 +4172,367 @@
    "zh": "审美理念",
    "canonical": true,
    "works": [
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Monarch",
+   "zh": "君主",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Monarchie",
+   "zh": "君主制",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Souveränität",
+   "zh": "主权",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Volkssouveränität",
+   "zh": "人民主权",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Verfassung",
+   "zh": "宪法/政制",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Regierungsgewalt",
+   "zh": "政府权",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "gesetzgebende Gewalt",
+   "zh": "立法权",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "fürstliche Gewalt",
+   "zh": "君主权（王权）",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Korporation",
+   "zh": "同业公会",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Mittelstand",
+   "zh": "中等阶级",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "öffentliche Meinung",
+   "zh": "公共舆论",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Weltgeschichte",
+   "zh": "世界历史",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Völkergeist",
+   "zh": "民族精神",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Pöbel",
+   "zh": "贱民",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Krieg",
+   "zh": "战争",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "小逻辑",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Tapferkeit",
+   "zh": "勇气/英勇",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Patriotismus",
+   "zh": "爱国主义",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Rechtspflege",
+   "zh": "司法/法律维护",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Majorat",
+   "zh": "长子继承制",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Abgeordnete",
+   "zh": "代表",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Stand",
+   "zh": "等级/身份",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "小逻辑",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Geburt",
+   "zh": "出生",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Thronfolge",
+   "zh": "王位继承",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Legitimität",
+   "zh": "合法性/正当性",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Majestät",
+   "zh": "尊严/威仪",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "小逻辑",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Begnadigungsrecht",
+   "zh": "赦免权",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Hierarchie",
+   "zh": "等级制/科层制",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Beamte",
+   "zh": "官员",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Bürokratie",
+   "zh": "官僚制",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Heroenrecht",
+   "zh": "英雄权利",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Theokratie",
+   "zh": "神权政体",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Pietät",
+   "zh": "虔敬/孝道",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Ehe",
+   "zh": "婚姻",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Erbrecht",
+   "zh": "继承权",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Privatstand",
+   "zh": "私人等级",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Genossenschaft",
+   "zh": "同业团体",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Zutrauen",
+   "zh": "信任",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Anerkanntsein",
+   "zh": "被承认",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "精神现象学"
+   ]
+  },
+  {
+   "term": "Naturzustand",
+   "zh": "自然状态",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Traktat",
+   "zh": "条约",
+   "canonical": true,
+   "works": [
+    "法哲学",
+    "小逻辑"
+   ]
+  },
+  {
+   "term": "Völkerrecht",
+   "zh": "国际法",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "ewiger Friede",
+   "zh": "永恒和平",
+   "canonical": true,
+   "works": [
+    "法哲学"
+   ]
+  },
+  {
+   "term": "Idealität",
+   "zh": "理想性",
+   "canonical": true,
+   "works": [
+    "法哲学",
     "小逻辑"
    ]
   }
