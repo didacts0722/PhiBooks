@@ -22,6 +22,7 @@ import build_pheno_ch123 as P  # noqa: E402
 
 NOTES_RECHT = ROOT / "notes_recht"
 IDX = ROOT / "原文" / "黑格尔" / "Grundlinien_der_Philosophie_des_Rechts" / "extracted" / "Grundlinien_der_Philosophie_des_Rechts_index.json"
+SEC_MAP_FILE = NOTES_RECHT / "staat_sec_map.json"  # §260-329：zeno 内部国家法页无 § 标题，段落按内容标注（逐段）
 
 # 编定义：名称 → (notes 文件, 输出文件, 章节代号, §范围, 标题前缀)
 PARTS = {
@@ -65,6 +66,7 @@ def load_pages(lo: int, hi: int, chapter: int) -> list:
     index 页面按字母序排列，§ 段须按 § 号稳定排序恢复书序（同 § 内保持原文相对顺序，2026-08-29 修复）。
     § 附释（Anmerkung）与正文在提取中已融为一体，sec 标记所属 §，不区分（2026-08-27 用户裁定）。"""
     idx = json.loads(IDX.read_text(encoding="utf-8-sig"))
+    sec_map = json.loads(SEC_MAP_FILE.read_text(encoding="utf-8")) if SEC_MAP_FILE.exists() else {}
     vor_paras = []
     raw_sec = []
     # 第一遍：Vorrede（Vor 段，仅导言 lo=1 时）
@@ -75,15 +77,22 @@ def load_pages(lo: int, hi: int, chapter: int) -> list:
             for it in pg.get("items", []):
                 if it["type"] == "p":
                     vor_paras.append({"page": it.get("page"), "sec": "Vor", "text": it["text"]})
-    # 第二遍：收集 § 段（页面为字母序），再按 § 号稳定排序恢复书序
+    # 第二遍：收集 § 段（页面为字母序，按 § 号稳定排序恢复书序）。
+    # 无 § 标题的页面（内部国家法 7 页，zeno 长文连续版式）用 staat_sec_map.json 逐段标注。
     for pg in idx:
         cur = None
+        mapped = sec_map.get(pg.get("file"))
+        mi = 0
         for it in pg.get("items", []):
             if it["type"] in ("h4", "h5"):
                 m = re.match(r"§\s*(\d+)", it["text"])
                 cur = int(m.group(1)) if m else cur
-            elif it["type"] == "p" and cur and lo <= cur <= hi:
-                raw_sec.append({"page": it.get("page"), "sec": cur, "text": it["text"]})
+            elif it["type"] == "p":
+                sec_use = mapped[mi] if mapped and mi < len(mapped) else cur
+                if mapped:
+                    mi += 1
+                if sec_use and lo <= sec_use <= hi:
+                    raw_sec.append({"page": it.get("page"), "sec": sec_use, "text": it["text"]})
     raw_sec.sort(key=lambda p: p["sec"])  # 稳定排序：恢复书序，同 § 内保持原顺序
     # 编号：Vor 段在前（c{chapter}-p1..），§ 段接续（书序编号）
     for i, p in enumerate(vor_paras, 1):
