@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """合并子代理产出的阅读辅助（_tmp/ch{N}_rh.json）进 notes_pheno/reading_help.json，并硬校验：
-① de 分块逐字命中对应段落（去空白归一）② first/last 必备 ③ words 上限 6 ④ id 存在于未引段。
+① de 分块逐字命中对应段落（去空白归一）② first/last 必备 ③ words 上限 6
+④ words 必须是单词/短词组（de 空格>3 或长度>40 报错——拦截句子型障碍词，2026-08-27 定型）
+⑤ id 存在于未引段。
 用法：python merge_rh.py
 """
 import json
@@ -51,6 +53,15 @@ def main():
             if len(w) > 6:
                 print(f"  ✗ {f.name} {pid}: words {len(w)}>6")
                 errors += 1
+            for wi, wd in enumerate(w):
+                de = wd.get("de", "")
+                # 障碍词必须是单词/短词组：句子型（>3 空格）或超长（>40 字符）视为错误数据
+                if de.count(" ") > 3 or len(de) > 40:
+                    print(f"  ✗ {f.name} {pid}.words[{wi}]: de 句子型/超长 → {de[:50]!r}")
+                    errors += 1
+                if not wd.get("zh"):
+                    print(f"  ✗ {f.name} {pid}.words[{wi}]: zh 缺失")
+                    errors += 1
             if not entry.get("first") or not entry.get("last"):
                 print(f"  ✗ {f.name} {pid}: first/last 缺失")
                 errors += 1

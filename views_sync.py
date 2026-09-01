@@ -35,6 +35,7 @@ def render_base(data) -> str:
             f"- **观点**：{v['text']}",
             f"- **来源**：{v['source']}",
             f"- **边界**：{v['boundary']}",
+            f"- **关联**：{('、'.join(v['refs'])) if v.get('refs') else '—'}",
             f"- **应用于**：{('、'.join(v['applies'])) if v['applies'] else '—'}",
             "",
         ]

@@ -53,7 +53,9 @@ PARTS = {
 
 
 def load_pages(lo: int, hi: int, chapter: int) -> list:
-    """从 index 重建书序，取 [lo,hi] 的段落（id=c{chapter}-pN, page=页码锚）"""
+    """从 index 重建书序，取 [lo,hi] 的段落（id=c{chapter}-pN, page=页码锚, sec=所属§号）。
+    注：§ 附释（Anmerkung）与正文在提取中已融为一体（同一 § 下的多段），sec 标记所属 §，
+    不区分正文/附释——显示层打 § 标记用（2026-08-27 用户裁定）。"""
     idx = json.loads((ROOT / "原文" / "黑格尔" / "Enzyklopädie_Logik" / "extracted"
                       / "enzyklopaedie_logik_index.json").read_text(encoding="utf-8-sig"))
     def page_anchor(pg):
@@ -69,7 +71,7 @@ def load_pages(lo: int, hi: int, chapter: int) -> list:
                 cur = int(m.group(1)) if m else cur
             elif it["type"] == "p" and cur and lo <= cur <= hi:
                 paras.append({"id": f"c{chapter}-p{len(paras) + 1}",
-                              "page": it.get("page"), "text": it["text"]})
+                              "page": it.get("page"), "sec": cur, "text": it["text"]})
     return paras
 
 

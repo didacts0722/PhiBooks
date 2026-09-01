@@ -288,10 +288,17 @@ def render_rh(pid: str) -> str:
 
 
 def para_html(p: dict, pnum: int, chapter: int, snippets: list) -> str:
-    nm = f'<span class="pnum">{chapter}.{pnum}</span>'
+    # 段落若有 sec 字段（小逻辑/法哲学 § 编号，或 Vor 序言），显示用 §N/Vor；否则用 章.段
+    if p.get("sec") == "Vor":
+        label = "Vor"
+    elif p.get("sec"):
+        label = f"§{p['sec']}"
+    else:
+        label = f"{chapter}.{pnum}"
+    nm = f'<span class="pnum">{label}</span>'
     text = mark_cited(norm(p["text"]), snippets)
-    bm = (f'<button class="bm-add" type="button" data-bm="{chapter}.{pnum}" '
-          f'title="书签：{chapter}.{pnum}">＋</button>')
+    bm = (f'<button class="bm-add" type="button" data-bm="{label}" '
+          f'title="书签：{label}">＋</button>')
     p_html = f'<p class="op" id="{p["id"]}">{nm} {text}{bm}</p>'
     rh = render_rh(p["id"]) if not snippets else ""
     if rh:

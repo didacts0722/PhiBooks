@@ -144,11 +144,14 @@ def main():
         print(f"已入库哲学家观点：{new_id}（{entry['stage']}·{entry['work']}）")
     elif args.type == "base":
         new_id = next_id(base_ids, "V")
+        # refs：V# 互参进 refs 字段；T- 进 applies（应用于文献）
         entry = {"id": new_id, "text": args.text, "source": args.source,
-                 "boundary": args.boundary or "（待补边界）", "applies": [r for r in refs if r.startswith("T-")]}
+                 "boundary": args.boundary or "（待补边界）",
+                 "refs": [r for r in refs if r.startswith("V")],
+                 "applies": [r for r in refs if r.startswith("T-")]}
         base["items"].append(entry)
         save("base.json", base)
-        print(f"已入库基础观点：{new_id}")
+        print(f"已入库基础观点：{new_id}" + (f"（互参：{', '.join(entry['refs'])}）" if entry["refs"] else ""))
     else:
         prefix = args.prefix or LIT_PREFIX.get(args.lit, args.lit[:1].upper())
         new_id = next_id(lit_ids, f"T-{prefix}")
