@@ -28,7 +28,9 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parent
 VP = ROOT / "viewpoints"
 
-LIT_PREFIX = {"现象学": "P", "小逻辑": "L", "中庸": "Z", "精神现象学": "P", "逻辑学": "L"}
+LIT_PREFIX = {"现象学": "P", "小逻辑": "L", "中庸": "Z", "精神现象学": "P", "逻辑学": "L",
+              "法哲学": "R", "法哲学原理": "R", "Grundlinien": "R", "Grundlinien der Philosophie des Rechts": "R",
+              "巴门尼德篇": "Pm", "Parmenides": "Pm"}
 
 
 def load(name):
@@ -42,6 +44,8 @@ def save(name, data):
 def next_id(existing, prefix):
     nums = []
     for eid in existing:
+        if not eid.startswith(prefix):
+            continue
         try:
             nums.append(int(eid[len(prefix):]))
         except (ValueError, IndexError):
