@@ -234,20 +234,6 @@ def build_all():
     print(f"[校验] 原文段落：{n_paras} | 小节：{n_blocks} | 首次术语标记：{len(seen_terms)} 个词")
 
 
-def archive_unconscious():
-    """无意识层归档：对话原始记录自动落沙箱（2026-08-29——每次构建后同步）"""
-    import subprocess
-    try:
-        r = subprocess.run(["node", "对话归档/工具/同步原始档.js"], cwd=ROOT, check=False,
-                           capture_output=True, text=True, encoding="utf-8",
-                           errors="replace", timeout=60)
-        out = (r.stdout or "").strip() or (r.stderr or "").strip()
-        if out:
-            print(f"[归档] {out}")
-    except Exception as e:
-        print(f"[归档] 跳过（{e}）")
-
-
 if __name__ == "__main__":
     part = sys.argv[1] if len(sys.argv) > 1 else "all"
     if part == "all":
@@ -257,4 +243,3 @@ if __name__ == "__main__":
         sys.exit(1)
     else:
         build_all()  # 方法 A：分编参数也统一走单文件合体
-    archive_unconscious()

@@ -23,6 +23,9 @@
 
 ## 维护
 
-- **更新原始档**：会话仍在增长——阶段结束时重新复制 `~/.dsh/sessions/--D-Code-Anything-Books--/<session-id>/session.jsonl.zstd` 到 `原始/`
+- **归档（独立功能，2026-08-29 与构建解耦）**：
+  - `python archive_unconscious.py`——归档当前会话到 `原始/session.jsonl.zstd`
+  - `python archive_unconscious.py --all`——归档全部项目会话到 `原始/全部会话/`
+  - 内部调用 `工具/同步原始档.js`（读 `$env:DSH_SESSION_JSONL`）
 - **解压**：dsh 会话为分块 zstd；安装 zstandard 后按帧解压拼接（或 dsh 自身可读）
 - **git**：原始档 33MB 压缩后约 20MB——已纳入 git 跟踪（PhiBooks）；若仓库过大可改 .gitignore + 仅保留索引
