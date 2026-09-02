@@ -278,6 +278,18 @@
     "V17"
    ],
    "note": "docs/法哲学_导言_血肉展开.md F1-F4（原文已逐字核对）"
+  },
+  {
+   "id": "T-R9",
+   "lit": "法哲学",
+   "section": "市民社会/货币=价值的定在",
+   "text": "货币=价值概念在交换中的定在（黑格尔无独立货币理论，货币是市民社会需要的体系之交换环节的结构必然）：§63 价值定义=物在其使用中作为可与他物量化的普遍性，从特殊性质抽象出的东西（Diese ihre Allgemeinheit ... ist der Wert der Sache）——货币=抽象价值的物化；§80 货币=自为的普遍者（wie Geld als eine für sich allgemeine）——不依附任何特殊使用的纯粹价值载体；§204 商业等级以货币为普遍交换手段，货币=一切商品抽象价值的现实（das Geld, in welchem der abstrakte Wert aller Waren wirklich ist）；§298 国家征税折算为货币（Geld als den existierenden allgemeinen Wert der Dinge und der Leistungen）。引擎定位：货币=市民社会抽象化的中介（把个别劳动/个别需要抽象为可通约的普遍价值=判断的抽象化），是承认被制度化生产（V23）的货币面——承认可计量（报酬/价格）。对接：马克思《资本论》货币理论从黑格尔价值形式接出（商品=概念/货币=判断环节/资本=推论，V19）。",
+   "anchor": "§63,§80,§204,§298",
+   "refs": [
+    "V23",
+    "V19"
+   ],
+   "note": "2026-08-29 讨论沉淀（原文逐字核实）"
   }
  ]
 }
