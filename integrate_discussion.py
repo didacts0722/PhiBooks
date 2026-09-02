@@ -7,7 +7,7 @@
   python integrate_discussion.py 5 哈姆雷特 "2026-08-26|哈姆雷特的延宕|延宕是概念不敢进入判断……"
 
 说明：
-- 关键词用于在 notes_pheno/ch<章号>.json 的环节标题中定位（首个包含者）。
+- 关键词用于在 项目/现象学/notes/ch<章号>.json 的环节标题中定位（首个包含者）。
 - 内容格式：用 | 分隔 日期/主题/要点；要点可含 **加粗**。
 - 追加后自动重建 HTML 并跑引文对拍校验。
 - --dry-run：只显示将要追加的内容，不写入。
@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-NOTES = Path(__file__).resolve().parent / "notes_pheno"
+NOTES = Path(__file__).resolve().parent / "项目/现象学/notes"
 
 
 def main():

@@ -99,11 +99,11 @@ def load_chapter(n: int) -> list:
     return paras
 
 
-NOTES_DIR = ROOT / "notes_pheno"
+NOTES_DIR = ROOT / "项目/现象学/notes"
 
 
 def load_notes(n: int) -> dict:
-    """笔记数据：优先 notes_pheno/ch{n}.json，缺失时回退内嵌 NOTES（1-3 章）"""
+    """笔记数据：优先 项目/现象学/notes/ch{n}.json，缺失时回退内嵌 NOTES（1-3 章）"""
     p = NOTES_DIR / f"ch{n}.json"
     if p.exists():
         return json.loads(p.read_text(encoding="utf-8"))
@@ -479,7 +479,7 @@ def render_diagram(dg: dict) -> str:
 GLOSS = {}
 TERM_RES = {}
 
-# 未引段阅读辅助：notes_pheno/reading_help.json（首/末/难句硬译分块 + 障碍词）
+# 未引段阅读辅助：项目/现象学/notes/reading_help.json（首/末/难句硬译分块 + 障碍词）
 RH = {}
 
 
@@ -491,7 +491,7 @@ def load_reading_help():
 
 
 def load_glossary(work: str = "精神现象学"):
-    p = NOTES_DIR.parent / "viewpoints" / "glossary" / "黑格尔.json"
+    p = ROOT / "viewpoints" / "glossary" / "黑格尔.json"  # 术语主表固定于项目根（2026-08-29 学习项目迁移后）
     if not p.exists():
         return
     data = json.loads(p.read_text(encoding="utf-8"))

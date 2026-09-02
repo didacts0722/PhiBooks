@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 
 def main():
     for n in range(1, 9):
-        p = ROOT / "notes_pheno" / f"ch{n}.json"
+        p = ROOT / "项目/现象学/notes" / f"ch{n}.json"
         if not p.exists():
             continue
         data = json.loads(p.read_text(encoding="utf-8"))

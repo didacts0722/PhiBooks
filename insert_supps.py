@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""把庄振华义解认可补充（ch3×3 + ch4×4）追加进 notes_pheno/ch3.json、ch4.json
+"""把庄振华义解认可补充（ch3×3 + ch4×4）追加进 项目/现象学/notes/ch3.json、ch4.json
 对应环节的 supplements（第 5 元素；None → 建数组，已有数组 → 追加）。"""
 import json
 import sys
@@ -53,7 +53,7 @@ def main():
     for fname, title, supp in SUPPS:
         by_file.setdefault(fname, []).append((title, supp))
     for fname, items in by_file.items():
-        p = ROOT / "notes_pheno" / fname
+        p = ROOT / "项目/现象学/notes" / fname
         data = json.loads(p.read_text(encoding="utf-8"))
         for title, supp in items:
             found = False

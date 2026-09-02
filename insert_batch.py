@@ -167,7 +167,7 @@ BATCH = {"ch5": CH5, "ch6": CH6, "ch7": CH7}
 def main():
     which = sys.argv[1] if len(sys.argv) > 1 else "ch5"
     items = BATCH[which]
-    p = ROOT / "notes_pheno" / f"{which}.json"
+    p = ROOT / "项目/现象学/notes" / f"{which}.json"
     data = json.loads(p.read_text(encoding="utf-8"))
     done = 0
     for title, supp in items:

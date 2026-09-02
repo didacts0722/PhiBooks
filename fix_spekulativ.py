@@ -8,7 +8,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent
-NOTES = ROOT / "notes_pheno"
+NOTES = ROOT / "项目/现象学/notes"
 
 REPL = [
     ("spekulativ 的重建力缺席", "思辨（spekulativ）的重建力缺席"),

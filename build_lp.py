@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-小逻辑 · 注释版构建：原文(Enzyklopädie_Logik) + notes_lp/*.json
+小逻辑 · 注释版构建：原文(Enzyklopädie_Logik) + 项目/小逻辑/notes/*.json
 复用 build_pheno_ch123 的渲染函数（双栏/术语条/阅读辅助/命题链/链路图）。
 支持分编构建：
   python build_lp.py sein      → 笔记/小逻辑_存在论_注释版.html（§84-111，CHAPTER=10）
@@ -17,7 +17,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parent
 import build_pheno_ch123 as P  # noqa: E402
 
-NOTES_LP = ROOT / "notes_lp"
+NOTES_LP = ROOT / "项目/小逻辑/notes"
 
 # 编定义：名称 → (notes 文件, 输出文件, 章节代号, §范围, 标题前缀)
 PARTS = {

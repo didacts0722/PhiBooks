@@ -54,7 +54,7 @@ def main():
     for fname, title, content in REWRITES:
         by_file.setdefault(fname, []).append((title, content))
     for fname, items in by_file.items():
-        p = ROOT / "notes_pheno" / fname
+        p = ROOT / "项目/现象学/notes" / fname
         data = json.loads(p.read_text(encoding="utf-8"))
         n = 0
         for title, content in items:

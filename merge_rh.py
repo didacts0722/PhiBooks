@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""合并子代理产出的阅读辅助（_tmp/ch{N}_rh.json）进 notes_pheno/reading_help.json，并硬校验：
+"""合并子代理产出的阅读辅助（_tmp/ch{N}_rh.json）进 项目/现象学/notes/reading_help.json，并硬校验：
 ① de 分块逐字命中对应段落（去空白归一）② first/last 必备 ③ words 上限 6
 ④ words 必须是单词/短词组（de 空格>3 或长度>40 报错——拦截句子型障碍词，2026-08-27 定型）
 ⑤ id 存在于未引段。
@@ -14,7 +14,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent
 TMP = ROOT / "_tmp"
-RH = ROOT / "notes_pheno" / "reading_help.json"
+RH = ROOT / "项目/现象学/notes" / "reading_help.json"
 
 import build_pheno_ch123 as b  # noqa: E402
 
@@ -72,7 +72,7 @@ def main():
         sys.exit(1)
     RH.write_text(json.dumps(target, ensure_ascii=False, indent=1),
                   encoding="utf-8", newline="\n")
-    print(f"合并 {merged} 条，校验全过 -> notes_pheno/reading_help.json（共 {len(target['paragraphs'])} 段）")
+    print(f"合并 {merged} 条，校验全过 -> 项目/现象学/notes/reading_help.json（共 {len(target['paragraphs'])} 段）")
 
 
 if __name__ == "__main__":

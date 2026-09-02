@@ -10,7 +10,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent
-NOTES = ROOT / "notes_pheno"
+NOTES = ROOT / "项目/现象学/notes"
 
 WORD_RE = re.compile(r"\b[A-ZÄÖÜ][a-zäöüß]+(?:[A-ZÄÖÜa-zäöüß-]*[a-zäöüß])?\b")
 STOP = {

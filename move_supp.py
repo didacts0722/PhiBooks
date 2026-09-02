@@ -7,7 +7,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-P = Path(__file__).resolve().parent / "notes_pheno" / "ch4.json"
+P = Path(__file__).resolve().parent / "项目/现象学/notes" / "ch4.json"
 
 ALLEGORY_SUPP = {
     "date": "2026-08-26",

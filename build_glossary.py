@@ -16,8 +16,8 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent
-NOTES_PHENO = ROOT / "notes_pheno"
-NOTES_LP = ROOT / "notes_lp"
+NOTES_PHENO = ROOT / "项目/现象学/notes"
+NOTES_LP = ROOT / "项目/小逻辑/notes"
 MASTER = ROOT / "viewpoints" / "glossary" / "黑格尔.json"
 
 # 行内注释：中文/标点 + （德文）

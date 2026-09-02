@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-法哲学原理 · 注释版构建：原文(Grundlinien_der_Philosophie_des_Rechts) + notes_recht/*.json
+法哲学原理 · 注释版构建：原文(Grundlinien_der_Philosophie_des_Rechts) + 项目/法哲学/notes/*.json
 复用 build_pheno_ch123 的渲染函数（双栏/术语条/阅读辅助/命题链/链路图）。
 借鉴小逻辑项目形态：四部分分别写，再合并（build_all）。
 支持分编构建：
@@ -20,7 +20,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parent
 import build_pheno_ch123 as P  # noqa: E402
 
-NOTES_RECHT = ROOT / "notes_recht"
+NOTES_RECHT = ROOT / "项目/法哲学/notes"
 IDX = ROOT / "原文" / "黑格尔" / "Grundlinien_der_Philosophie_des_Rechts" / "extracted" / "Grundlinien_der_Philosophie_des_Rechts_index.json"
 SEC_MAP_FILE = NOTES_RECHT / "staat_sec_map.json"  # §260-329：zeno 内部国家法页无 § 标题，段落按内容标注（逐段）
 
