@@ -17,9 +17,13 @@
 ```
 对话归档/
   原始/session.jsonl.zstd   原始会话（zstd 压缩 JSONL，dsh 格式）
+  历史/conversation_full.txt  08-21~26 对话全文导出（旧无意识层，2026-08-29 归位）
+  历史/deepseek_data-2026-08-26.zip  08-26 网页端导出源 zip（2026-08-29 归位）
   索引.md                   主题段→产出映射 + 关键裁定（导航）
   README.md                 本文件
 ```
+
+> 2026-08-29 结构归位：根目录 `conversation_full.txt` + `deepseek_data-2026-08-26.zip` 移入 `历史/`（内容已被 zstd 会话流覆盖，保留作历史参考，不再污染根目录）。`docs/对话档案.md` 为旧对话的意识化提炼记录（观点已迁出至观点库），属记下层，不入本目录。
 
 ## 维护
 

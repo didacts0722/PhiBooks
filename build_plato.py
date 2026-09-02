@@ -29,11 +29,19 @@ def load_paras():
     return paras
 
 
+def notes_dir():
+    # 归位后路径：项目/柏拉图/notes；兼容旧根目录 notes_plato/
+    nd = ROOT / "项目" / "柏拉图" / "notes"
+    if nd.exists():
+        return nd
+    return ROOT / "notes_plato"
+
+
 def main():
     P.load_glossary("")  # 全量术语
     P.RH = {}
     paras = load_paras()
-    meta = json.loads((ROOT / "notes_plato" / "parmenides.json").read_text(encoding="utf-8"))
+    meta = json.loads((notes_dir() / "parmenides.json").read_text(encoding="utf-8"))
     blocks = P.build_blocks(paras, meta)
     chapter_norm = [(p["id"], p.get("page"), P.norm(p["text"])) for p in paras]
     cited_map = {p["id"]: [] for p in paras}
