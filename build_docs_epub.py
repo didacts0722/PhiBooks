@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 build_docs_epub.py — docs 内容文档 → epub（手机阅读）
-用法: python build_docs_epub.py
+用法:
+  python build_docs_epub.py             # 全量合集 哲学工作笔记.epub
+  python build_docs_epub.py water       # 自来水寓言专册 自来水寓言.epub
+  python build_docs_epub.py all         # 两个都生成
 依赖: 仅 python 标准库 + markdown 库（本地已装，无需网络/pandoc）
-产出: 移动阅读/哲学工作笔记.epub
-
-书内结构（2026-09-04 用户确认）：
-  - 格式 epub（非 Kindle 环境）
-  - 收 18 个内容文档，排 8 个流程/工具文件
-  - 四部分按主题分组；手动构造 EPUB（zip 容器 + OPF + NCX 嵌套目录）
+产出: 移动阅读/哲学工作笔记.epub + 移动阅读/自来水寓言.epub
 """
 import os, re, sys, zipfile, html as htmlmod
 import markdown
@@ -17,42 +15,62 @@ from datetime import datetime, timezone
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(ROOT, "docs")
 OUT_DIR = os.path.join(ROOT, "移动阅读")
-OUT_EPUB = os.path.join(OUT_DIR, "哲学工作笔记.epub")
 
-META_TITLE = "哲学工作笔记（docs 精选）"
-META_AUTHOR = "Books 工作区"
-
-# 书内结构：四部分，每部分 = (部分标题, [文件名,...])
-PARTS = [
-    ("第一部分 引擎与方法", [
-        "三书关系_引擎三介质.md",
-        "全书结构分析.md",
-        "义解_环节对应表.md",
-        "存在论_术语规范化草案.md",
-    ]),
-    ("第二部分 观点库", [
-        "基础观点库.md",
-        "文献观点库.md",
-        "柏拉图观点库.md",
-        "谢林观点库.md",
-    ]),
-    ("第三部分 精神分析与自来水寓言", [
-        "自来水比喻_寓言性哲学史.md",
-        "自来水比喻_详册_系统与前史.md",
-        "自来水比喻_详册_后黑格尔姿态.md",
-        "精神分析术语释义.md",
-        "临床结构学说_拉康四大结构.md",
-        "精神分析_引擎深度整理.md",
-    ]),
-    ("第四部分 讨论与档案", [
-        "对话档案.md",
-        "对话录_劳动与尼特族.md",
-        "法哲学_讨论材料.md",
-        "法哲学_导言_血肉展开.md",
-        "现象学_重新梳理收获.md",
-        "伴侣匹配标准.md",
-    ]),
-]
+# 每本书：文件名 / 标题 / 作者 / 部分结构
+BOOKS = {
+    "water": {
+        "file": "自来水寓言.epub",
+        "title": "自来水寓言：寓言性哲学史（三件套）",
+        "author": "Books 工作区",
+        "expand_sub": ["自来水比喻_寓言性哲学史"],
+        "parts": [
+            ("第一部 寓言性哲学史", [
+                "自来水比喻_寓言性哲学史.md",
+            ]),
+            ("第二部 详册·系统与前史", [
+                "自来水比喻_详册_系统与前史.md",
+            ]),
+            ("第三部 详册·后黑格尔姿态", [
+                "自来水比喻_详册_后黑格尔姿态.md",
+            ]),
+        ],
+    },
+    "full": {
+        "file": "哲学工作笔记.epub",
+        "title": "哲学工作笔记（docs 精选）",
+        "author": "Books 工作区",
+        "parts": [
+            ("第一部分 引擎与方法", [
+                "三书关系_引擎三介质.md",
+                "全书结构分析.md",
+                "义解_环节对应表.md",
+                "存在论_术语规范化草案.md",
+            ]),
+            ("第二部分 观点库", [
+                "基础观点库.md",
+                "文献观点库.md",
+                "柏拉图观点库.md",
+                "谢林观点库.md",
+            ]),
+            ("第三部分 精神分析与自来水寓言", [
+                "自来水比喻_寓言性哲学史.md",
+                "自来水比喻_详册_系统与前史.md",
+                "自来水比喻_详册_后黑格尔姿态.md",
+                "精神分析术语释义.md",
+                "临床结构学说_拉康四大结构.md",
+                "精神分析_引擎深度整理.md",
+            ]),
+            ("第四部分 讨论与档案", [
+                "对话档案.md",
+                "对话录_劳动与尼特族.md",
+                "法哲学_讨论材料.md",
+                "法哲学_导言_血肉展开.md",
+                "现象学_重新梳理收获.md",
+                "伴侣匹配标准.md",
+            ]),
+        ],
+    },
+}
 
 CSS = """
 body { font-family: serif; line-height: 1.75; margin: 1em; font-size: 1.02em; }
@@ -130,7 +148,31 @@ def esc(s):
     return htmlmod.escape(s, quote=True)
 
 
-def main():
+def add_heading_ids(body):
+    """给 body 中 h2/h3/h4 注入 id（sec-1, sec-2...），返回 (new_body, headings)。
+    headings = [(level, plain_text, id)]——plain_text 去掉内部 markdown 标签。"""
+    counter = [0]
+    headings = []
+
+    def repl(m):
+        level = int(m.group(1))
+        inner = m.group(2)
+        counter[0] += 1
+        hid = "sec-{}".format(counter[0])
+        plain = re.sub(r"<[^>]+>", "", inner)
+        headings.append((level, plain, hid))
+        return '<h{0} id="{1}">{2}</h{0}>'.format(level, hid, inner)
+
+    new_body = re.sub(r"<h([234])[^>]*>(.*?)</h\1>", repl, body, flags=re.S)
+    return new_body, headings
+
+
+def build_book(book_key):
+    cfg = BOOKS[book_key]
+    PARTS = cfg["parts"]
+    META_TITLE = cfg["title"]
+    META_AUTHOR = cfg["author"]
+    OUT_EPUB = os.path.join(OUT_DIR, cfg["file"])
     os.makedirs(OUT_DIR, exist_ok=True)
 
     # ── 1. 读文件 → (part_index, file_index, html_body, title)
@@ -155,12 +197,15 @@ def main():
     # 文件名统一用数字索引 ch{idx}.xhtml（idx=chapters 顺序 0..N-1）——
     # nav/NCX 目录链接均以该索引为 href，必须同一套命名
     file_entries = []  # (filename, xhtml)
+    chapter_heads = []  # 每章的 [(level, text, id)]——供目录展开
     for idx, ch in enumerate(chapters):
         title = "{}｜{}".format(ch["part"], ch["file"])
         # 章首放部分+文件两级标题，正文去掉 md 自己的主标题首行重复问题：
         # 文件内容标题已平移为 h2 起，这里补 h1=部分、h2=文件标题会重复文件内 h2？
         # 文件内第一个标题=原文 #（平移后 ##）——即文件名本身，故章首只放部分标题，文件标题由正文 h2 呈现。
         body = '<h1>{}</h1>\n{}'.format(esc(ch["part"]), ch["body"])
+        body, heads = add_heading_ids(body)
+        chapter_heads.append(heads)
         file_entries.append(("ch{}.xhtml".format(idx),
                              XHTML_TMPL.format(title=esc(title), body=body)))
 
@@ -247,6 +292,19 @@ def main():
     # ── 4b. EPUB3 nav 导航文档（Readest 等现代阅读器读这个；NCX 留作兼容）
     # 注意：不能用外层泄漏的 ch 变量（for ch in chapters 结束后残留最后一个）——
     # 一律经 ch_idx 从 chapters 取
+    # cfg['expand_sub']：需要把章内小节也展开进目录的文件名列表（如寓言史主文档）
+    expand_files = set(cfg.get("expand_sub", []))
+
+    def sub_li(heads, ch_idx, min_level):
+        """把 headings 中 level>=min_level 的标题输出为子目录 <li>（扁平，均指向章内锚点）。"""
+        flat = []
+        for level, text, hid in heads:
+            if level < min_level:
+                continue
+            flat.append('                <li><a href="ch{ci}.xhtml#{hid}">{txt}</a></li>'.format(
+                ci=ch_idx, hid=hid, txt=esc(text)))
+        return "\n".join(flat)
+
     nav_items = []
     for pi, (part_title, names) in enumerate(PARTS):
         sub = []
@@ -254,9 +312,20 @@ def main():
             cid = "part{}-file{}".format(pi, fi)
             ch_idx = next(idx for idx, ch in enumerate(chapters) if ch["id"] == cid)
             ch_obj = chapters[ch_idx]
+            label = ch_obj["file"]
+            base_href = "ch{}.xhtml".format(ch_idx)
+            # 若该文件要求展开小节：文件项下挂子 ol
+            if label in expand_files and ch_idx < len(chapter_heads):
+                kids = sub_li(chapter_heads[ch_idx], ch_idx, min_level=3)
+                if kids:
+                    sub.append(
+                        '          <li><a href="{href}">{label}</a>\n'
+                        '            <ol>\n{kids}\n            </ol>\n          </li>'.format(
+                            href=base_href, label=esc(label), kids=kids))
+                    continue
             sub.append(
-                '          <li><a href="ch{ci}.xhtml">{label}</a></li>'.format(
-                    ci=ch_idx, label=esc(ch_obj["file"])))
+                '          <li><a href="{href}">{label}</a></li>'.format(
+                    href=base_href, label=esc(label)))
         nav_items.append(
             '      <li><span>{part}</span>\n        <ol>\n{children}\n        </ol>\n      </li>'.format(
                 part=esc(part_title), children="\n".join(sub)))
@@ -309,6 +378,26 @@ def main():
         nav_ok = 'properties="nav"' in opf_text and 'epub:type="toc"' in z.read("OEBPS/nav.xhtml").decode("utf-8")
         print("spine 章节数 =", spine_count, "| EPUB3 nav =", "OK" if nav_ok else "FAIL")
     print("完成。可拷到手机阅读（Readest/微信读书/静读天下/Apple Books）。")
+    return 0
+
+
+def main():
+    """参数：无=full（全量合集）；water=自来水寓言专册；all=两者都生成。"""
+    args = sys.argv[1:]
+    if len(args) >= 1 and args[0] in ("water", "full", "all"):
+        mode = args[0]
+    elif len(args) == 0:
+        mode = "full"
+    else:
+        print("用法: python build_docs_epub.py [water|full|all]（默认 full=哲学工作笔记）")
+        return 1
+    if mode in ("full", "all"):
+        if build_book("full") != 0:
+            return 1
+    if mode in ("water", "all"):
+        if build_book("water") != 0:
+            return 1
+    return 0
 
 
 if __name__ == "__main__":
