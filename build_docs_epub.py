@@ -55,11 +55,14 @@ PARTS = [
 ]
 
 CSS = """
-body { font-family: serif; line-height: 1.7; margin: 1em; font-size: 1.05em; }
-h1 { font-size: 1.5em; page-break-before: always; }
+body { font-family: serif; line-height: 1.75; margin: 1em; font-size: 1.02em; }
+h1 { font-size: 1.45em; page-break-before: always; margin-bottom: 0.4em; }
 h1:first-of-type { page-break-before: auto; }
-h2 { font-size: 1.3em; margin-top: 1.2em; }
-h3 { font-size: 1.15em; }
+h2 { font-size: 1.28em; margin-top: 1.3em; margin-bottom: 0.3em; }
+h3 { font-size: 1.15em; margin-top: 1.1em; }
+p { margin: 0.5em 0; }
+ul, ol { margin: 0.4em 0; padding-left: 1.4em; }
+li { margin: 0.25em 0; }
 /* blockquote 与正文一致（用户裁定 2026-09-04）：不做特殊底色/边框——
    但必须显式 background:transparent + border:none，否则阅读器（Readest 等）
    对无声明引用块套默认深底（最初黑底问题）。显式声明后视觉即与正文相同。 */
@@ -71,13 +74,20 @@ blockquote {
   padding: 0;
 }
 blockquote p { margin: 0.4em 0; }
-table { border-collapse: collapse; width: 100%; margin: 0.5em 0; font-size: 0.85em; }
-th, td { border: 1px solid #aaa; padding: 3px 6px; text-align: left; vertical-align: top; }
-th { background: #eee; }
+/* 表格：窄屏优先紧凑；长文本格允许断词换行 */
+table { border-collapse: collapse; width: 100%; margin: 0.6em 0; font-size: 0.82em; table-layout: fixed; }
+th, td { border: 1px solid #bbb; padding: 3px 5px; text-align: left; vertical-align: top; word-wrap: break-word; overflow-wrap: break-word; }
+th { background: #eee; font-weight: bold; }
+/* 代码块（动力链图已窄化≤42字符）：等宽微缩+pre-wrap 兜底防溢出 */
 code { font-family: monospace; font-size: 0.9em; background: #f4f4f4; padding: 0 2px; }
-pre { background: #f4f4f4; padding: 0.6em; overflow-wrap: break-word; white-space: pre-wrap; }
+pre {
+  font-family: monospace; font-size: 0.78em; line-height: 1.55;
+  background: #f4f4f4; padding: 0.7em 0.8em; margin: 0.7em 0;
+  white-space: pre-wrap; word-wrap: break-word; overflow-wrap: break-word;
+}
 img { max-width: 100%; }
-hr { border: none; border-top: 1px solid #ccc; margin: 1.5em 0; }
+hr { border: none; border-top: 1px solid #ccc; margin: 1.4em 0; }
+strong { font-weight: bold; }
 """
 
 XHTML_TMPL = """<?xml version="1.0" encoding="utf-8"?>
