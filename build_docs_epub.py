@@ -12,6 +12,7 @@ build_docs_epub.py — docs 内容文档 → epub（手机阅读）
 """
 import os, re, sys, zipfile, html as htmlmod
 import markdown
+from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(ROOT, "docs")
@@ -143,10 +144,12 @@ def main():
     # 上面把 style 包在 body 里不标准；epub 用独立 css 文件
     style_css = CSS
 
-    # ── 3. OPF manifest/spine
+    # ── 3. OPF manifest/spine（EPUB3：version 3.0 + nav 导航文档）
     items = []
     itemrefs = []
     items.append('    <item id="css" href="style.css" media-type="text/css"/>')
+    items.append('    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>')
+    items.append('    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>')
     for i, (fn, _) in enumerate(file_entries):
         items.append('    <item id="ch{}" href="{}" media-type="application/xhtml+xml"/>'.format(i, fn))
         itemrefs.append('    <itemref idref="ch{}"/>'.format(i))
@@ -154,13 +157,14 @@ def main():
     spine = "\n".join(itemrefs)
 
     opf = """<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookId">
-<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<metadata>
   <dc:title>{title}</dc:title>
   <dc:creator opf:role="aut">{author}</dc:creator>
   <dc:language>zh-CN</dc:language>
   <dc:identifier id="BookId">urn:uuid:{uuid}</dc:identifier>
-  <meta name="cover" content=""/>
+  <meta property="dcterms:modified">{modified}</meta>
 </metadata>
 <manifest>
 {manifest}
@@ -168,10 +172,10 @@ def main():
 <spine toc="ncx">
 {spine}
 </spine>
-<guide/>
 </package>""".format(
         title=esc(META_TITLE), author=esc(META_AUTHOR),
         uuid=__import__("uuid").uuid4(),
+        modified=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         manifest=manifest, spine=spine,
     )
 
@@ -182,16 +186,14 @@ def main():
         children = []
         for fi in range(len(names)):
             cid = "part{}-file{}".format(pi, fi)
-            ch_idx = None
-            for idx, ch in enumerate(chapters):
-                if ch["id"] == cid:
-                    ch_idx = idx
-                    break
+            ch_idx = next(idx for idx, ch in enumerate(chapters)
+                          if ch["id"] == cid)
+            ch_obj = chapters[ch_idx]
             playorder += 1
             children.append("""    <navPoint id="np-{po}" playOrder="{po}">
       <navLabel><text>{label}</text></navLabel>
       <content src="ch{ci}.xhtml"/>
-    </navPoint>""".format(po=playorder, label=esc(ch["file"]), ci=ch_idx))
+    </navPoint>""".format(po=playorder, label=esc(ch_obj["file"]), ci=ch_idx))
         # 部分 navPoint 指向本部分第一个文件
         first_ch_idx = next(idx for idx, ch in enumerate(chapters)
                             if ch["id"] == "part{}-file0".format(pi))
@@ -218,6 +220,37 @@ def main():
 </ncx>""".format(uuid=__import__("uuid").uuid4(), title=esc(META_TITLE),
                  navpoints="\n".join(navpoints))
 
+    # ── 4b. EPUB3 nav 导航文档（Readest 等现代阅读器读这个；NCX 留作兼容）
+    # 注意：不能用外层泄漏的 ch 变量（for ch in chapters 结束后残留最后一个）——
+    # 一律经 ch_idx 从 chapters 取
+    nav_items = []
+    for pi, (part_title, names) in enumerate(PARTS):
+        sub = []
+        for fi in range(len(names)):
+            cid = "part{}-file{}".format(pi, fi)
+            ch_idx = next(idx for idx, ch in enumerate(chapters) if ch["id"] == cid)
+            ch_obj = chapters[ch_idx]
+            sub.append(
+                '          <li><a href="ch{ci}.xhtml">{label}</a></li>'.format(
+                    ci=ch_idx, label=esc(ch_obj["file"])))
+        nav_items.append(
+            '      <li><span>{part}</span>\n        <ol>\n{children}\n        </ol>\n      </li>'.format(
+                part=esc(part_title), children="\n".join(sub)))
+
+    nav_xhtml = """<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="zh-CN" lang="zh-CN">
+<head><meta charset="utf-8"/><title>目录</title></head>
+<body>
+<nav epub:type="toc" id="toc" role="doc-toc">
+  <h1>目录</h1>
+  <ol>
+{items}
+  </ol>
+</nav>
+</body>
+</html>""".format(items="\n".join(nav_items))
+
     # ── 5. 打包 EPUB（mimetype 必须第一且无压缩）
     if os.path.exists(OUT_EPUB):
         os.remove(OUT_EPUB)
@@ -231,6 +264,7 @@ def main():
 </container>""")
         z.writestr("OEBPS/content.opf", opf)
         z.writestr("OEBPS/toc.ncx", ncx)
+        z.writestr("OEBPS/nav.xhtml", nav_xhtml)
         z.writestr("OEBPS/style.css", style_css)
         for i, (fn, xhtml) in enumerate(file_entries):
             z.writestr("OEBPS/" + fn, xhtml)
@@ -242,14 +276,15 @@ def main():
         names = z.namelist()
         ok = ("mimetype" in names and names[0] == "mimetype"
               and "META-INF/container.xml" in names
-              and "OEBPS/content.opf" in names and "OEBPS/toc.ncx" in names)
+              and "OEBPS/content.opf" in names
+              and "OEBPS/nav.xhtml" in names)
         print("验证: 结构 =", "OK" if ok else "FAIL", "| 文件数 =", len(names),
               "| 章节 =", len(file_entries))
-        # 抽查 opf spine 与 xhtml 对齐
         opf_text = z.read("OEBPS/content.opf").decode("utf-8")
         spine_count = opf_text.count("<itemref")
-        print("spine 章节数 =", spine_count)
-    print("完成。可拷到手机阅读（微信读书/静读天下/Apple Books）。")
+        nav_ok = 'properties="nav"' in opf_text and 'epub:type="toc"' in z.read("OEBPS/nav.xhtml").decode("utf-8")
+        print("spine 章节数 =", spine_count, "| EPUB3 nav =", "OK" if nav_ok else "FAIL")
+    print("完成。可拷到手机阅读（Readest/微信读书/静读天下/Apple Books）。")
 
 
 if __name__ == "__main__":
