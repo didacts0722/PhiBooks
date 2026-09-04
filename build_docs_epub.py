@@ -33,6 +33,9 @@ BOOKS = {
             ("第三部 详册·后黑格尔姿态", [
                 "自来水比喻_详册_后黑格尔姿态.md",
             ]),
+            ("第四部 附录·承认学说（寓言的理论底本）", [
+                "项目/现象学/承认学说.md",
+            ]),
         ],
     },
     "full": {
@@ -179,9 +182,12 @@ def build_book(book_key):
     chapters = []  # (id, part_label, file_label, html_body)
     for pi, (part_title, names) in enumerate(PARTS):
         for fi, n in enumerate(names):
+            # 支持两类路径：docs/ 下文件名（直接写文件名），或相对 ROOT 的完整路径
             p = os.path.join(DOCS, n)
             if not os.path.exists(p):
-                print("ERROR: 缺文件", p)
+                p = os.path.join(ROOT, n)
+            if not os.path.exists(p):
+                print("ERROR: 缺文件", n)
                 return 1
             with open(p, encoding="utf-8") as f:
                 text = f.read()
@@ -189,7 +195,7 @@ def build_book(book_key):
             chapters.append({
                 "id": "part{}-file{}".format(pi, fi),
                 "part": part_title,
-                "file": os.path.splitext(n)[0],
+                "file": os.path.splitext(os.path.basename(n))[0],
                 "body": body,
             })
 
