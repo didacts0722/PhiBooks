@@ -130,14 +130,16 @@ def main():
             })
 
     # ── 2. 生成 xhtml 文件内容
+    # 文件名统一用数字索引 ch{idx}.xhtml（idx=chapters 顺序 0..N-1）——
+    # nav/NCX 目录链接均以该索引为 href，必须同一套命名
     file_entries = []  # (filename, xhtml)
-    for ch in chapters:
+    for idx, ch in enumerate(chapters):
         title = "{}｜{}".format(ch["part"], ch["file"])
         # 章首放部分+文件两级标题，正文去掉 md 自己的主标题首行重复问题：
         # 文件内容标题已平移为 h2 起，这里补 h1=部分、h2=文件标题会重复文件内 h2？
         # 文件内第一个标题=原文 #（平移后 ##）——即文件名本身，故章首只放部分标题，文件标题由正文 h2 呈现。
         body = '<h1>{}</h1>\n{}'.format(esc(ch["part"]), ch["body"])
-        file_entries.append(("ch{}.xhtml".format(ch["id"]),
+        file_entries.append(("ch{}.xhtml".format(idx),
                              XHTML_TMPL.format(title=esc(title), body=body)))
 
     style = XHTML_TMPL.format(title="style", body="<style>{}</style>".format(CSS))
