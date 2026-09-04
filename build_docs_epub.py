@@ -53,12 +53,22 @@ PARTS = [
 ]
 
 CSS = """
-body { font-family: serif; line-height: 1.6; margin: 1em; }
+body { font-family: serif; line-height: 1.7; margin: 1em; font-size: 1.05em; }
 h1 { font-size: 1.5em; page-break-before: always; }
 h1:first-of-type { page-break-before: auto; }
 h2 { font-size: 1.3em; margin-top: 1.2em; }
 h3 { font-size: 1.15em; }
-blockquote { color: #444; border-left: 3px solid #999; margin-left: 0; padding-left: 1em; }
+/* blockquote 必须显式设浅底深字——不声明背景时，阅读器（Readest 等）会套默认深底，
+   黑底黑字/白字对比差。亮色块在任何主题下自成一块、可读。 */
+blockquote {
+  background: #f4f1e8;
+  color: #2b2b2b;
+  border-left: 4px solid #b0a48c;
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-radius: 2px;
+}
+blockquote p { margin: 0.3em 0; }
 table { border-collapse: collapse; width: 100%; margin: 0.5em 0; font-size: 0.85em; }
 th, td { border: 1px solid #aaa; padding: 3px 6px; text-align: left; vertical-align: top; }
 th { background: #eee; }
