@@ -65,12 +65,17 @@ def render_lit(data) -> str:
     for v in data["items"]:
         groups.setdefault(v["lit"], []).append(v)
     for lit, items in groups.items():
-        lines += [f"## {lit}", "", "| 编号 | 章节/主题 | 观点概要 | 原文锚点 | 关联基础观点 | 笔记位置 |", "|---|---|---|---|---|---|"]
+        lines += [f"## {lit}", ""]
         for v in items:
-            lines.append(
-                f"| {v['id']} | {v['section']} | {v['text']} | {v['anchor'] or '—'} | "
-                f"{'、'.join(v['refs'])} | {v['note']} |")
-        lines += ["", "---", ""]
+            lines += [
+                f"- **{v['id']}** — 章节/主题：{v['section']}",
+                f"  - 观点：{v['text']}",
+                f"  - 原文锚点：{v['anchor'] or '—'}",
+                f"  - 关联基础观点：{'、'.join(v['refs'])}",
+                f"  - 笔记位置：{v['note']}",
+                "",
+            ]
+        lines += ["---", ""]
     lines += [
         "## 使用规则",
         "",
